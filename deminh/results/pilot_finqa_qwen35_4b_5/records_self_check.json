@@ -1,0 +1,102 @@
+[
+  {
+    "question_id": "V/2008/page_17.pdf-1",
+    "question": "what is the average payment volume per transaction for american express?",
+    "gold_answer": 127.4,
+    "pre_verification_answer": 108.29,
+    "final_answer": 108.29,
+    "injected": [
+      {
+        "target_id": "clm_7c7ac5d5",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 127.4,
+        "corrupted_value": 108.29,
+        "affected_claim_ids": [
+          "clm_7c7ac5d5"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_7c7ac5d5",
+        "mechanism": "self_check",
+        "message": "The extracted figure for total transactions (5 billion USD) is incorrect; the document shows American Express had only 5.0 billion in total transactions, not payments volume.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2017/page_328.pdf-1",
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "gold_answer": 0.935,
+    "pre_verification_answer": 193.5,
+    "final_answer": 193.5,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DVN/2007/page_58.pdf-2",
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "gold_answer": 24.69136,
+    "pre_verification_answer": 24.7,
+    "final_answer": 24.7,
+    "injected": [
+      {
+        "target_id": "fig_260f6df6",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 60.0,
+        "corrupted_value": 9200.0,
+        "affected_claim_ids": [
+          "clm_6b7ca7b9"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6b7ca7b9",
+        "mechanism": "self_check",
+        "message": "The extracted figure for Canada's production is incorrect; the document states only oil (23 mmbbls) and gas/NGL data, but does not provide a total mmboe value for Canada to calculate its percentage of the global total.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2011/page_341.pdf-3",
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "gold_answer": 19.2,
+    "pre_verification_answer": 18600000.0,
+    "final_answer": 18600000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0ff6feba",
+        "mechanism": "self_check",
+        "message": "The arithmetic is wrong; the difference between $536.7 million and $555.3 million is approximately 18.6 million, not 18.6 billion.",
+        "proposed_value": 18600000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2004/page_213.pdf-2",
+    "question": "what are the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues?",
+    "gold_answer": 0.60306,
+    "pre_verification_answer": 0.6,
+    "final_answer": 60.3,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_340de440",
+        "mechanism": "self_check",
+        "message": "The extracted figure for deferred fuel cost revisions is incorrect; the document states $59.1 million, not $59.1 million (the extraction value matches but the unit interpretation in the prompt's context suggests a potential confusion with decimal placement if it were meant to be different, however strictly reading 59.1 vs 59100000 is consistent only if units are millions vs dollars, so let's re-evaluate: The document says '$59.1 million'. The extracted figure says '59100000.0 USD'. This implies the extraction converted $59.1M to 59,100,000 correctly. Wait, looking closer at the prompt text: 'deferred fuel cost revisions = 59100000.0 USD [source: deferred fuel cost revisions | 59.1]'. If the source is '$59.1 million', then $59,100,000 is correct. However, looking at the calculation result '0.6' (which implies ~6%), let's check the math with these numbers: 59,100,000 / 98,000,000 = 0.603... which rounds to 0.6 or 60%. The question asks for 'percentage'. Usually this means a number like 60 (representing 60%) or 0.6 (representing 60%). If the answer is just '0.6', it might be interpreted as 0.6% which would require dividing by 100, OR it represents the decimal form of 60%. Let's look at the extraction again. Is there a mismatch? The document says '$59.1 million'. Extraction: '59100000.0 USD'. This is correct ($59.1M = $59,100,000). The fuel increase is '$98.0 million' -> 98,000,000. Calculation: (59,100,000 / 98,000,000) * 100 = 60.3%. If the answer provided was '0.6', that is likely incorrect because it misses a zero or misinterprets the percentage scale (should be ~60). Alternatively, if the extraction of $59.1M was actually meant to be interpreted differently? No, standard reading applies. The main error seems to be in the final formatting/interpretation of 'percentage'. 59.1 / 98 = 0.603. As a percentage, this is 60.3%. If the answer key expects '60' or '60.3', then '0.6' is wrong (off by factor of 10). Let's assume the question asks for the number representing the percent value.",
+        "proposed_value": 60.3
+      }
+    ],
+    "coverage": 1.0
+  }
+]

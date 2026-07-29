@@ -1,0 +1,194 @@
+INFO root: Loaded 5 records from finqa
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1043
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 594
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 371
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 559
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 372
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 612
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 534
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 519
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1224
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 662
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 391
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 604
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 390
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 390
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 830
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 622
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 361
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 521
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1010
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 651
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 392
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 394
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 392
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 5,
+      "n_corrupted": 2,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 1,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 1,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 5,
+        "accuracy_before": 0.4,
+        "accuracy_after": 0.4,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 5,
+      "n_corrupted": 2,
+      "detection": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 0,
+        "tn": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667,
+        "false_positive_rate": 0.6667
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 1,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 1,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 2
+      },
+      "mitigation": {
+        "n": 5,
+        "accuracy_before": 0.4,
+        "accuracy_after": 0.2,
+        "delta": -0.2,
+        "repaired": 0,
+        "harmed": 1,
+        "repair_rate": 0.0,
+        "harm_rate": 0.5,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 5,
+      "n_corrupted": 2,
+      "detection": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714,
+        "false_positive_rate": 1.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 1,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 1,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 4,
+        "recompute": 2
+      },
+      "mitigation": {
+        "n": 5,
+        "accuracy_before": 0.4,
+        "accuracy_after": 0.4,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 5,
+      "deminh_right_self_wrong": 0,
+      "self_right_deminh_wrong": 1,
+      "n_discordant": 1,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}
+
+Written to G:\deminh\deminh\results\pilot_finqa_qwen35_4b_5

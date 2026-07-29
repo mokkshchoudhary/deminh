@@ -1,0 +1,169 @@
+[
+  {
+    "question_id": "syn_0",
+    "question": "What was the gross profit margin, as a percentage?",
+    "gold_answer": 5.3811,
+    "pre_verification_answer": 4.573,
+    "final_answer": 4.573,
+    "injected": [
+      {
+        "target_id": "clm_354dbeae",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 5.38,
+        "corrupted_value": 4.573,
+        "affected_claim_ids": [
+          "clm_354dbeae"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_354dbeae",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_f4773efc",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_354dbeae",
+        "mechanism": "provenance",
+        "message": "Figure 'gross profit' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_354dbeae",
+        "mechanism": "provenance",
+        "message": "Figure 'revenue' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "syn_1",
+    "question": "What was the gross profit margin, as a percentage?",
+    "gold_answer": 31.0084,
+    "pre_verification_answer": 31.0,
+    "final_answer": 31.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_69dd2026",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_ab6e5735",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_69dd2026",
+        "mechanism": "provenance",
+        "message": "Figure 'gross profit' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_69dd2026",
+        "mechanism": "provenance",
+        "message": "Figure 'revenue' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "syn_2",
+    "question": "What was the gross profit margin, as a percentage?",
+    "gold_answer": 87.4892,
+    "pre_verification_answer": 8.7,
+    "final_answer": 8.7,
+    "injected": [
+      {
+        "target_id": "fig_a7474e07",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 354533000.0,
+        "corrupted_value": 310178000.0,
+        "affected_claim_ids": [
+          "clm_09813ee0"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_09813ee0",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_415187c6",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_09813ee0",
+        "mechanism": "provenance",
+        "message": "Figure 'gross profit' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_09813ee0",
+        "mechanism": "provenance",
+        "message": "Figure 'revenue' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "syn_3",
+    "question": "What was the gross profit margin, as a percentage?",
+    "gold_answer": 47.6537,
+    "pre_verification_answer": 47.65,
+    "final_answer": 47.65,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_216624f1",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_c2ac0167",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_216624f1",
+        "mechanism": "provenance",
+        "message": "Figure 'gross profit' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_216624f1",
+        "mechanism": "provenance",
+        "message": "Figure 'revenue' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "syn_4",
+    "question": "What was the gross profit margin, as a percentage?",
+    "gold_answer": 65.1363,
+    "pre_verification_answer": 65.1,
+    "final_answer": 65.1,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8a87e194",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_ea7a6d50",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_8a87e194",
+        "mechanism": "provenance",
+        "message": "Figure 'gross profit' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_8a87e194",
+        "mechanism": "provenance",
+        "message": "Figure 'revenue' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  }
+]

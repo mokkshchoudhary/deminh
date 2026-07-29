@@ -1,0 +1,36 @@
+# Experiment configuration. Commit one of these per run alongside its results.
+
+backend:
+  kind: ollama                # ollama | openai_compat | mock
+  model: qwen3.5:4b
+  host: http://localhost:11434
+
+generation:
+  temperature: 0.0            # pinned: non-determinism is a confound
+  top_p: 1.0
+  seed: 42
+  max_tokens: 1024
+
+dataset:
+  name: finqa                 # finqa | tatqa | synthetic
+  path: data/finqa_test.json
+  limit: 200
+
+injection:
+  rate: 0.5
+  seed: 1234
+  magnitude: 0.15
+  categories:
+    - arithmetic_slip
+    - wrong_extraction
+    - wrong_operation
+    - invented_figure
+    - scale_error
+    - sign_error
+
+verification:
+  rel_tol: 0.001
+  repair_policy: recompute    # none | recompute | any
+
+output:
+  dir: results/run_001

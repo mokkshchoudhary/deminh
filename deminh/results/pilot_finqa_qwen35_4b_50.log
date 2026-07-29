@@ -1,0 +1,748 @@
+INFO root: Loaded 50 records from finqa
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1043
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 594
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 371
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 588
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 372
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 372
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 611
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 556
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 610
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 417
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1224
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 673
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 605
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 551
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 604
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 606
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 832
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 622
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 361
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 530
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1009
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 652
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 393
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 505
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 394
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 393
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1260
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 581
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 366
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 545
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 363
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 366
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 690
+WARNING deminh.agents: Skipping malformed figure {'label': 'common equity tier 1 ratio', 'value': None, 'scale': 1000000, 'unit': '', 'period': '2008', 'location': 'text_only', 'source_text': 'jpmorgan chase maintained a well-capitalized position , based upon tier 1 and total capital ratios at december 31 , 2008 and 2007'}: float() argument must be a string or a real number, not 'NoneType'
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 426
+WARNING deminh.agents: Analyst failed for JPM/2008/page_85.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping JPM/2008/page_85.pdf-3: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 935
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 650
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 429
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 624
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 428
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 625
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1102
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 669
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 383
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 539
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 384
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 401
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 909
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 674
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 377
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 567
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 378
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 378
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 907
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 593
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 468
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 512
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 468
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 495
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 845
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 640
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 352
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 552
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 353
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 353
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1066
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 773
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 434
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 491
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 421
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 432
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 674
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 552
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 395
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 570
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 395
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 941
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1269
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 691
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 431
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 636
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 432
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 435
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 873
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 679
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 379
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 523
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 380
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 380
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 857
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 752
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 442
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 579
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_bbc0a844: Expecting ',' delimiter: line 4 column 28 (char 260)
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 442
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 442
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 912
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 636
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 385
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 552
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 387
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 387
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 635
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 440
+WARNING deminh.agents: Analyst failed for ABMD/2006/page_75.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ABMD/2006/page_75.pdf-1: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 321
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 426
+WARNING deminh.agents: Analyst failed for AMAT/2013/page_18.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMAT/2013/page_18.pdf-2: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1763
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 610
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 497
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1774
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 611
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 361
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 546
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 545
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 892
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 637
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 359
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 528
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 358
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 505
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 605
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 551
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 515
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 371
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 371
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 909
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 632
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 381
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 558
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 383
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 382
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 846
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 657
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 560
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 979
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 645
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 351
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 516
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 352
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 352
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 940
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 631
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 375
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 515
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 388
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 846
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 662
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 560
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 682
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 400
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 561
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 943
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 706
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 422
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 585
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 418
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 416
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 581
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 540
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 388
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 599
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 389
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 386
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 929
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 664
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 372
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 551
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 375
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 377
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 899
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 702
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 647
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1042
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 441
+WARNING deminh.agents: Analyst failed for AON/2010/page_28.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AON/2010/page_28.pdf-1: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 850
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 611
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 412
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 510
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 411
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 414
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 935
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 635
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 390
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 518
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 391
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 390
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 887
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 641
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 363
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 555
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 362
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 362
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 665
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 562
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 607
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 408
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 972
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 651
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 619
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 409
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1090
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 612
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 385
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 582
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 386
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 385
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 627
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 441
+WARNING deminh.agents: Analyst failed for ETR/2003/page_84.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ETR/2003/page_84.pdf-2: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1204
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 599
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 368
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 517
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 368
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 894
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 617
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 636
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 619
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 646
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 381
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 826
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 570
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 377
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 573
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 377
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 981
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 664
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 507
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 566
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 507
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 593
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 868
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 635
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 359
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 502
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 360
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 381
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 762
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 425
+WARNING deminh.agents: Analyst failed for AMT/2010/page_34.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMT/2010/page_34.pdf-2: generation produced no claim.
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1125
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 704
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 550
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 376
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1071
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 630
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 656
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1324
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 739
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 384
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 561
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 383
+DEBUG urllib3.connectionpool: Starting new HTTP connection (1): localhost:11434
+DEBUG urllib3.connectionpool: http://localhost:11434 "POST /api/chat HTTP/1.1" 200 384
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 44,
+      "n_corrupted": 19,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 19,
+        "tn": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 5,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 2,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 4,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 3,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 4,
+          "recall": 0.0
+        },
+        "wrong_operation": {
+          "n": 1,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 44,
+        "accuracy_before": 0.1136,
+        "accuracy_after": 0.1136,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 44,
+      "n_corrupted": 19,
+      "detection": {
+        "tp": 19,
+        "fp": 23,
+        "fn": 0,
+        "tn": 2,
+        "precision": 0.4524,
+        "recall": 1.0,
+        "f1": 0.623,
+        "false_positive_rate": 0.92
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 5,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 2,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 4,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 3,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 4,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 1,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 19
+      },
+      "mitigation": {
+        "n": 44,
+        "accuracy_before": 0.1136,
+        "accuracy_after": 0.1364,
+        "delta": 0.0227,
+        "repaired": 1,
+        "harmed": 0,
+        "repair_rate": 0.0256,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 44,
+      "n_corrupted": 19,
+      "detection": {
+        "tp": 19,
+        "fp": 23,
+        "fn": 0,
+        "tn": 2,
+        "precision": 0.4524,
+        "recall": 1.0,
+        "f1": 0.623,
+        "false_positive_rate": 0.92
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 5,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 2,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 4,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 3,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 4,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 1,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 31,
+        "recompute": 17
+      },
+      "mitigation": {
+        "n": 44,
+        "accuracy_before": 0.1136,
+        "accuracy_after": 0.1364,
+        "delta": 0.0227,
+        "repaired": 2,
+        "harmed": 1,
+        "repair_rate": 0.0513,
+        "harm_rate": 0.2,
+        "skipped_no_gold": 0
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 44,
+      "deminh_right_self_wrong": 2,
+      "self_right_deminh_wrong": 2,
+      "n_discordant": 4,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}
+
+Written to G:\deminh\deminh\results\pilot_finqa_qwen35_4b_50

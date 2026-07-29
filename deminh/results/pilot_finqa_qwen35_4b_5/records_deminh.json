@@ -1,0 +1,143 @@
+[
+  {
+    "question_id": "V/2008/page_17.pdf-1",
+    "question": "what is the average payment volume per transaction for american express?",
+    "gold_answer": 127.4,
+    "pre_verification_answer": 108.29,
+    "final_answer": 108.29,
+    "injected": [
+      {
+        "target_id": "clm_7c7ac5d5",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 127.4,
+        "corrupted_value": 108.29,
+        "affected_claim_ids": [
+          "clm_7c7ac5d5"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_7c7ac5d5",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_45c424cd",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_7c7ac5d5",
+        "mechanism": "provenance",
+        "message": "Figure 'payments volume' cites a span that does not appear verbatim in the document: '$ 637'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_7c7ac5d5",
+        "mechanism": "provenance",
+        "message": "Figure 'total transactions' appears to be off by a factor of 1e+09 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2017/page_328.pdf-1",
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "gold_answer": 0.935,
+    "pre_verification_answer": 193.5,
+    "final_answer": 194.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_735a4c55",
+        "mechanism": "recompute",
+        "message": "Claimed 193.5 but round(fig_2d491cbb) evaluates to 194.0 under the extracted figures.",
+        "proposed_value": 194.0
+      },
+      {
+        "claim_id": "clm_735a4c55",
+        "mechanism": "provenance",
+        "message": "Figure 'percentage cumulative total return' cites a span that does not appear verbatim in the document: '| 31-dec-2017 | 193.5 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DVN/2007/page_58.pdf-2",
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "gold_answer": 24.69136,
+    "pre_verification_answer": 24.7,
+    "final_answer": 24.7,
+    "injected": [
+      {
+        "target_id": "fig_f0dd1f42",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 9200.0,
+        "corrupted_value": 243.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6b7ca7b9",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_260f6df6",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6b7ca7b9",
+        "mechanism": "provenance",
+        "message": "Figure 'canada oil and gas mmboe production' cites a span that does not appear verbatim in the document: '| canada | 23 | 198 | 4 | 60'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6b7ca7b9",
+        "mechanism": "provenance",
+        "message": "Figure 'total oil and gas mmboe production' cites a span that does not appear verbatim in the document: '| total | 66 | 894 | 28 | 243'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2011/page_341.pdf-3",
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "gold_answer": 19.2,
+    "pre_verification_answer": 18600000.0,
+    "final_answer": 18600000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0ff6feba",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_3b005744",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2004/page_213.pdf-2",
+    "question": "what are the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues?",
+    "gold_answer": 0.60306,
+    "pre_verification_answer": 0.6,
+    "final_answer": 0.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_340de440",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Unbound variable: fig_45f3e742",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_340de440",
+        "mechanism": "provenance",
+        "message": "Figure 'deferred fuel cost revisions' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  }
+]

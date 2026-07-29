@@ -1,0 +1,47 @@
+[
+  {
+    "index": 0,
+    "question": "what is the average payment volume per transaction for american express?",
+    "model_answer": "First, I need to find the average payment volume per transaction for American Express. The question is: \"what is the average payment volume per transaction for american express?\"\n\nI have the table from the financial report. Let me look at the data for American Express.\n\nThe table shows:\n\n- Company: american express\n\n- Payments volume (billions): 637\n\n- Total volume (billions): 647\n\n- Total transactions (billions): 5.0\n\n- Cards (millions): 86\n\nThe question is about \"average payment volume per transaction\". I think \"payment volume\" here might be a bit confusing. In the context, \"payments volume\" probably refers to the total amount of money processed, like in billions of dollars.\n\nLet me read the question carefully: \"average payment volume per transaction\". But in the table, there's \"payments volume\" and \"total transactions\".\n\nI recall that in payment processing, \"payment volume\" often means the",
+    "gold_answer": "127.40",
+    "seconds": 5.9,
+    "gen_tokens": 200,
+    "tok_per_sec": 66.2
+  },
+  {
+    "index": 1,
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "model_answer": "Okay, let's see. I need to find the percentage cumulative total return for Citi common stock over the five-year period ended December 31, 2017. The data provided is in a table that shows the cumulative returns from December 31, 2012, to December 31, 2017.\n\nFirst, the problem states that $100 was invested on December 31, 2012, and all dividends were reinvested. So the cumulative total return is the value at the end of the period compared to the initial $100. \n\nLooking at the table, for Citi, the value on December 31, 2017 is $193.5. The initial investment was $100. So the total return is (193.5 - 100) / 100 * 100% = 93",
+    "gold_answer": "93.5%",
+    "seconds": 5.7,
+    "gen_tokens": 200,
+    "tok_per_sec": 66.0
+  },
+  {
+    "index": 2,
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "model_answer": "First, I need to find what percentage of the total oil and gas mmboe comes from Canada. The total is given in the table as \"total (mmboe)\" which is 243.\n\nLooking at the table:\n\n- U.S. onshore: total (mmboe) = 140\n\n- U.S. offshore: total (mmboe) = 20\n\n- Canada: total (mmboe) = 60\n\n- International: total (mmboe) = 23\n\nThe total is 243, as stated.\n\nThe question is: what percentage of the total oil and gas mmboe comes from Canada?\n\nSo, Canada's contribution is 60 mmboe.\n\nTotal is 243 mmboe.\n\nPercentage = (Canada's contribution / Total) * 100\n\nSo, (60 / 243) * 100\n\nI need to",
+    "gold_answer": "24.69%",
+    "seconds": 5.9,
+    "gen_tokens": 200,
+    "tok_per_sec": 63.2
+  },
+  {
+    "index": 3,
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "model_answer": "First, the question is: \"in 2010 what was the net change in net revenue in millions\"\n\nI need to find the net change in net revenue from 2009 to 2010. The report provides data for 2009 and 2010 net revenue.\n\nFrom the table:\n\n- 2009 net revenue: $536.7 million\n\n- 2010 net revenue: $555.3 million\n\nThe net change would be 2010 net revenue minus 2009 net revenue.\n\nSo, net change = 555.3 - 536.7\n\nLet me calculate that.\n\n555.3 minus 536.7.\n\nFirst, 555.3 - 536.7 = ?\n\nI can do it step by step.\n\n555.3 - 536.7 =",
+    "gold_answer": "18.6",
+    "seconds": 6.3,
+    "gen_tokens": 200,
+    "tok_per_sec": 55.5
+  },
+  {
+    "index": 4,
+    "question": "what are the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues?",
+    "model_answer": "Okay, let me try to figure out this problem step by step. So, the question is asking for the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues. \n\nFirst, I need to find what the deferred fuel cost revisions are. From the table provided, the deferred fuel cost revisions for 2003 compared to 2002 is $59.1 million. That's the value we'll use for the numerator.\n\nNext, I need to determine the increase in fuel cost recovery revenues. Looking back at the financial report excerpt, it says: \"gross operating revenues increased primarily due to: 2022 an increase of $98.0 million in fuel cost recovery revenues...\" Wait, hold on. The year here is a bit confusing. The report mentions 2022, but the table is comparing 2003 to 2002. Hmm, maybe there's a typo in the problem statement?",
+    "gold_answer": "60.3%",
+    "seconds": 6.6,
+    "gen_tokens": 200,
+    "tok_per_sec": 53.8
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "question_id": "V/2008/page_17.pdf-1",
+    "question": "what is the average payment volume per transaction for american express?",
+    "gold_answer": 127.4,
+    "pre_verification_answer": 108.29,
+    "final_answer": 108.29,
+    "injected": [
+      {
+        "target_id": "clm_4bcacf01",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 127.4,
+        "corrupted_value": 108.29,
+        "affected_claim_ids": [
+          "clm_4bcacf01"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_4bcacf01",
+        "mechanism": "self_check",
+        "message": "The extracted figure for total transactions (5 billion USD) is incorrect; the document shows 'total transactions' as 5.0 billions, not payments volume.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2017/page_328.pdf-1",
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "gold_answer": 0.935,
+    "pre_verification_answer": 193.5,
+    "final_answer": 193.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_139c72da",
+        "mechanism": "self_check",
+        "message": "The extracted figure of 193.5 represents the cumulative total return value, not a percentage; dividing by 1 does not convert this to a percentage and ignores that the initial investment was $100.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DVN/2007/page_58.pdf-2",
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "gold_answer": 24.69136,
+    "pre_verification_answer": 24.7,
+    "final_answer": 24.7,
+    "injected": [
+      {
+        "target_id": "fig_559dc0ac",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 60.0,
+        "corrupted_value": 9200.0,
+        "affected_claim_ids": [
+          "clm_c98ed853"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_c98ed853",
+        "mechanism": "self_check",
+        "message": "The extracted figure for Canada's production is incorrect because the source text only provides a percentage (92%) of proved reserves, not an absolute volume in mmboe.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2011/page_341.pdf-3",
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "gold_answer": 19.2,
+    "pre_verification_answer": 18600000.0,
+    "final_answer": 18600000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_38669b49",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the document, but the arithmetic was wrong; subtracting $536.7 million from $555.3 million yields a difference of approximately $18.6 million (or 18,600,000), not 18,600,000.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2004/page_213.pdf-2",
+    "question": "what are the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues?",
+    "gold_answer": 0.60306,
+    "pre_verification_answer": 60.3,
+    "final_answer": 61.2255,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c3a5a08d",
+        "mechanism": "self_check",
+        "message": "The extracted figure for deferred fuel cost revisions is correct, but the increase in fuel cost recovery revenues was $98.0 million (not $98 million as implied by the extraction), and the calculation should use these values to get approximately 61.2%, not 60.3%.",
+        "proposed_value": 61.2255
+      }
+    ],
+    "coverage": 1.0
+  }
+]
