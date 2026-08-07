@@ -23,12 +23,15 @@ piece of analysis.
 
 from __future__ import annotations
 
+import logging
 import random
 from dataclasses import dataclass
 from enum import Enum
 from typing import Callable, Optional
 
 from .schemas import Figure, InjectionRecord, NumericClaim, PipelineRecord, Provenance
+
+log = logging.getLogger(__name__)
 
 
 class ErrorCategory(str, Enum):
@@ -86,10 +89,21 @@ class InjectionHarness:
 
     def corrupt_with(self, record: PipelineRecord,
                      category: ErrorCategory) -> Optional[InjectionRecord]:
-        """Force a specific category. Use for balanced per-category test sets."""
+        """Force a specific category. Use for balanced per-category test sets.
+
+        The record is not guaranteed to admit this category (e.g. wrong_operation
+        needs an arithmetic expression to corrupt; a direct value lookup has
+        none). When that happens the injector returns None and the record is
+        left uncorrupted with no other signal — log it so the applicability
+        gap is measurable per category instead of silently thinning the
+        balanced round-robin.
+        """
         injection = self._injectors[category](record)
         if injection is not None:
             record.injected.append(injection)
+        else:
+            log.info("Category %s did not apply to %s; record left uncorrupted.",
+                      category.value, record.question_id)
         return injection
 
     # -- individual injectors ---------------------------------------------
@@ -141,9 +155,16 @@ class InjectionHarness:
     def _wrong_operation(self, record: PipelineRecord) -> Optional[InjectionRecord]:
         claim = self._first_claim(record)
         if claim is None or claim.derivation is None:
+            log.debug("wrong_operation: %s has no claim/derivation to corrupt.",
+                      record.question_id)
             return None
         expression = claim.derivation.expression
         swaps = [("+", "-"), ("-", "+"), ("*", "/"), ("/", "*")]
+        if not any(old in expression for old, _ in swaps):
+            log.debug("wrong_operation: %s expression %r has no +-*/ to swap "
+                      "(likely a direct lookup, not a derivation).",
+                      record.question_id, expression)
+            return None
         for old, new in swaps:
             if old in expression:
                 original_expr = expression
@@ -161,7 +182,11 @@ class InjectionHarness:
                 }
                 try:
                     claim.value = safe_eval(claim.derivation.expression, variables)
-                except (ExpressionError, ZeroDivisionError):
+                except (ExpressionError, ZeroDivisionError) as exc:
+                    log.debug("wrong_operation: %s swap %r->%r made expression "
+                              "%r unevaluable (%s); reverted.",
+                              record.question_id, old, new,
+                              claim.derivation.expression, exc)
                     claim.derivation.expression = original_expr
                     return None
                 return InjectionRecord(

@@ -76,11 +76,17 @@ class Experiment:
         results: dict[Configuration, list[PipelineRecord]] = {a: [] for a in self.config.arms}
         categories = self.config.injection.categories
 
+        total = len(records)
         for index, record in enumerate(records):
             generated = self._generate_once(record)
             if generated is None:
                 log.warning("Skipping %s: generation produced no claim.", record.question_id)
+                log.info("Progress: %d/%d records generated (%s skipped).",
+                         index + 1, total, record.question_id)
                 continue
+
+            log.info("Progress: %d/%d records generated (%s ok).",
+                     index + 1, total, record.question_id)
 
             for arm in self.config.arms:
                 arm_record = copy.deepcopy(generated)

@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py -c ' *)",
+      "Bash(py -m pytest tests -q)",
+      "Bash(py -m pytest tests -q --basetemp=\"C:\\\\Users\\\\moksh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\pytest_deminh\")",
+      "Bash(py scripts/run_experiment.py --backend ollama --model qwen3.5:4b --dataset finqa --data-path \"G:\\\\deminh\\\\FinQA\\\\dataset\\\\test.json\" --limit 200 --out results/run_001)",
+      "Bash(tee results/run_001.log)",
+      "Bash(stat -c \"%Y %n\" \"/g/deminh/deminh/results/pilot_finqa_qwen35_4b_50.log\" \"/g/deminh/deminh/results/pilot_finqa_qwen35_4b_50/summary.json\" 2>/dev/null *)",
+      "Read(//g/deminh/**)",
+      "Bash(ps -o pid,etime,command)",
+      "PowerShell(Get-Process python -ErrorAction SilentlyContinue | Select-Object Id, StartTime, @{N='ElapsedMin';E={\\(New-TimeSpan -Start $_.StartTime -End \\(Get-Date\\)\\).TotalMinutes}})",
+      "PowerShell(Get-Content \"$env:LOCALAPPDATA\\\\Ollama\\\\server.log\" -Tail 20 -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Content \"$env:LOCALAPPDATA\\\\Ollama\\\\server.log\" -Tail 5 -ErrorAction SilentlyContinue)",
+      "PowerShell(nvidia-smi --query-gpu=utilization.gpu,memory.used --format=csv -ErrorAction SilentlyContinue)",
+      "PowerShell(nvidia-smi --query-gpu=utilization.gpu,memory.used --format=csv)",
+      "Bash(ls -la '/c/Users/moksh/.claude/projects/g--deminh/memory/')",
+      "Read(//c/Users/moksh/.claude/projects/g--deminh/**)",
+      "Bash(find '/c/Users/moksh/.claude/projects/' -maxdepth 1 -iname \"*deminh*\" 2>&1)",
+      "Read(//c/Users/moksh/.claude/projects//**)",
+      "Bash(ls -la '/c/Users/moksh/.claude/projects/G--deminh/memory/' 2>&1)",
+      "Read(//c/Users/moksh/.claude/projects/G--deminh/**)"
+    ]
+  }
+}

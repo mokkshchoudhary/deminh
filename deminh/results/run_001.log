@@ -1,0 +1,215 @@
+INFO root: Loaded 200 records from finqa
+WARNING deminh.agents: Analyst failed for ETR/2016/page_23.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ETR/2016/page_23.pdf-2: generation produced no claim.
+WARNING deminh.agents: Analyst failed for ADI/2011/page_61.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ADI/2011/page_61.pdf-2: generation produced no claim.
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_453393ad: Extra data: line 7 column 1 (char 407)
+WARNING deminh.agents: Analyst failed for SYY/2006/page_71.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SYY/2006/page_71.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AES/2010/page_227.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AES/2010/page_227.pdf-3: generation produced no claim.
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_b8d33423: Extra data: line 7 column 1 (char 454)
+WARNING deminh.agents: Skipping malformed figure {'label': 'commercial mortgages at fair value (2008)', 'value': None, 'scale': 1, 'unit': 'USD', 'period': 'FY2008', 'location': 'text_body:paragraph_4', 'source_text': 'we stopped originating commercial mortgage loans held for sale designated at fair value in 2008'}: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.agents: Analyst failed for PNC/2012/page_68.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping PNC/2012/page_68.pdf-2: generation produced no claim.
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_ab3b8a8f: Expecting ',' delimiter: line 4 column 31 (char 204)
+WARNING deminh.agents: Analyst failed for GPN/2014/page_92.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GPN/2014/page_92.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for SNA/2018/page_31.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SNA/2018/page_31.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for ILMN/2008/page_82.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ILMN/2008/page_82.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AON/2015/page_96.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AON/2015/page_96.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for GS/2017/page_86.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GS/2017/page_86.pdf-2: generation produced no claim.
+WARNING deminh.agents: Analyst failed for UPS/2012/page_32.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping UPS/2012/page_32.pdf-4: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AON/2015/page_96.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AON/2015/page_96.pdf-3: generation produced no claim.
+WARNING deminh.agents: Analyst failed for ECL/2016/page_52.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ECL/2016/page_52.pdf-4: generation produced no claim.
+WARNING deminh.agents: Analyst failed for UNP/2007/page_25.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping UNP/2007/page_25.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AES/2002/page_128.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AES/2002/page_128.pdf-2: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AWK/2014/page_121.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AWK/2014/page_121.pdf-1: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AMT/2012/page_118.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMT/2012/page_118.pdf-2: generation produced no claim.
+WARNING deminh.agents: Analyst failed for AMT/2014/page_160.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMT/2014/page_160.pdf-4: generation produced no claim.
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_0095d9a8: No JSON object in model output: '{\n  "verdict": "incorrect",\n  "reason": "The calculation incorrectly added the absolute values of negative impacts to the base revenue, but the question asks for net revenue assuming no impact from these items, which requires adding them back as positive adjustments only if they were already subtrac'
+WARNING deminh.agents: Analyst failed for BLK/2014/page_120.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping BLK/2014/page_120.pdf-2: generation produced no claim.
+WARNING deminh.agents: Analyst failed for PKG/2013/page_88.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping PKG/2013/page_88.pdf-2: generation produced no claim.
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 72,
+        "tn": 108,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3103,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 69,
+        "fp": 96,
+        "fn": 3,
+        "tn": 12,
+        "precision": 0.4182,
+        "recall": 0.9583,
+        "f1": 0.5823,
+        "false_positive_rate": 0.8889
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 0.8462
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 0.9333
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 69
+      },
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3506,
+        "delta": 0.0402,
+        "repaired": 10,
+        "harmed": 3,
+        "repair_rate": 0.0833,
+        "harm_rate": 0.0556,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 72,
+        "fp": 90,
+        "fn": 0,
+        "tn": 18,
+        "precision": 0.4444,
+        "recall": 1.0,
+        "f1": 0.6154,
+        "false_positive_rate": 0.8333
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 97,
+        "recompute": 72
+      },
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3908,
+        "delta": 0.0805,
+        "repaired": 27,
+        "harmed": 13,
+        "repair_rate": 0.225,
+        "harm_rate": 0.2407,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 180,
+      "deminh_right_self_wrong": 18,
+      "self_right_deminh_wrong": 9,
+      "n_discordant": 27,
+      "chi2": 2.3704,
+      "p_value": 0.123658,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}
+
+Written to G:\deminh\deminh\results\run_001

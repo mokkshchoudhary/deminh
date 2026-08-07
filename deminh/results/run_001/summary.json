@@ -1,0 +1,167 @@
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 72,
+        "tn": 108,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3103,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 69,
+        "fp": 96,
+        "fn": 3,
+        "tn": 12,
+        "precision": 0.4182,
+        "recall": 0.9583,
+        "f1": 0.5823,
+        "false_positive_rate": 0.8889
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 0.8462
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 0.9333
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 69
+      },
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3506,
+        "delta": 0.0402,
+        "repaired": 10,
+        "harmed": 3,
+        "repair_rate": 0.0833,
+        "harm_rate": 0.0556,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 180,
+      "n_corrupted": 72,
+      "detection": {
+        "tp": 72,
+        "fp": 90,
+        "fn": 0,
+        "tn": 18,
+        "precision": 0.4444,
+        "recall": 1.0,
+        "f1": 0.6154,
+        "false_positive_rate": 0.8333
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 13,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 15,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 14,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 97,
+        "recompute": 72
+      },
+      "mitigation": {
+        "n": 174,
+        "accuracy_before": 0.3103,
+        "accuracy_after": 0.3908,
+        "delta": 0.0805,
+        "repaired": 27,
+        "harmed": 13,
+        "repair_rate": 0.225,
+        "harm_rate": 0.2407,
+        "skipped_no_gold": 6
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 180,
+      "deminh_right_self_wrong": 18,
+      "self_right_deminh_wrong": 9,
+      "n_discordant": 27,
+      "chi2": 2.3704,
+      "p_value": 0.123658,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}
