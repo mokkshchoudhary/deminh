@@ -1,0 +1,87 @@
+{
+  "rel_tol": 0.01,
+  "scope": "all",
+  "answer_field": "final_answer",
+  "runs": {
+    "run_002": {
+      "no_verifier": {
+        "n_records": 309,
+        "n_in_correctness_scope": 309,
+        "n_excluded_no_gold": 4,
+        "n_scored_correctness": 305,
+        "injection_based": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 123,
+          "tn": 186,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "false_positive_rate": 0.0
+        },
+        "correctness_based": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 208,
+          "tn": 97,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "self_check": {
+        "n_records": 309,
+        "n_in_correctness_scope": 309,
+        "n_excluded_no_gold": 4,
+        "n_scored_correctness": 305,
+        "injection_based": {
+          "tp": 119,
+          "fp": 165,
+          "fn": 4,
+          "tn": 21,
+          "precision": 0.419,
+          "recall": 0.9675,
+          "f1": 0.5848,
+          "false_positive_rate": 0.8871
+        },
+        "correctness_based": {
+          "tp": 188,
+          "fp": 92,
+          "fn": 11,
+          "tn": 14,
+          "precision": 0.6714,
+          "recall": 0.9447,
+          "f1": 0.785,
+          "false_positive_rate": 0.8679
+        }
+      },
+      "deminh": {
+        "n_records": 309,
+        "n_in_correctness_scope": 309,
+        "n_excluded_no_gold": 4,
+        "n_scored_correctness": 305,
+        "injection_based": {
+          "tp": 122,
+          "fp": 150,
+          "fn": 1,
+          "tn": 36,
+          "precision": 0.4485,
+          "recall": 0.9919,
+          "f1": 0.6177,
+          "false_positive_rate": 0.8065
+        },
+        "correctness_based": {
+          "tp": 180,
+          "fp": 88,
+          "fn": 23,
+          "tn": 14,
+          "precision": 0.6716,
+          "recall": 0.8867,
+          "f1": 0.7643,
+          "false_positive_rate": 0.8627
+        }
+      }
+    }
+  }
+}

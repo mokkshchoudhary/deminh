@@ -309,3 +309,54 @@ Every number in this document was derived from the committed record dumps in
 the repository was modified. The replay logic mirrors
 `orchestrator._apply_repairs` and was validated by reproducing the saved
 `final_answer` on 309/309 deminh records under `RECOMPUTE_ONLY`.
+
+---
+
+## Clarification (2026-08-14, added when `scripts/rescore.py` was built)
+
+The Question 2 sentence "Re-scored against answer-correctness instead of
+injection: precision rises 0.45 → **0.60**, recall 0.802" **pairs two figures
+computed over different populations**, and should not be quoted in that form.
+
+- `0.45` (0.4485) is injection-based precision over **all 309** records.
+- `0.60` (0.5973) and `0.802` (0.8018) are correctness-based precision and
+  recall over the **186 non-injected records only** — scored on
+  `pre_verification_answer`.
+
+`scripts/rescore.py` reproduces the clean-subpopulation figure exactly
+(TP=89, FP=60, FN=22, TN=14, 1 excluded for no gold answer), so the arithmetic
+in this document is correct; only the pairing is not like-for-like. There is no
+injection-based counterpart on the clean subpopulation — it contains no injected
+positives, so its injection precision is undefined.
+
+The like-for-like statement, all 309 records under both definitions:
+
+| deminh, run_002 | precision | recall | FPR |
+|---|---|---|---|
+| injection-based | 0.4485 | 0.9919 | 0.8065 |
+| correctness-based (`final_answer`) | 0.6716 | 0.8867 | 0.8627 |
+| correctness-based (`pre_verification_answer`) | 0.6903 | 0.8894 | 0.8557 |
+
+The document's direction of travel is unchanged and in fact **understated** —
+the rise is 0.45 → 0.67, not 0.45 → 0.60.
+
+Two further points the re-scoring makes visible, both of which belong in the
+write-up:
+
+1. **The deminh advantage is a detection-of-injections advantage, not a
+   detection-of-wrongness advantage.** Under injection ground truth deminh beats
+   self_check on precision (0.4485 vs 0.4190), recall (0.9919 vs 0.9675) and FPR
+   (0.8065 vs 0.8871). Under correctness ground truth over all records the
+   precision gap closes to nothing (0.6716 vs 0.6714) and self_check is *ahead*
+   on recall (0.9447 vs 0.8867). The pooled McNemar result is a statement about
+   the injected corpus and should be reported as such, not as a general claim
+   that independent checking catches more wrong answers.
+
+2. **Scoring `final_answer` penalises the arm that repairs more.** A wrong
+   answer that deminh flagged and then successfully repaired is
+   correct-and-flagged, i.e. a false positive. That is why deminh's clean-scope
+   precision drops from 0.5973 (pre) to 0.5436 (final) while self_check, which
+   repairs less on this arm, drops less. Whichever field is reported, say which.
+
+Run `python scripts/rescore.py results/run_002 --sensitivity` for the full
+scope x answer-field grid.

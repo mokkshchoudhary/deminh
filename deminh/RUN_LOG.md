@@ -278,3 +278,66 @@ above stated alongside it, not omitted.
 upward with n (deminh: 0.20 → 0.21 pooled; a similar pattern in self_check:
 0.056 → 0.083) rather than settling — worth another batch before treating
 either harm_rate as stable enough to quote a single number for.
+
+---
+
+## run_003a / run_003b — scheduled 2026-08-15 00:00, unattended
+
+- Scheduled, not yet executed at time of writing. Windows Task Scheduler task
+  `deminh_run_003` runs `scripts/run_003_overnight.ps1` at 00:00.
+- Backend: ollama, `qwen3.5:4b`, seed 42, temp 0.0, top_p 1.0 — identical to
+  run_001 and run_002, so all three pool.
+- Dataset: finqa, `FinQA/dataset/test.json` (1147 records).
+  **run_003a = offset 550, limit 175. run_003b = offset 725, limit 175.**
+  Disjoint from run_001 (0–199) and run_002 (200–549).
+- Prompts/taxonomy: unchanged since run_001 (I2, I7).
+- Injection: CLI defaults. Note for the record — with
+  `ExperimentConfig.balanced_categories=True` (the default), corruption is a
+  deterministic index round-robin (`experiment.py`: `if index % 2 == 0`), so
+  `--seed` and `--injection-rate` do **not** influence which records are
+  corrupted or with what. Earlier entries citing an injection seed were citing
+  a parameter that has no effect on the balanced path.
+- **Split into two chunks deliberately.** `Experiment.save()` is called once,
+  after the entire batch completes; nothing is written incrementally. A crash
+  at record 174 of 175 loses the whole chunk. Two 175-record chunks writing
+  separate result dirs cap that loss at one chunk, and each chunk is
+  individually poolable. run_003b is attempted even if run_003a fails.
+- Pre-run state, recorded before the fact: the Ollama server was **down** at
+  21:32 (backend process had exited; only the tray app was alive). The model
+  `qwen3.5:4b` was confirmed present on disk at `G:\LLMs` — note that
+  `OLLAMA_MODELS=G:\LLMs` is known only to the packaged app and is *not* a
+  user or machine environment variable, which is precisely the trap that cost
+  run_002 ~50 wasted calls. The wrapper therefore sets it explicitly, and
+  refuses to start the batch unless `qwen3.5:4b` is visible in `/api/tags`.
+- Expected wall clock: run_002 took ~6h for 350 records, so ~6h total,
+  finishing ~06:00.
+
+---
+
+## Analysis tooling — `scripts/rescore.py` (2026-08-14, no model calls)
+
+Re-scores detection against **answer-correctness** as well as injection status,
+over one or more run dirs, with pooling. Offline: reads only the committed
+`records_*.json`.
+
+Validated two ways against run_002:
+
+1. Reproduces `summary.json`'s injection-based detection block **exactly** for
+   all three arms (asserted in `tests/test_rescore.py`).
+2. Reproduces the hand-computed decomposition in
+   `ANALYSIS_REPAIR_POLICY_AND_FPR.md` exactly — deminh, non-injected records,
+   pre-verification answer: TP=89, FP=60, FN=22, TN=14, 1 excluded for no gold,
+   precision 0.5973, recall 0.8018.
+
+Building it surfaced that the analysis document's "precision rises 0.45 → 0.60"
+paired an all-records figure with a clean-subpopulation figure. A clarification
+is appended to that document; the like-for-like all-records rise is
+0.4485 → 0.6716. **The direction of the finding is unchanged and understated.**
+
+The substantive result to carry into the write-up: under correctness ground
+truth over all 309 records, deminh's precision advantage over self_check
+disappears (0.6716 vs 0.6714) and self_check leads on recall (0.9447 vs 0.8867).
+deminh's measured superiority is specifically at detecting *injected* errors.
+Report the pooled McNemar as a statement about the injected corpus, not as a
+general claim about catching wrong answers.
+
