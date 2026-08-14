@@ -147,3 +147,134 @@ scale_error=15, sign_error=15, wrong_extraction=14, **wrong_operation=0**):
 4. Base model accuracy at this n (31.0%) is meaningfully higher than the
    n=44 pilot's 11.4% — the pilot's base-rate number was not representative;
    don't quote pilot accuracy figures in the writeup, only run_001 and later.
+
+---
+
+## FR5 — identity coverage measurement
+
+- Date: 2026-08-07/08 (overnight run)
+- `scripts/measure_coverage.py`, backend ollama `qwen3.5:4b`, 50 fresh FinQA
+  records (offset=700), Extractor only, no injection, no arms.
+- **Result: `coverage_any = 0.0`.** Zero of 50 records admit any of the three
+  `DEFAULT_IDENTITIES` (balance_sheet, gross_profit, operating_income).
+  `n_extract_failed = 0` — this is a real measurement, not an extraction
+  failure artefact.
+- Checked `_canonical`/`applicable`/`SYNONYMS` in identities.py by hand — no
+  bug found. The mechanism requires the Extractor to have pulled *all*
+  components of an identity (e.g. assets, liabilities, and equity together)
+  for a single question. FinQA questions are narrowly scoped to whatever
+  answers that one question, so the Extractor typically returns 1-3 figures,
+  not a full statement section. Structurally, most single-question contexts
+  cannot co-produce the inputs an identity needs.
+- **This is FR5's answer: on real FinQA under this pipeline's per-question
+  extraction scope, the identity mechanism's applicable population is ~0%
+  with the current 3 identities.** State this plainly in the dissertation —
+  per CLAUDE.md, low coverage bounds what the mechanism can contribute, it
+  doesn't invalidate the other two. It does mean deminh's detection wins this
+  run are coming entirely from `provenance` + `recompute`, not `identities`
+  — matches `flags_by_mechanism` below (identities never appears).
+- Open question for the write-up: does this call for more identities, or is
+  it evidence that per-question extraction scope is the wrong level for
+  cross-derivation checks (would need whole-statement extraction instead)?
+  Worth raising with the supervisor rather than deciding unilaterally.
+
+---
+
+## run_002
+
+- Date: 2026-08-08 (overnight, scheduled 20:31, executed autonomously)
+- Backend: ollama, `qwen3.5:4b`, seed 42, temp 0.0, top_p 1.0
+- Dataset: finqa, `FinQA/dataset/test.json`, **offset=200**, limit 350
+  (records 200-549 — deliberately disjoint from run_001's 0-199, since
+  decoding is pinned and re-processing the same slice would reproduce
+  identical output)
+- Prompts/taxonomy: unchanged since run_001 (I2, I7)
+- Mid-run incident: Ollama had stopped at some point after the daytime
+  session ended. First restart attempt (`ollama serve` from git-bash) came
+  up against an empty model directory (wrong env/launch path on Windows —
+  bare CLI serve vs the packaged `ollama app.exe` resolve the models
+  directory differently) and every call 404'd for ~50 wasted FR5 calls
+  before this was caught and fixed by killing that process and launching
+  `ollama app.exe` properly. Noted here per I2/I7 spirit — say so rather
+  than let it pass silently. Cost was small (the 50 fast-failing calls, not
+  the 15-minute FR5 budget) because the failure was immediate (404s), not
+  hanging.
+- Status: **complete**. 350 loaded, 41 skipped (generation produced no
+  claim) → parse-failure rate **11.7%**, consistent with run_001's 10%.
+  309 records/arm, 123 corrupted, 4 excluded from mitigation for no gold.
+
+| Arm | precision | recall | FPR | acc_before | acc_after | delta | repaired | harmed | repair_rate | harm_rate |
+|---|---|---|---|---|---|---|---|---|---|---|
+| no_verifier | 0.0 | 0.0 | 0.0 | 0.318 | 0.318 | 0.0 | - | - | - | - |
+| self_check | 0.419 | 0.9675 | 0.8871 | 0.318 | 0.3475 | +0.0295 | 17 | 8 | 0.0817 | 0.0825 |
+| deminh | 0.4485 | 0.9919 | 0.8065 | 0.318 | 0.3344 | **+0.0164** | 25 | 20 | 0.1202 | 0.2062 |
+
+**McNemar (deminh_vs_self_check), run_002 alone: n_discordant=42 — chi2=6.881,
+p=0.0087. Significant at 0.05.** deminh_right_self_wrong=30,
+self_right_deminh_wrong=12 (2.5:1).
+
+**Category applicability — now measured, not guessed** (per-category `n` in
+detection_by_category, plus new `"Category X did not apply"` logging added
+today): of 84 logged applicability failures, **69 are wrong_operation**
+(only 2 of ~71 attempts actually applied — a 97% failure rate) and 15 are
+wrong_extraction. wrong_operation requires the Analyst's expression to
+contain a literal `+ - * /`; most FinQA claims are direct single-figure
+lookups with no operator to corrupt. This confirms and quantifies the gap
+run_001 first showed as `wrong_operation n=0` — it is a structural property
+of the dataset/model combination, not an unlucky round-robin collision.
+wrong_extraction's ~44% failure rate is milder (needs 2 figures with
+different values in the same extraction).
+
+**detection_by_category:** deminh recall 1.0 on all categories except
+scale_error (0.9615); self_check recall ranges 0.885 (arithmetic_slip) to
+1.0 (scale/sign/wrong_extraction/wrong_operation, on n=2 for the last).
+Still matches `EXPECTED_CATCHER` direction — deminh's mechanisms are
+structurally suited to the categories they're assigned to.
+
+**Flags:** self_check via `self_check` only (119). deminh via `provenance`
+(207) and `recompute` (119) — `identities` never fires, consistent with the
+FR5 0% coverage result above.
+
+**The one finding that needs its own paragraph in the dissertation:**
+deminh wins detection decisively (better precision/recall/FPR, and now a
+*significant* McNemar at n=42 discordant) but its **net mitigation accuracy
+gain is smaller than self_check's in this run** (+1.64pp vs +2.95pp) —
+the reverse of run_001, where deminh's net gain was bigger (+8.05pp vs
++4.02pp). The reason is harm_rate: deminh repairs more (repair_rate 0.120
+vs 0.082) but harms more than twice as often proportionally (0.206 vs
+0.083), and in run_002 that harm ate more of the gain than the extra
+repairs bought back. **Detecting more accurately does not automatically
+mean correcting more accurately** — recompute's repairs are only as good as
+whether "recompute the stated expression" actually recovers the intended
+value, and per the wrong_operation finding above, a faithfully-executed
+wrong operation is invisible to recompute by design (injection.py's own
+comment says so). This is exactly the kind of result CLAUDE.md says to
+report honestly rather than tune away.
+
+---
+
+## Pooled run_001 + run_002 (disjoint FinQA slices, n=489 total)
+
+Valid for McNemar/precision/recall pooling since both runs share pinned
+decoding, identical prompts/taxonomy, and cover non-overlapping items.
+Computed by hand from the two runs' raw tp/fp/fn/tn and b/c counts (not
+re-run through code — worth adding a small script if this becomes a
+recurring step rather than a one-off).
+
+| Arm | precision | recall | FPR | acc_before | acc_after | delta | repaired | harmed |
+|---|---|---|---|---|---|---|---|---|
+| self_check | 0.4187 | 0.9641 | 0.8878 | 0.3152 | 0.3486 | +0.0334 | 27 | 11 |
+| deminh | 0.4470 | 0.9949 | 0.8163 | 0.3152 | 0.3549 | +0.0397 | 52 | 33 |
+
+**Pooled McNemar: b (deminh_right_self_wrong)=48, c (self_right_deminh_wrong)=21,
+n_discordant=69, chi2=9.797, p=0.00175.** Well past the ~25 threshold and
+clearly significant — this is the strongest, largest-n statement the data
+currently supports: **deminh detects corruption more accurately than
+self_check, at a level unlikely to be chance (p<0.002, n=489).** Report this
+pooled number as the headline, with the per-run mitigation-accuracy caveat
+above stated alongside it, not omitted.
+
+**Still open before writing this up as final:** harm_rate is trending
+upward with n (deminh: 0.20 → 0.21 pooled; a similar pattern in self_check:
+0.056 → 0.083) rather than settling — worth another batch before treating
+either harm_rate as stable enough to quote a single number for.

@@ -1,0 +1,179 @@
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 123,
+        "tn": 186,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 0.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.318,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 119,
+        "fp": 165,
+        "fn": 4,
+        "tn": 21,
+        "precision": 0.419,
+        "recall": 0.9675,
+        "f1": 0.5848,
+        "false_positive_rate": 0.8871
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 0.8846
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 0.9615
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 119
+      },
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.3475,
+        "delta": 0.0295,
+        "repaired": 17,
+        "harmed": 8,
+        "repair_rate": 0.0817,
+        "harm_rate": 0.0825,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 122,
+        "fp": 150,
+        "fn": 1,
+        "tn": 36,
+        "precision": 0.4485,
+        "recall": 0.9919,
+        "f1": 0.6177,
+        "false_positive_rate": 0.8065
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 0.9615
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 207,
+        "recompute": 119
+      },
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.3344,
+        "delta": 0.0164,
+        "repaired": 25,
+        "harmed": 20,
+        "repair_rate": 0.1202,
+        "harm_rate": 0.2062,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 309,
+      "deminh_right_self_wrong": 30,
+      "self_right_deminh_wrong": 12,
+      "n_discordant": 42,
+      "chi2": 6.881,
+      "p_value": 0.008712,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}

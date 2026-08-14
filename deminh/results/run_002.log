@@ -1,0 +1,710 @@
+INFO root: Loaded 350 records from finqa
+INFO deminh.experiment: Progress: 1/350 records generated (LMT/2014/page_91.pdf-2 ok).
+INFO deminh.experiment: Progress: 2/350 records generated (FBHS/2017/page_22.pdf-1 ok).
+INFO deminh.experiment: Progress: 3/350 records generated (AAPL/2003/page_48.pdf-2 ok).
+INFO deminh.injection: Category wrong_extraction did not apply to AAPL/2003/page_48.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to AAPL/2003/page_48.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to AAPL/2003/page_48.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 4/350 records generated (AMT/2007/page_29.pdf-4 ok).
+INFO deminh.experiment: Progress: 5/350 records generated (IPG/2006/page_77.pdf-4 ok).
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2006/page_77.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2006/page_77.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2006/page_77.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 6/350 records generated (CDNS/2018/page_66.pdf-1 ok).
+INFO deminh.experiment: Progress: 7/350 records generated (AAL/2016/page_8.pdf-3 ok).
+INFO deminh.experiment: Progress: 8/350 records generated (CDW/2017/page_38.pdf-1 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_befdf559: Expecting ',' delimiter: line 4 column 29 (char 224)
+INFO deminh.experiment: Progress: 9/350 records generated (AMT/2006/page_113.pdf-4 ok).
+INFO deminh.experiment: Progress: 10/350 records generated (C/2008/page_44.pdf-2 ok).
+INFO deminh.experiment: Progress: 11/350 records generated (CME/2010/page_91.pdf-2 ok).
+INFO deminh.experiment: Progress: 12/350 records generated (ADI/2019/page_29.pdf-2 ok).
+INFO deminh.experiment: Progress: 13/350 records generated (ABMD/2007/page_78.pdf-2 ok).
+INFO deminh.experiment: Progress: 14/350 records generated (AMT/2007/page_29.pdf-3 ok).
+INFO deminh.experiment: Progress: 15/350 records generated (DVN/2012/page_77.pdf-2 ok).
+INFO deminh.experiment: Progress: 16/350 records generated (ETR/2016/page_374.pdf-2 ok).
+INFO deminh.experiment: Progress: 17/350 records generated (IPG/2017/page_92.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2017/page_92.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2017/page_92.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to IPG/2017/page_92.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 18/350 records generated (DRE/2002/page_15.pdf-3 ok).
+INFO deminh.experiment: Progress: 19/350 records generated (GPN/2010/page_87.pdf-1 ok).
+INFO deminh.experiment: Progress: 20/350 records generated (MSI/2012/page_87.pdf-4 ok).
+INFO deminh.experiment: Progress: 21/350 records generated (GS/2013/page_63.pdf-1 ok).
+INFO deminh.experiment: Progress: 22/350 records generated (ADI/2010/page_80.pdf-2 ok).
+INFO deminh.experiment: Progress: 23/350 records generated (MMM/2013/page_75.pdf-2 ok).
+INFO deminh.experiment: Progress: 24/350 records generated (UPS/2007/page_98.pdf-2 ok).
+INFO deminh.experiment: Progress: 25/350 records generated (GPN/2008/page_78.pdf-4 ok).
+INFO deminh.experiment: Progress: 26/350 records generated (MRO/2006/page_93.pdf-4 ok).
+INFO deminh.experiment: Progress: 27/350 records generated (CMCSA/2008/page_36.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for GS/2018/page_78.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GS/2018/page_78.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 28/350 records generated (GS/2018/page_78.pdf-3 skipped).
+INFO deminh.experiment: Progress: 29/350 records generated (ABC/2005/page_49.pdf-4 ok).
+INFO deminh.injection: Category wrong_operation did not apply to ABC/2005/page_49.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ABC/2005/page_49.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ABC/2005/page_49.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 30/350 records generated (TFX/2017/page_78.pdf-1 ok).
+INFO deminh.experiment: Progress: 31/350 records generated (UNP/2018/page_74.pdf-1 ok).
+INFO deminh.experiment: Progress: 32/350 records generated (STT/2009/page_25.pdf-2 ok).
+INFO deminh.experiment: Progress: 33/350 records generated (CDW/2015/page_93.pdf-4 ok).
+INFO deminh.experiment: Progress: 34/350 records generated (IP/2006/page_31.pdf-1 ok).
+INFO deminh.experiment: Progress: 35/350 records generated (SNA/2012/page_110.pdf-3 ok).
+INFO deminh.experiment: Progress: 36/350 records generated (CDW/2015/page_93.pdf-1 ok).
+INFO deminh.experiment: Progress: 37/350 records generated (JPM/2010/page_120.pdf-1 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_0120ff90: Expecting ',' delimiter: line 4 column 35 (char 284)
+INFO deminh.experiment: Progress: 38/350 records generated (IP/2006/page_35.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for LMT/2016/page_49.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping LMT/2016/page_49.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 39/350 records generated (LMT/2016/page_49.pdf-2 skipped).
+INFO deminh.experiment: Progress: 40/350 records generated (PKG/2005/page_74.pdf-2 ok).
+INFO deminh.experiment: Progress: 41/350 records generated (ETR/2017/page_143.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2017/page_143.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2017/page_143.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2017/page_143.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 42/350 records generated (ETR/2016/page_23.pdf-1 ok).
+INFO deminh.experiment: Progress: 43/350 records generated (STT/2006/page_95.pdf-4 ok).
+INFO deminh.experiment: Progress: 44/350 records generated (MSI/2007/page_70.pdf-1 ok).
+INFO deminh.experiment: Progress: 45/350 records generated (AMAT/2018/page_33.pdf-1 ok).
+INFO deminh.experiment: Progress: 46/350 records generated (GS/2012/page_189.pdf-3 ok).
+INFO deminh.experiment: Progress: 47/350 records generated (IP/2006/page_75.pdf-1 ok).
+INFO deminh.experiment: Progress: 48/350 records generated (RCL/2016/page_6.pdf-1 ok).
+INFO deminh.experiment: Progress: 49/350 records generated (AAL/2016/page_8.pdf-2 ok).
+INFO deminh.experiment: Progress: 50/350 records generated (ZBH/2009/page_58.pdf-4 ok).
+INFO deminh.experiment: Progress: 51/350 records generated (PPG/2006/page_42.pdf-1 ok).
+INFO deminh.injection: Category wrong_extraction did not apply to PPG/2006/page_42.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to PPG/2006/page_42.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to PPG/2006/page_42.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 52/350 records generated (PKG/2013/page_88.pdf-1 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_79ac4955: Expecting ',' delimiter: line 4 column 31 (char 299)
+INFO deminh.experiment: Progress: 53/350 records generated (AMT/2003/page_102.pdf-3 ok).
+INFO deminh.injection: Category wrong_operation did not apply to AMT/2003/page_102.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to AMT/2003/page_102.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to AMT/2003/page_102.pdf-3; record left uncorrupted.
+INFO deminh.experiment: Progress: 54/350 records generated (ETR/2015/page_17.pdf-2 ok).
+INFO deminh.experiment: Progress: 55/350 records generated (ILMN/2008/page_86.pdf-3 ok).
+INFO deminh.experiment: Progress: 56/350 records generated (INTC/2015/page_41.pdf-2 ok).
+INFO deminh.experiment: Progress: 57/350 records generated (AMT/2014/page_160.pdf-3 ok).
+INFO deminh.experiment: Progress: 58/350 records generated (JPM/2014/page_70.pdf-2 ok).
+INFO deminh.experiment: Progress: 59/350 records generated (PPG/2012/page_29.pdf-2 ok).
+INFO deminh.experiment: Progress: 60/350 records generated (AAPL/2004/page_68.pdf-1 ok).
+INFO deminh.experiment: Progress: 61/350 records generated (STT/2009/page_127.pdf-3 ok).
+INFO deminh.experiment: Progress: 62/350 records generated (DISCA/2011/page_49.pdf-3 ok).
+INFO deminh.experiment: Progress: 63/350 records generated (ETR/2016/page_150.pdf-1 ok).
+INFO deminh.experiment: Progress: 64/350 records generated (WRK/2018/page_107.pdf-4 ok).
+INFO deminh.experiment: Progress: 65/350 records generated (GS/2018/page_69.pdf-4 ok).
+INFO deminh.injection: Category wrong_operation did not apply to GS/2018/page_69.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2018/page_69.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2018/page_69.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 66/350 records generated (AMT/2007/page_29.pdf-2 ok).
+INFO deminh.experiment: Progress: 67/350 records generated (SLG/2001/page_48.pdf-2 ok).
+INFO deminh.experiment: Progress: 68/350 records generated (AAL/2010/page_72.pdf-3 ok).
+INFO deminh.experiment: Progress: 69/350 records generated (MRO/2017/page_96.pdf-1 ok).
+INFO deminh.experiment: Progress: 70/350 records generated (IPG/2008/page_72.pdf-1 ok).
+INFO deminh.experiment: Progress: 71/350 records generated (ETR/2015/page_17.pdf-4 ok).
+INFO deminh.experiment: Progress: 72/350 records generated (STT/2007/page_111.pdf-2 ok).
+INFO deminh.experiment: Progress: 73/350 records generated (UNP/2007/page_25.pdf-2 ok).
+INFO deminh.experiment: Progress: 74/350 records generated (BLL/2012/page_31.pdf-1 ok).
+INFO deminh.experiment: Progress: 75/350 records generated (C/2015/page_96.pdf-1 ok).
+INFO deminh.experiment: Progress: 76/350 records generated (AMT/2008/page_107.pdf-1 ok).
+INFO deminh.experiment: Progress: 77/350 records generated (PPG/2008/page_52.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to PPG/2008/page_52.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to PPG/2008/page_52.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to PPG/2008/page_52.pdf-1; record left uncorrupted.
+WARNING deminh.agents: Analyst failed for BLK/2015/page_124.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping BLK/2015/page_124.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 78/350 records generated (BLK/2015/page_124.pdf-1 skipped).
+INFO deminh.experiment: Progress: 79/350 records generated (FIS/2006/page_31.pdf-1 ok).
+INFO deminh.experiment: Progress: 80/350 records generated (ZBH/2008/page_57.pdf-4 ok).
+INFO deminh.experiment: Progress: 81/350 records generated (GS/2017/page_179.pdf-3 ok).
+INFO deminh.experiment: Progress: 82/350 records generated (JPM/2009/page_175.pdf-5 ok).
+WARNING deminh.agents: Analyst failed for RCL/2012/page_75.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping RCL/2012/page_75.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 83/350 records generated (RCL/2012/page_75.pdf-2 skipped).
+INFO deminh.experiment: Progress: 84/350 records generated (KHC/2018/page_132.pdf-3 ok).
+INFO deminh.experiment: Progress: 85/350 records generated (IP/2006/page_35.pdf-1 ok).
+INFO deminh.experiment: Progress: 86/350 records generated (AMT/2014/page_160.pdf-1 ok).
+INFO deminh.experiment: Progress: 87/350 records generated (C/2009/page_243.pdf-2 ok).
+INFO deminh.experiment: Progress: 88/350 records generated (MKTX/2004/page_99.pdf-4 ok).
+INFO deminh.experiment: Progress: 89/350 records generated (BLK/2012/page_33.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to BLK/2012/page_33.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to BLK/2012/page_33.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to BLK/2012/page_33.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 90/350 records generated (AMT/2014/page_160.pdf-2 ok).
+INFO deminh.experiment: Progress: 91/350 records generated (AWK/2017/page_148.pdf-1 ok).
+INFO deminh.experiment: Progress: 92/350 records generated (GRMN/2008/page_73.pdf-1 ok).
+INFO deminh.experiment: Progress: 93/350 records generated (GS/2013/page_72.pdf-2 ok).
+INFO deminh.experiment: Progress: 94/350 records generated (ZBH/2008/page_57.pdf-1 ok).
+INFO deminh.experiment: Progress: 95/350 records generated (LMT/2014/page_50.pdf-1 ok).
+INFO deminh.experiment: Progress: 96/350 records generated (PNC/2012/page_247.pdf-1 ok).
+INFO deminh.experiment: Progress: 97/350 records generated (GS/2014/page_165.pdf-2 ok).
+INFO deminh.experiment: Progress: 98/350 records generated (AMT/2005/page_102.pdf-3 ok).
+INFO deminh.experiment: Progress: 99/350 records generated (AON/2015/page_96.pdf-2 ok).
+INFO deminh.experiment: Progress: 100/350 records generated (ADI/2010/page_60.pdf-1 ok).
+INFO deminh.experiment: Progress: 101/350 records generated (C/2008/page_44.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to C/2008/page_44.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to C/2008/page_44.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to C/2008/page_44.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 102/350 records generated (ADBE/1999/page_64.pdf-1 ok).
+WARNING deminh.agents: Analyst failed for SLG/2011/page_91.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SLG/2011/page_91.pdf-4: generation produced no claim.
+INFO deminh.experiment: Progress: 103/350 records generated (SLG/2011/page_91.pdf-4 skipped).
+INFO deminh.experiment: Progress: 104/350 records generated (GS/2013/page_126.pdf-1 ok).
+INFO deminh.experiment: Progress: 105/350 records generated (ETR/2004/page_281.pdf-1 ok).
+INFO deminh.experiment: Progress: 106/350 records generated (AES/2001/page_85.pdf-1 ok).
+WARNING deminh.agents: Analyst failed for ABC/2005/page_49.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ABC/2005/page_49.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 107/350 records generated (ABC/2005/page_49.pdf-1 skipped).
+INFO deminh.experiment: Progress: 108/350 records generated (UNP/2018/page_74.pdf-2 ok).
+INFO deminh.experiment: Progress: 109/350 records generated (MSI/2014/page_76.pdf-1 ok).
+INFO deminh.experiment: Progress: 110/350 records generated (ETFC/2012/page_24.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for UA/2011/page_69.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping UA/2011/page_69.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 111/350 records generated (UA/2011/page_69.pdf-1 skipped).
+INFO deminh.experiment: Progress: 112/350 records generated (RL/2008/page_23.pdf-1 ok).
+INFO deminh.experiment: Progress: 113/350 records generated (PNC/2012/page_100.pdf-1 ok).
+INFO deminh.experiment: Progress: 114/350 records generated (HWM/2015/page_173.pdf-1 ok).
+INFO deminh.experiment: Progress: 115/350 records generated (ECL/2017/page_94.pdf-1 ok).
+INFO deminh.experiment: Progress: 116/350 records generated (NKE/2009/page_43.pdf-1 ok).
+WARNING deminh.agents: Skipping malformed figure {'label': 'annualized return', 'value': None, 'scale': 1, 'unit': '%', 'period': '2012-2017', 'location': 'text_only', 'source_text': 'performance graph the following graph and table compares the cumulative five-year total return provided to shareholders on our class a common stock relative to the cumulative total returns of the s&p 500 index and our customized peer group . the peer group includes cboe holdings , inc. , intercontinentalexchange group , inc . and nasdaq , inc . an investment of $ 100 ( with reinvestment of all dividends ) is assumed to have been made in our class a common stock , in the peer group and the s&p 500 index on december 31 , 2012 , and its relative performance is tracked through december 31 , 2017 .'}: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.agents: Analyst failed for CME/2017/page_40.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping CME/2017/page_40.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 117/350 records generated (CME/2017/page_40.pdf-1 skipped).
+INFO deminh.experiment: Progress: 118/350 records generated (MMM/2015/page_93.pdf-2 ok).
+INFO deminh.experiment: Progress: 119/350 records generated (GS/2013/page_126.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for AON/2007/page_188.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AON/2007/page_188.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 120/350 records generated (AON/2007/page_188.pdf-2 skipped).
+INFO deminh.experiment: Progress: 121/350 records generated (GS/2017/page_132.pdf-3 ok).
+INFO deminh.experiment: Progress: 122/350 records generated (UNP/2010/page_21.pdf-1 ok).
+INFO deminh.experiment: Progress: 123/350 records generated (ADBE/2008/page_74.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for MRK/2013/page_125.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping MRK/2013/page_125.pdf-4: generation produced no claim.
+INFO deminh.experiment: Progress: 124/350 records generated (MRK/2013/page_125.pdf-4 skipped).
+WARNING deminh.agents: Analyst failed for SYY/2006/page_71.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SYY/2006/page_71.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 125/350 records generated (SYY/2006/page_71.pdf-2 skipped).
+INFO deminh.experiment: Progress: 126/350 records generated (JPM/2009/page_175.pdf-1 ok).
+INFO deminh.experiment: Progress: 127/350 records generated (MMM/2007/page_84.pdf-1 ok).
+INFO deminh.experiment: Progress: 128/350 records generated (MAS/2017/page_27.pdf-4 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_75edea52: Expecting ',' delimiter: line 4 column 28 (char 209)
+INFO deminh.experiment: Progress: 129/350 records generated (IPG/2006/page_77.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for JPM/2008/page_87.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping JPM/2008/page_87.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 130/350 records generated (JPM/2008/page_87.pdf-1 skipped).
+INFO deminh.experiment: Progress: 131/350 records generated (AMT/2008/page_107.pdf-4 ok).
+INFO deminh.experiment: Progress: 132/350 records generated (RSG/2009/page_140.pdf-1 ok).
+INFO deminh.experiment: Progress: 133/350 records generated (SLB/2012/page_56.pdf-1 ok).
+INFO deminh.experiment: Progress: 134/350 records generated (TMUS/2017/page_29.pdf-2 ok).
+INFO deminh.experiment: Progress: 135/350 records generated (UPS/2016/page_114.pdf-2 ok).
+INFO deminh.experiment: Progress: 136/350 records generated (MRO/2017/page_96.pdf-3 ok).
+INFO deminh.experiment: Progress: 137/350 records generated (GS/2013/page_220.pdf-1 ok).
+INFO deminh.experiment: Progress: 138/350 records generated (LKQ/2016/page_87.pdf-1 ok).
+INFO deminh.experiment: Progress: 139/350 records generated (SNA/2013/page_84.pdf-1 ok).
+INFO deminh.experiment: Progress: 140/350 records generated (DVN/2015/page_79.pdf-3 ok).
+INFO deminh.experiment: Progress: 141/350 records generated (FIS/2017/page_64.pdf-4 ok).
+INFO deminh.experiment: Progress: 142/350 records generated (LMT/2014/page_77.pdf-3 ok).
+INFO deminh.experiment: Progress: 143/350 records generated (ETFC/2012/page_43.pdf-1 ok).
+INFO deminh.experiment: Progress: 144/350 records generated (HWM/2017/page_42.pdf-2 ok).
+INFO deminh.experiment: Progress: 145/350 records generated (GRMN/2006/page_68.pdf-2 ok).
+INFO deminh.experiment: Progress: 146/350 records generated (JPM/2003/page_106.pdf-1 ok).
+INFO deminh.experiment: Progress: 147/350 records generated (PNC/2012/page_247.pdf-2 ok).
+INFO deminh.injection: Category wrong_extraction did not apply to PNC/2012/page_247.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to PNC/2012/page_247.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to PNC/2012/page_247.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 148/350 records generated (SLG/2011/page_91.pdf-3 ok).
+WARNING deminh.agents: Analyst failed for PNC/2012/page_65.pdf-5: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping PNC/2012/page_65.pdf-5: generation produced no claim.
+INFO deminh.experiment: Progress: 149/350 records generated (PNC/2012/page_65.pdf-5 skipped).
+INFO deminh.experiment: Progress: 150/350 records generated (MS/2013/page_132.pdf-1 ok).
+INFO deminh.experiment: Progress: 151/350 records generated (GPN/2010/page_89.pdf-2 ok).
+INFO deminh.experiment: Progress: 152/350 records generated (TFX/2015/page_89.pdf-1 ok).
+INFO deminh.experiment: Progress: 153/350 records generated (ETR/2011/page_17.pdf-3 ok).
+INFO deminh.experiment: Progress: 154/350 records generated (CDW/2015/page_93.pdf-3 ok).
+INFO deminh.experiment: Progress: 155/350 records generated (FIS/2016/page_31.pdf-1 ok).
+INFO deminh.experiment: Progress: 156/350 records generated (IP/2009/page_84.pdf-1 ok).
+INFO deminh.experiment: Progress: 157/350 records generated (CDW/2017/page_38.pdf-2 ok).
+INFO deminh.experiment: Progress: 158/350 records generated (SYY/2005/page_70.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for CB/2008/page_229.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping CB/2008/page_229.pdf-4: generation produced no claim.
+INFO deminh.experiment: Progress: 159/350 records generated (CB/2008/page_229.pdf-4 skipped).
+INFO deminh.experiment: Progress: 160/350 records generated (GS/2013/page_72.pdf-1 ok).
+INFO deminh.experiment: Progress: 161/350 records generated (GIS/2019/page_68.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to GIS/2019/page_68.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GIS/2019/page_68.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GIS/2019/page_68.pdf-1; record left uncorrupted.
+WARNING deminh.agents: Analyst failed for CME/2017/page_89.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping CME/2017/page_89.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 162/350 records generated (CME/2017/page_89.pdf-3 skipped).
+INFO deminh.experiment: Progress: 163/350 records generated (AWK/2013/page_122.pdf-2 ok).
+INFO deminh.experiment: Progress: 164/350 records generated (V/2008/page_180.pdf-2 ok).
+INFO deminh.experiment: Progress: 165/350 records generated (AAL/2010/page_72.pdf-1 ok).
+INFO deminh.experiment: Progress: 166/350 records generated (ETR/2004/page_212.pdf-1 ok).
+INFO deminh.experiment: Progress: 167/350 records generated (MRO/2004/page_46.pdf-4 ok).
+INFO deminh.experiment: Progress: 168/350 records generated (AES/2001/page_33.pdf-4 ok).
+INFO deminh.experiment: Progress: 169/350 records generated (LMT/2014/page_50.pdf-2 ok).
+INFO deminh.experiment: Progress: 170/350 records generated (AMAT/2013/page_37.pdf-1 ok).
+INFO deminh.experiment: Progress: 171/350 records generated (C/2009/page_63.pdf-3 ok).
+WARNING deminh.agents: Analyst failed for ADBE/2008/page_74.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping ADBE/2008/page_74.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 172/350 records generated (ADBE/2008/page_74.pdf-1 skipped).
+INFO deminh.experiment: Progress: 173/350 records generated (HIG/2011/page_53.pdf-3 ok).
+INFO deminh.injection: Category wrong_operation did not apply to HIG/2011/page_53.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to HIG/2011/page_53.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to HIG/2011/page_53.pdf-3; record left uncorrupted.
+INFO deminh.experiment: Progress: 174/350 records generated (BLL/2010/page_37.pdf-3 ok).
+INFO deminh.experiment: Progress: 175/350 records generated (JPM/2005/page_80.pdf-1 ok).
+INFO deminh.experiment: Progress: 176/350 records generated (CDNS/2015/page_30.pdf-3 ok).
+INFO deminh.experiment: Progress: 177/350 records generated (RSG/2013/page_123.pdf-1 ok).
+INFO deminh.experiment: Progress: 178/350 records generated (ECL/2017/page_69.pdf-1 ok).
+INFO deminh.experiment: Progress: 179/350 records generated (GS/2013/page_85.pdf-1 ok).
+INFO deminh.experiment: Progress: 180/350 records generated (GS/2018/page_69.pdf-3 ok).
+INFO deminh.experiment: Progress: 181/350 records generated (JPM/2010/page_281.pdf-2 ok).
+INFO deminh.experiment: Progress: 182/350 records generated (AMT/2006/page_113.pdf-1 ok).
+INFO deminh.experiment: Progress: 183/350 records generated (ETR/2004/page_212.pdf-4 ok).
+INFO deminh.experiment: Progress: 184/350 records generated (ECL/2017/page_79.pdf-1 ok).
+INFO deminh.experiment: Progress: 185/350 records generated (CME/2010/page_69.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to CME/2010/page_69.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to CME/2010/page_69.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to CME/2010/page_69.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 186/350 records generated (JPM/2015/page_137.pdf-1 ok).
+INFO deminh.experiment: Progress: 187/350 records generated (AWK/2018/page_146.pdf-4 ok).
+INFO deminh.experiment: Progress: 188/350 records generated (GIS/2018/page_110.pdf-3 ok).
+WARNING deminh.agents: Analyst failed for GPN/2013/page_87.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GPN/2013/page_87.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 189/350 records generated (GPN/2013/page_87.pdf-1 skipped).
+INFO deminh.experiment: Progress: 190/350 records generated (GPN/2013/page_92.pdf-2 ok).
+INFO deminh.experiment: Progress: 191/350 records generated (ETR/2017/page_143.pdf-2 ok).
+INFO deminh.experiment: Progress: 192/350 records generated (DISH/2011/page_122.pdf-3 ok).
+INFO deminh.experiment: Progress: 193/350 records generated (HWM/2018/page_96.pdf-1 ok).
+INFO deminh.experiment: Progress: 194/350 records generated (CE/2009/page_65.pdf-2 ok).
+INFO deminh.experiment: Progress: 195/350 records generated (FIS/2012/page_48.pdf-3 ok).
+INFO deminh.experiment: Progress: 196/350 records generated (GS/2013/page_149.pdf-4 ok).
+INFO deminh.experiment: Progress: 197/350 records generated (BLL/2006/page_67.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to BLL/2006/page_67.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to BLL/2006/page_67.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to BLL/2006/page_67.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 198/350 records generated (FIS/2016/page_9.pdf-4 ok).
+WARNING deminh.agents: Analyst failed for GS/2018/page_69.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GS/2018/page_69.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 199/350 records generated (GS/2018/page_69.pdf-2 skipped).
+INFO deminh.experiment: Progress: 200/350 records generated (DVN/2012/page_77.pdf-1 ok).
+INFO deminh.experiment: Progress: 201/350 records generated (ECL/2017/page_94.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for SNA/2013/page_83.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SNA/2013/page_83.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 202/350 records generated (SNA/2013/page_83.pdf-1 skipped).
+INFO deminh.experiment: Progress: 203/350 records generated (FIS/2006/page_31.pdf-2 ok).
+INFO deminh.experiment: Progress: 204/350 records generated (AMT/2012/page_144.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for GPN/2013/page_92.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GPN/2013/page_92.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 205/350 records generated (GPN/2013/page_92.pdf-3 skipped).
+INFO deminh.experiment: Progress: 206/350 records generated (V/2014/page_126.pdf-1 ok).
+INFO deminh.experiment: Progress: 207/350 records generated (SLG/2011/page_91.pdf-2 ok).
+INFO deminh.experiment: Progress: 208/350 records generated (ILMN/2008/page_86.pdf-4 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_3befd3af: Expecting ',' delimiter: line 4 column 25 (char 264)
+WARNING deminh.agents: Analyst failed for MAS/2012/page_26.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping MAS/2012/page_26.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 209/350 records generated (MAS/2012/page_26.pdf-1 skipped).
+WARNING deminh.agents: Analyst failed for UPS/2010/page_52.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping UPS/2010/page_52.pdf-4: generation produced no claim.
+INFO deminh.experiment: Progress: 210/350 records generated (UPS/2010/page_52.pdf-4 skipped).
+INFO deminh.experiment: Progress: 211/350 records generated (AMT/2012/page_118.pdf-1 ok).
+INFO deminh.experiment: Progress: 212/350 records generated (AON/2007/page_188.pdf-1 ok).
+INFO deminh.experiment: Progress: 213/350 records generated (CDW/2015/page_70.pdf-2 ok).
+INFO deminh.experiment: Progress: 214/350 records generated (LMT/2014/page_77.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for GPN/2008/page_78.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GPN/2008/page_78.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 215/350 records generated (GPN/2008/page_78.pdf-1 skipped).
+INFO deminh.experiment: Progress: 216/350 records generated (AON/2007/page_171.pdf-2 ok).
+INFO deminh.experiment: Progress: 217/350 records generated (HOLX/2009/page_127.pdf-2 ok).
+INFO deminh.experiment: Progress: 218/350 records generated (PNC/2015/page_93.pdf-2 ok).
+INFO deminh.experiment: Progress: 219/350 records generated (C/2008/page_65.pdf-1 ok).
+INFO deminh.experiment: Progress: 220/350 records generated (AMT/2006/page_113.pdf-2 ok).
+INFO deminh.experiment: Progress: 221/350 records generated (DVN/2018/page_35.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to DVN/2018/page_35.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to DVN/2018/page_35.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to DVN/2018/page_35.pdf-2; record left uncorrupted.
+WARNING deminh.agents: Analyst failed for AWK/2018/page_146.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AWK/2018/page_146.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 222/350 records generated (AWK/2018/page_146.pdf-3 skipped).
+INFO deminh.experiment: Progress: 223/350 records generated (HIG/2011/page_53.pdf-1 ok).
+INFO deminh.experiment: Progress: 224/350 records generated (NWS/2017/page_119.pdf-1 ok).
+INFO deminh.experiment: Progress: 225/350 records generated (MRO/2008/page_45.pdf-4 ok).
+INFO deminh.experiment: Progress: 226/350 records generated (JPM/2014/page_122.pdf-1 ok).
+INFO deminh.experiment: Progress: 227/350 records generated (MO/2016/page_19.pdf-2 ok).
+INFO deminh.experiment: Progress: 228/350 records generated (TFX/2015/page_89.pdf-2 ok).
+INFO deminh.experiment: Progress: 229/350 records generated (AMT/2008/page_94.pdf-2 ok).
+INFO deminh.experiment: Progress: 230/350 records generated (AMT/2006/page_104.pdf-3 ok).
+INFO deminh.experiment: Progress: 231/350 records generated (RSG/2015/page_98.pdf-1 ok).
+INFO deminh.experiment: Progress: 232/350 records generated (MO/2014/page_62.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for NCLH/2018/page_64.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping NCLH/2018/page_64.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 233/350 records generated (NCLH/2018/page_64.pdf-2 skipped).
+INFO deminh.experiment: Progress: 234/350 records generated (STT/2006/page_95.pdf-1 ok).
+INFO deminh.experiment: Progress: 235/350 records generated (PNC/2012/page_174.pdf-3 ok).
+INFO deminh.experiment: Progress: 236/350 records generated (MAS/2017/page_27.pdf-3 ok).
+INFO deminh.experiment: Progress: 237/350 records generated (HOLX/2009/page_127.pdf-1 ok).
+INFO deminh.experiment: Progress: 238/350 records generated (AOS/2010/page_18.pdf-1 ok).
+INFO deminh.experiment: Progress: 239/350 records generated (GPN/2013/page_87.pdf-2 ok).
+INFO deminh.experiment: Progress: 240/350 records generated (STT/2011/page_69.pdf-2 ok).
+INFO deminh.experiment: Progress: 241/350 records generated (HUM/2009/page_105.pdf-1 ok).
+WARNING deminh.agents: Analyst failed for HIG/2004/page_140.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping HIG/2004/page_140.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 242/350 records generated (HIG/2004/page_140.pdf-3 skipped).
+INFO deminh.experiment: Progress: 243/350 records generated (GS/2018/page_69.pdf-1 ok).
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2018/page_69.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2018/page_69.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2018/page_69.pdf-1; record left uncorrupted.
+WARNING deminh.agents: Analyst failed for EL/2008/page_59.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping EL/2008/page_59.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 244/350 records generated (EL/2008/page_59.pdf-1 skipped).
+INFO deminh.experiment: Progress: 245/350 records generated (PNC/2012/page_100.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to PNC/2012/page_100.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to PNC/2012/page_100.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to PNC/2012/page_100.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 246/350 records generated (UAA/2016/page_42.pdf-3 ok).
+INFO deminh.experiment: Progress: 247/350 records generated (HII/2015/page_88.pdf-1 ok).
+INFO deminh.experiment: Progress: 248/350 records generated (MRO/2004/page_125.pdf-2 ok).
+INFO deminh.experiment: Progress: 249/350 records generated (GPN/2013/page_87.pdf-3 ok).
+INFO deminh.experiment: Progress: 250/350 records generated (AWK/2013/page_122.pdf-1 ok).
+INFO deminh.experiment: Progress: 251/350 records generated (MRO/2017/page_96.pdf-2 ok).
+INFO deminh.experiment: Progress: 252/350 records generated (AAL/2013/page_172.pdf-1 ok).
+INFO deminh.experiment: Progress: 253/350 records generated (HII/2015/page_121.pdf-2 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_bc400f49: Expecting ',' delimiter: line 4 column 28 (char 228)
+INFO deminh.experiment: Progress: 254/350 records generated (DG/2010/page_136.pdf-2 ok).
+INFO deminh.experiment: Progress: 255/350 records generated (MRO/2007/page_136.pdf-1 ok).
+INFO deminh.experiment: Progress: 256/350 records generated (DXC/2018/page_56.pdf-3 ok).
+INFO deminh.experiment: Progress: 257/350 records generated (GS/2015/page_188.pdf-4 ok).
+INFO deminh.injection: Category wrong_operation did not apply to GS/2015/page_188.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2015/page_188.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2015/page_188.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 258/350 records generated (AAL/2016/page_8.pdf-1 ok).
+INFO deminh.experiment: Progress: 259/350 records generated (ETR/2013/page_21.pdf-4 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_72f75ae5: Expecting ',' delimiter: line 4 column 28 (char 241)
+INFO deminh.experiment: Progress: 260/350 records generated (JPM/2018/page_90.pdf-6 ok).
+INFO deminh.experiment: Progress: 261/350 records generated (UNP/2011/page_33.pdf-1 ok).
+INFO deminh.experiment: Progress: 262/350 records generated (AMT/2012/page_118.pdf-4 ok).
+INFO deminh.experiment: Progress: 263/350 records generated (JPM/2008/page_117.pdf-1 ok).
+INFO deminh.experiment: Progress: 264/350 records generated (C/2008/page_65.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for DG/2009/page_77.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping DG/2009/page_77.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 265/350 records generated (DG/2009/page_77.pdf-1 skipped).
+INFO deminh.experiment: Progress: 266/350 records generated (DRE/2002/page_15.pdf-1 ok).
+WARNING deminh.agents: Analyst failed for SNA/2007/page_69.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping SNA/2007/page_69.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 267/350 records generated (SNA/2007/page_69.pdf-1 skipped).
+INFO deminh.experiment: Progress: 268/350 records generated (HOLX/2006/page_71.pdf-1 ok).
+INFO deminh.experiment: Progress: 269/350 records generated (ETR/2011/page_17.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_17.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_17.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_17.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 270/350 records generated (CDNS/2015/page_30.pdf-4 ok).
+INFO deminh.experiment: Progress: 271/350 records generated (GS/2017/page_132.pdf-1 ok).
+INFO deminh.experiment: Progress: 272/350 records generated (MO/2014/page_39.pdf-1 ok).
+INFO deminh.experiment: Progress: 273/350 records generated (UNP/2009/page_35.pdf-2 ok).
+INFO deminh.experiment: Progress: 274/350 records generated (AWK/2018/page_146.pdf-1 ok).
+INFO deminh.experiment: Progress: 275/350 records generated (HII/2015/page_121.pdf-1 ok).
+WARNING deminh.agents: Skipping malformed figure {'label': 'net revenues in investment management', 'value': None, 'scale': 1, 'unit': 'billion USD', 'period': '2016', 'location': 'text:paragraph_13', 'source_text': '7% ( 7 % ) higher than 2016'}: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.agents: Analyst failed for GS/2018/page_78.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GS/2018/page_78.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 276/350 records generated (GS/2018/page_78.pdf-2 skipped).
+INFO deminh.experiment: Progress: 277/350 records generated (IP/2009/page_45.pdf-1 ok).
+INFO deminh.experiment: Progress: 278/350 records generated (PNC/2012/page_247.pdf-4 ok).
+INFO deminh.experiment: Progress: 279/350 records generated (AMT/2016/page_49.pdf-2 ok).
+INFO deminh.experiment: Progress: 280/350 records generated (RCL/2012/page_75.pdf-3 ok).
+INFO deminh.experiment: Progress: 281/350 records generated (GS/2017/page_132.pdf-4 ok).
+INFO deminh.injection: Category wrong_operation did not apply to GS/2017/page_132.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2017/page_132.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to GS/2017/page_132.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 282/350 records generated (ZBH/2009/page_58.pdf-1 ok).
+INFO deminh.experiment: Progress: 283/350 records generated (AMAT/2018/page_33.pdf-2 ok).
+INFO deminh.experiment: Progress: 284/350 records generated (BLK/2012/page_145.pdf-2 ok).
+INFO deminh.experiment: Progress: 285/350 records generated (SNA/2007/page_29.pdf-1 ok).
+INFO deminh.experiment: Progress: 286/350 records generated (MSI/2008/page_69.pdf-2 ok).
+INFO deminh.experiment: Progress: 287/350 records generated (STT/2006/page_95.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for AMT/2007/page_29.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMT/2007/page_29.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 288/350 records generated (AMT/2007/page_29.pdf-1 skipped).
+WARNING deminh.agents: Analyst failed for BLL/2011/page_32.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping BLL/2011/page_32.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 289/350 records generated (BLL/2011/page_32.pdf-3 skipped).
+INFO deminh.experiment: Progress: 290/350 records generated (MRO/2008/page_45.pdf-3 ok).
+INFO deminh.experiment: Progress: 291/350 records generated (MRK/2013/page_3.pdf-1 ok).
+INFO deminh.experiment: Progress: 292/350 records generated (CE/2013/page_16.pdf-1 ok).
+INFO deminh.experiment: Progress: 293/350 records generated (ETR/2008/page_442.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2008/page_442.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2008/page_442.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2008/page_442.pdf-2; record left uncorrupted.
+WARNING deminh.agents: Analyst failed for CB/2008/page_229.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping CB/2008/page_229.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 294/350 records generated (CB/2008/page_229.pdf-2 skipped).
+INFO deminh.experiment: Progress: 295/350 records generated (AMT/2010/page_99.pdf-2 ok).
+INFO deminh.experiment: Progress: 296/350 records generated (GS/2014/page_74.pdf-2 ok).
+INFO deminh.experiment: Progress: 297/350 records generated (AON/2018/page_87.pdf-4 ok).
+INFO deminh.experiment: Progress: 298/350 records generated (GPN/2008/page_78.pdf-3 ok).
+WARNING deminh.agents: Analyst failed for GS/2012/page_142.pdf-4: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping GS/2012/page_142.pdf-4: generation produced no claim.
+INFO deminh.experiment: Progress: 299/350 records generated (GS/2012/page_142.pdf-4 skipped).
+INFO deminh.experiment: Progress: 300/350 records generated (GS/2013/page_149.pdf-3 ok).
+INFO deminh.experiment: Progress: 301/350 records generated (BLL/2010/page_35.pdf-4 ok).
+INFO deminh.experiment: Progress: 302/350 records generated (MRO/2013/page_19.pdf-4 ok).
+WARNING deminh.agents: Analyst failed for APD/2018/page_121.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping APD/2018/page_121.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 303/350 records generated (APD/2018/page_121.pdf-2 skipped).
+INFO deminh.experiment: Progress: 304/350 records generated (AWK/2014/page_121.pdf-3 ok).
+INFO deminh.experiment: Progress: 305/350 records generated (HUM/2017/page_118.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to HUM/2017/page_118.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to HUM/2017/page_118.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to HUM/2017/page_118.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 306/350 records generated (UPS/2010/page_52.pdf-3 ok).
+INFO deminh.experiment: Progress: 307/350 records generated (DISCA/2014/page_64.pdf-2 ok).
+INFO deminh.experiment: Progress: 308/350 records generated (AAPL/2006/page_100.pdf-1 ok).
+INFO deminh.experiment: Progress: 309/350 records generated (K/2013/page_23.pdf-2 ok).
+INFO deminh.experiment: Progress: 310/350 records generated (APD/2016/page_40.pdf-1 ok).
+INFO deminh.experiment: Progress: 311/350 records generated (GS/2013/page_63.pdf-2 ok).
+INFO deminh.experiment: Progress: 312/350 records generated (ABMD/2012/page_41.pdf-1 ok).
+WARNING deminh.agents: Analyst failed for RSG/2018/page_135.pdf-1: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping RSG/2018/page_135.pdf-1: generation produced no claim.
+INFO deminh.experiment: Progress: 313/350 records generated (RSG/2018/page_135.pdf-1 skipped).
+INFO deminh.experiment: Progress: 314/350 records generated (ETR/2004/page_212.pdf-2 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_343d8280: Expecting ',' delimiter: line 4 column 27 (char 233)
+INFO deminh.experiment: Progress: 315/350 records generated (V/2008/page_180.pdf-3 ok).
+INFO deminh.experiment: Progress: 316/350 records generated (AMT/2008/page_94.pdf-3 ok).
+INFO deminh.experiment: Progress: 317/350 records generated (C/2009/page_243.pdf-1 ok).
+INFO deminh.injection: Category wrong_operation did not apply to C/2009/page_243.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to C/2009/page_243.pdf-1; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to C/2009/page_243.pdf-1; record left uncorrupted.
+INFO deminh.experiment: Progress: 318/350 records generated (EMR/2017/page_78.pdf-1 ok).
+INFO deminh.experiment: Progress: 319/350 records generated (ILMN/2003/page_58.pdf-3 ok).
+WARNING deminh.agents: Analyst failed for AMT/2003/page_27.pdf-3: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping AMT/2003/page_27.pdf-3: generation produced no claim.
+INFO deminh.experiment: Progress: 320/350 records generated (AMT/2003/page_27.pdf-3 skipped).
+WARNING deminh.agents: Analyst failed for RSG/2010/page_98.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping RSG/2010/page_98.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 321/350 records generated (RSG/2010/page_98.pdf-2 skipped).
+INFO deminh.experiment: Progress: 322/350 records generated (MS/2007/page_179.pdf-2 ok).
+WARNING deminh.agents: Extractor produced unparseable output for NKE/2009/page_43.pdf-2: No JSON object in model output: '```json\n{\n  "figures": [\n    {\n      "label": "notes payable due at mutually agreed-upon dates within one year of issuance or on demand",\n      "value": 342.9,\n      "scale": 1000000,\n      "unit": "",\n      "period": "FY2019",\n      "location": "table_1:row_1",\n      "source_text": "notes payable ,'
+WARNING deminh.agents: Analyst failed for NKE/2009/page_43.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping NKE/2009/page_43.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 323/350 records generated (NKE/2009/page_43.pdf-2 skipped).
+INFO deminh.experiment: Progress: 324/350 records generated (JPM/2012/page_140.pdf-1 ok).
+INFO deminh.experiment: Progress: 325/350 records generated (GS/2014/page_74.pdf-1 ok).
+INFO deminh.experiment: Progress: 326/350 records generated (AMT/2006/page_104.pdf-2 ok).
+INFO deminh.experiment: Progress: 327/350 records generated (AOS/2010/page_18.pdf-2 ok).
+INFO deminh.experiment: Progress: 328/350 records generated (DRE/2008/page_46.pdf-1 ok).
+INFO deminh.experiment: Progress: 329/350 records generated (ETR/2011/page_301.pdf-3 ok).
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_301.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_301.pdf-3; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to ETR/2011/page_301.pdf-3; record left uncorrupted.
+INFO deminh.experiment: Progress: 330/350 records generated (PKG/2005/page_74.pdf-1 ok).
+INFO deminh.experiment: Progress: 331/350 records generated (SNA/2007/page_29.pdf-3 ok).
+INFO deminh.experiment: Progress: 332/350 records generated (PPG/2006/page_42.pdf-2 ok).
+INFO deminh.experiment: Progress: 333/350 records generated (HUM/2009/page_105.pdf-2 ok).
+WARNING deminh.agents: Analyst failed for HOLX/2009/page_151.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping HOLX/2009/page_151.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 334/350 records generated (HOLX/2009/page_151.pdf-2 skipped).
+INFO deminh.experiment: Progress: 335/350 records generated (RSG/2010/page_98.pdf-1 ok).
+INFO deminh.experiment: Progress: 336/350 records generated (AMT/2012/page_50.pdf-2 ok).
+INFO deminh.experiment: Progress: 337/350 records generated (JPM/2003/page_106.pdf-4 ok).
+INFO deminh.experiment: Progress: 338/350 records generated (GS/2015/page_188.pdf-3 ok).
+INFO deminh.experiment: Progress: 339/350 records generated (GS/2013/page_220.pdf-4 ok).
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2013/page_220.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2013/page_220.pdf-4; record left uncorrupted.
+INFO deminh.injection: Category wrong_extraction did not apply to GS/2013/page_220.pdf-4; record left uncorrupted.
+INFO deminh.experiment: Progress: 340/350 records generated (DVN/2018/page_35.pdf-3 ok).
+INFO deminh.experiment: Progress: 341/350 records generated (AAL/2010/page_72.pdf-2 ok).
+INFO deminh.injection: Category wrong_operation did not apply to AAL/2010/page_72.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to AAL/2010/page_72.pdf-2; record left uncorrupted.
+INFO deminh.injection: Category wrong_operation did not apply to AAL/2010/page_72.pdf-2; record left uncorrupted.
+INFO deminh.experiment: Progress: 342/350 records generated (TMUS/2017/page_29.pdf-4 ok).
+WARNING deminh.agents: Analyst failed for D/2002/page_87.pdf-2: float() argument must be a string or a real number, not 'NoneType'
+WARNING deminh.experiment: Skipping D/2002/page_87.pdf-2: generation produced no claim.
+INFO deminh.experiment: Progress: 343/350 records generated (D/2002/page_87.pdf-2 skipped).
+INFO deminh.experiment: Progress: 344/350 records generated (AMT/2003/page_102.pdf-1 ok).
+WARNING deminh.verification.selfcheck: Self-check unparseable for claim clm_41da282c: Expecting ',' delimiter: line 4 column 29 (char 277)
+INFO deminh.experiment: Progress: 345/350 records generated (BLL/2006/page_67.pdf-4 ok).
+INFO deminh.experiment: Progress: 346/350 records generated (ETR/2008/page_442.pdf-1 ok).
+INFO deminh.experiment: Progress: 347/350 records generated (GS/2012/page_121.pdf-1 ok).
+INFO deminh.experiment: Progress: 348/350 records generated (MS/2007/page_179.pdf-1 ok).
+INFO deminh.experiment: Progress: 349/350 records generated (AAL/2013/page_18.pdf-3 ok).
+INFO deminh.experiment: Progress: 350/350 records generated (IPG/2008/page_72.pdf-2 ok).
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 123,
+        "tn": 186,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 0.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.318,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 119,
+        "fp": 165,
+        "fn": 4,
+        "tn": 21,
+        "precision": 0.419,
+        "recall": 0.9675,
+        "f1": 0.5848,
+        "false_positive_rate": 0.8871
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 0.8846
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 0.9615
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 119
+      },
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.3475,
+        "delta": 0.0295,
+        "repaired": 17,
+        "harmed": 8,
+        "repair_rate": 0.0817,
+        "harm_rate": 0.0825,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 309,
+      "n_corrupted": 123,
+      "detection": {
+        "tp": 122,
+        "fp": 150,
+        "fn": 1,
+        "tn": 36,
+        "precision": 0.4485,
+        "recall": 0.9919,
+        "f1": 0.6177,
+        "false_positive_rate": 0.8065
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 26,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 26,
+          "recall": 0.9615
+        },
+        "sign_error": {
+          "n": 24,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 19,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 207,
+        "recompute": 119
+      },
+      "mitigation": {
+        "n": 305,
+        "accuracy_before": 0.318,
+        "accuracy_after": 0.3344,
+        "delta": 0.0164,
+        "repaired": 25,
+        "harmed": 20,
+        "repair_rate": 0.1202,
+        "harm_rate": 0.2062,
+        "skipped_no_gold": 4
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 309,
+      "deminh_right_self_wrong": 30,
+      "self_right_deminh_wrong": 12,
+      "n_discordant": 42,
+      "chi2": 6.881,
+      "p_value": 0.008712,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}
+
+Written to G:\deminh\deminh\results\run_002

@@ -46,7 +46,7 @@ def build_backend(args):
 
 def load_records(args):
     if args.dataset == "finqa":
-        return load_finqa(args.data_path, limit=args.limit)
+        return load_finqa(args.data_path, limit=args.limit, offset=args.offset)
     if args.dataset == "tatqa":
         return load_tatqa(args.data_path, limit=args.limit)
     return synthetic_records(n=args.limit or 20)
@@ -62,6 +62,10 @@ def main() -> int:
                         default="synthetic")
     parser.add_argument("--data-path", default=None)
     parser.add_argument("--limit", type=int, default=50)
+    parser.add_argument("--offset", type=int, default=0,
+                        help="Skip the first N items of the dataset before taking --limit "
+                             "(finqa only). Use this to cover fresh records in a follow-up "
+                             "run instead of re-processing a slice already on disk.")
     parser.add_argument("--injection-rate", type=float, default=0.5)
     parser.add_argument("--seed", type=int, default=1234)
     parser.add_argument("--no-langgraph", action="store_true")

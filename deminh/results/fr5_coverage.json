@@ -1,0 +1,13 @@
+{
+  "coverage_balance_sheet": 0.0,
+  "coverage_gross_profit": 0.0,
+  "coverage_operating_income": 0.0,
+  "coverage_any": 0.0,
+  "n_records": 50,
+  "n_extract_failed": 0,
+  "identity_names": [
+    "balance_sheet",
+    "gross_profit",
+    "operating_income"
+  ]
+}

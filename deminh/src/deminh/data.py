@@ -30,9 +30,16 @@ from .schemas import PipelineRecord
 log = logging.getLogger(__name__)
 
 
-def load_finqa(path: str | Path, limit: Optional[int] = None) -> list[PipelineRecord]:
-    """Load FinQA. Each item has pre_text, post_text, a table, and a qa block."""
-    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+def load_finqa(path: str | Path, limit: Optional[int] = None,
+                offset: int = 0) -> list[PipelineRecord]:
+    """Load FinQA. Each item has pre_text, post_text, a table, and a qa block.
+
+    `offset` skips the first N items in the file before collecting `limit`
+    records. Decoding is pinned (I3), so re-running the same slice of the
+    dataset reproduces identical output — offset lets a follow-up run cover
+    fresh items instead of repeating work already on disk from a prior run.
+    """
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))[offset:]
     records: list[PipelineRecord] = []
 
     for i, item in enumerate(payload):
