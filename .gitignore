@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+
+# Ollama server stdout/stderr from the overnight launcher - noise, not results
+deminh/results/run_003_ollama_serve.log
+deminh/results/run_003_ollama_serve.log.err
