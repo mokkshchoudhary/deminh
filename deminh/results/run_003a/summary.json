@@ -1,0 +1,179 @@
+{
+  "arms": {
+    "no_verifier": {
+      "n_records": 157,
+      "n_corrupted": 66,
+      "detection": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 66,
+        "tn": 91,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.0
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 14,
+          "recall": 0.0
+        },
+        "invented_figure": {
+          "n": 13,
+          "recall": 0.0
+        },
+        "scale_error": {
+          "n": 12,
+          "recall": 0.0
+        },
+        "sign_error": {
+          "n": 14,
+          "recall": 0.0
+        },
+        "wrong_extraction": {
+          "n": 11,
+          "recall": 0.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 0.0
+        }
+      },
+      "flags_by_mechanism": {},
+      "mitigation": {
+        "n": 154,
+        "accuracy_before": 0.2987,
+        "accuracy_after": 0.2987,
+        "delta": 0.0,
+        "repaired": 0,
+        "harmed": 0,
+        "repair_rate": 0.0,
+        "harm_rate": 0.0,
+        "skipped_no_gold": 3
+      },
+      "mean_coverage": 0.0
+    },
+    "self_check": {
+      "n_records": 157,
+      "n_corrupted": 66,
+      "detection": {
+        "tp": 60,
+        "fp": 81,
+        "fn": 6,
+        "tn": 10,
+        "precision": 0.4255,
+        "recall": 0.9091,
+        "f1": 0.5797,
+        "false_positive_rate": 0.8901
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 14,
+          "recall": 0.8571
+        },
+        "invented_figure": {
+          "n": 13,
+          "recall": 0.9231
+        },
+        "scale_error": {
+          "n": 12,
+          "recall": 0.9167
+        },
+        "sign_error": {
+          "n": 14,
+          "recall": 0.8571
+        },
+        "wrong_extraction": {
+          "n": 11,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 1.0
+        }
+      },
+      "flags_by_mechanism": {
+        "self_check": 60
+      },
+      "mitigation": {
+        "n": 154,
+        "accuracy_before": 0.2987,
+        "accuracy_after": 0.3117,
+        "delta": 0.013,
+        "repaired": 8,
+        "harmed": 6,
+        "repair_rate": 0.0741,
+        "harm_rate": 0.1304,
+        "skipped_no_gold": 3
+      },
+      "mean_coverage": 1.0
+    },
+    "deminh": {
+      "n_records": 157,
+      "n_corrupted": 65,
+      "detection": {
+        "tp": 64,
+        "fp": 80,
+        "fn": 1,
+        "tn": 12,
+        "precision": 0.4444,
+        "recall": 0.9846,
+        "f1": 0.6124,
+        "false_positive_rate": 0.8696
+      },
+      "detection_by_category": {
+        "arithmetic_slip": {
+          "n": 14,
+          "recall": 1.0
+        },
+        "invented_figure": {
+          "n": 13,
+          "recall": 1.0
+        },
+        "scale_error": {
+          "n": 12,
+          "recall": 1.0
+        },
+        "sign_error": {
+          "n": 14,
+          "recall": 1.0
+        },
+        "wrong_extraction": {
+          "n": 10,
+          "recall": 1.0
+        },
+        "wrong_operation": {
+          "n": 2,
+          "recall": 0.5
+        }
+      },
+      "flags_by_mechanism": {
+        "provenance": 101,
+        "recompute": 62
+      },
+      "mitigation": {
+        "n": 154,
+        "accuracy_before": 0.2987,
+        "accuracy_after": 0.3117,
+        "delta": 0.013,
+        "repaired": 12,
+        "harmed": 10,
+        "repair_rate": 0.1111,
+        "harm_rate": 0.2174,
+        "skipped_no_gold": 3
+      },
+      "mean_coverage": 1.0
+    }
+  },
+  "comparisons": {
+    "deminh_vs_self_check": {
+      "n_paired": 157,
+      "deminh_right_self_wrong": 16,
+      "self_right_deminh_wrong": 10,
+      "n_discordant": 26,
+      "chi2": 0.9615,
+      "p_value": 0.3268,
+      "note": "Fewer than ~25 discordant pairs makes this approximation unreliable; report n_discordant alongside p."
+    }
+  }
+}

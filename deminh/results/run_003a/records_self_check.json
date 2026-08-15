@@ -1,0 +1,3267 @@
+[
+  {
+    "question_id": "MRO/2006/page_93.pdf-1",
+    "question": "by what percentage did total amount of the liability for asset retirement obligations increase from 2003 to 2005?",
+    "gold_answer": 0.62329,
+    "pre_verification_answer": 52.955,
+    "final_answer": 52.955,
+    "injected": [
+      {
+        "target_id": "clm_adbcab4e",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 62.3,
+        "corrupted_value": 52.955,
+        "affected_claim_ids": [
+          "clm_adbcab4e"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UNP/2010/page_21.pdf-2",
+    "question": "for the quarter ended december 312010 what was percent of the total number of shares attested to upc by employees to pay stock option exercise prices",
+    "gold_answer": 0.18383,
+    "pre_verification_answer": 5.4,
+    "final_answer": 5.4,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_15d1a5fc",
+        "mechanism": "self_check",
+        "message": "The calculation inverted the ratio, dividing shares attested by employees (the numerator in the question's phrasing 'percent of total') against total shares instead of calculating what portion of the total was attested.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRK/2013/page_125.pdf-3",
+    "question": "what was the ratio of interest and penalties associated with uncertain tax positions in 2013 to 2012",
+    "gold_answer": 3.625,
+    "pre_verification_answer": 3.6,
+    "final_answer": 3.6,
+    "injected": [
+      {
+        "target_id": "fig_3470ac17",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 319.0,
+        "corrupted_value": 88.0,
+        "affected_claim_ids": [
+          "clm_e8e970fe"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e8e970fe",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the year 2013 is incorrect; the document states the benefit was $319 million in 2013, not $88 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2005/page_29.pdf-1",
+    "question": "assuming the same rate of growth as in 2005 , what would the projected risk free interest rate be in 2006?",
+    "gold_answer": 0.0585,
+    "pre_verification_answer": 9.0,
+    "final_answer": 9.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_127fea49",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the risk-free interest rate in 2005 was incorrectly read as 292.0% instead of 3.87%, and no calculation based on a growth rate from the document text was performed.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-2",
+    "question": "in 2003 what was the ratio of the structured commercial loan vehicles to credit-linked note vehicles",
+    "gold_answer": 0.29944,
+    "pre_verification_answer": 0.3,
+    "final_answer": 0.3,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_bb04b1f8",
+        "mechanism": "self_check",
+        "message": "The arithmetic is correct for the given figures, but the extracted figure for credit-linked note vehicles (17.7 billion) does not match its line item in the table which shows 9.2.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-2",
+    "question": "for the period of october 1 2011 to december 31 2011 , what was the difference between high and low share price?",
+    "gold_answer": 6.59,
+    "pre_verification_answer": 6.59,
+    "final_answer": 6.59,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-1",
+    "question": "what is the growth rate in operating expenses in 2014?",
+    "gold_answer": -0.01326,
+    "pre_verification_answer": -3.8,
+    "final_answer": -3.8,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eff82d12",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly labeled 'total non-compensation expenses' as 'operating expenses', leading to a calculation based on the wrong line items.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-3",
+    "question": "what is the approximate size of each data center leased in square feet",
+    "gold_answer": 83333.33333,
+    "pre_verification_answer": 500000.0,
+    "final_answer": 500000.0,
+    "injected": [
+      {
+        "target_id": "fig_409a458f",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 500000.0,
+        "corrupted_value": 500000000000.0,
+        "affected_claim_ids": [
+          "clm_d8ce0afa"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_d8ce0afa",
+        "mechanism": "self_check",
+        "message": "The extracted figure correctly identifies the value for data centers as 500,000 square feet from the table row.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MO/2014/page_39.pdf-2",
+    "question": "what are the npm adjustment items as a percentage of the operating companies income increase?",
+    "gold_answer": 0.80583,
+    "pre_verification_answer": 80.6,
+    "final_answer": 80.58,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8e1c60c5",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; dividing 664 million by 824 million and multiplying by 100 yields approximately 80.58%, not 80.6%.",
+        "proposed_value": 80.58
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-2",
+    "question": "what was the percent of the growth in measurement of the the priceline group inc . from 2014 to 2015",
+    "gold_answer": 0.11813,
+    "pre_verification_answer": 11.8,
+    "final_answer": 11.8,
+    "injected": [
+      {
+        "target_id": "fig_df27eaf5",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 243.79,
+        "corrupted_value": -243.79,
+        "affected_claim_ids": [
+          "clm_6423c103"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6423c103",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 2014 was incorrectly read as negative (-243.79), whereas the document shows a positive value (243.79).",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GRMN/2006/page_68.pdf-1",
+    "question": "what is the decrease observed in the operating leases with payments due to 3-5 years and payments due to more than 5 years?",
+    "gold_answer": 9437.0,
+    "pre_verification_answer": -9437.0,
+    "final_answer": -9437.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_88155bc5",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the calculation should subtract payments due to more than 5 years from those due in 3-5 years (6040 - 15477) rather than vice versa.",
+        "proposed_value": -9437.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-4",
+    "question": "what is the 3 year average net state effective tax rate?",
+    "gold_answer": 2.93333,
+    "pre_verification_answer": 14.45,
+    "final_answer": -14.37,
+    "injected": [
+      {
+        "target_id": "clm_94f6f692",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 17.0,
+        "corrupted_value": 14.45,
+        "affected_claim_ids": [
+          "clm_94f6f692"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_94f6f692",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly used the absolute value of -60.8% (which is 60.8) instead of its signed negative form (-60.8), leading to an erroneous average.",
+        "proposed_value": -14.37
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISH/2010/page_117.pdf-1",
+    "question": "what percentage of total minimum lease payments are due after 2015?",
+    "gold_answer": 0.50195,
+    "pre_verification_answer": 50.2,
+    "final_answer": 50.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_12bb6b36",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly uses the total minimum lease payments (including amounts due in or before 2015) as the denominator instead of only those due after 2015.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKR/2017/page_56.pdf-1",
+    "question": "what is the cash from operating activities in 2017 as a percentage of cash and equivalents in 2017?",
+    "gold_answer": 1.55986,
+    "pre_verification_answer": -11.4,
+    "final_answer": -11.42857143,
+    "injected": [
+      {
+        "target_id": "fig_aa78c3af",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 7000000000.0,
+        "corrupted_value": -799000000.0,
+        "affected_claim_ids": [
+          "clm_34045880"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_34045880",
+        "mechanism": "self_check",
+        "message": "The extracted figure for cash and equivalents was incorrectly identified as the operating activities value (-799 million); the correct cash and equivalents amount is $7,000 million ($7 billion) stated in the text.",
+        "proposed_value": -11.42857143
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2012/page_87.pdf-2",
+    "question": "what is the percent change of weighted-average estimated fair value of employee stock options between 2011 and 2012?",
+    "gold_answer": -0.27547,
+    "pre_verification_answer": -27.5,
+    "final_answer": -37.69,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_07cac07c",
+        "mechanism": "self_check",
+        "message": "The extracted figures are mislabeled; the values $9.6 and $13.25 correspond to expected volatility (24.0% and 28.8%) rather than weighted-average estimated fair value, which were correctly identified as $21.43 for 2012 and $13.25 for 2011.",
+        "proposed_value": -37.69
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-3",
+    "question": "what was the percentage change in net sales for the discontinued operations between 2008 and 2009?",
+    "gold_answer": -0.13666,
+    "pre_verification_answer": -14.6,
+    "final_answer": -14.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a570eaa3",
+        "mechanism": "self_check",
+        "message": "The extracted figures for net sales in 2009 and 2008 were read correctly, but the calculation used them incorrectly to produce a negative percentage change instead of a positive one.",
+        "proposed_value": -14.6
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2010/page_227.pdf-2",
+    "question": "what percentage of recourse debt as of december 31 , 2010 matures in 2015?",
+    "gold_answer": 0.10841,
+    "pre_verification_answer": 1.0,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ADBE/2008/page_74.pdf-3",
+    "question": "is the weighted average useful life ( years ) for trademarks greater than customer contracts and relationships?",
+    "gold_answer": null,
+    "pre_verification_answer": 5564768.62,
+    "final_answer": 5564768.62,
+    "injected": [
+      {
+        "target_id": "fig_d92b594e",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.0,
+        "corrupted_value": 5564768.62,
+        "affected_claim_ids": [
+          "clm_eae7f209"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_eae7f209",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used the adjusted operating figure instead of comparing the weighted average useful lives (trademarks = 5 vs customer contracts and relationships = 6), resulting in a false comparison.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2010/page_123.pdf-3",
+    "question": "what was the percent of the total number of securities to be issued upon exercise of outstanding options that was securities to be issued upon exercise of outstanding options",
+    "gold_answer": 0.99509,
+    "pre_verification_answer": 0.98,
+    "final_answer": 0.98,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_315d15e9",
+        "mechanism": "self_check",
+        "message": "The question asks for the percentage of total securities to be issued upon exercise that were from plans approved by security holders, but the calculation divides a figure by itself (1217121 / 1217121), which equals exactly 1.0 rather than the intended ratio.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UA/2011/page_69.pdf-2",
+    "question": "as of december 312012 what was the percent of the scheduled maturities of long term debt as part of the long term debt",
+    "gold_answer": 0.09715,
+    "pre_verification_answer": 8.9,
+    "final_answer": 8.9,
+    "injected": [
+      {
+        "target_id": "fig_dd1db571",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 6882000.0,
+        "corrupted_value": 6882.0,
+        "affected_claim_ids": [
+          "clm_38cbef88"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_38cbef88",
+        "mechanism": "self_check",
+        "message": "The extracted figure for total scheduled maturities was incorrectly read as 77,724,000 instead of the correct value in thousands (77,724), leading to an incorrect percentage calculation.",
+        "proposed_value": 8.9
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "NWS/2019/page_116.pdf-2",
+    "question": "what was the difference in millions of deferral of revenue and recognition of deferred revenue for the fiscal year ended june 30 , 2019?",
+    "gold_answer": -76.0,
+    "pre_verification_answer": 6092.0,
+    "final_answer": -84.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0c360e6a",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly added the absolute value of recognition to deferral instead of subtracting them, resulting in a sum rather than the requested difference.",
+        "proposed_value": -84.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2005/page_102.pdf-1",
+    "question": "what was the average write-off of construction-in-progress impairment charges from 2003 to 2005 in millions",
+    "gold_answer": 5.36667,
+    "pre_verification_answer": 600000000000.0,
+    "final_answer": 5.367,
+    "injected": [
+      {
+        "target_id": "fig_aeb85c34",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 9200000000000.0,
+        "corrupted_value": -9200000000000.0,
+        "affected_claim_ids": [
+          "clm_ac79e856"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ac79e856",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly converted the millions to billions and misaligned years, leading to an erroneous average of $2 billion instead of the correct $5 million.",
+        "proposed_value": 5.367
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2008/page_86.pdf-2",
+    "question": "what is the maximum percentage of the june 2008 , contingent consideration for impella that must be satisfied in cash ? t",
+    "gold_answer": 0.32143,
+    "pre_verification_answer": 94000000.0,
+    "final_answer": 94000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c34641b2",
+        "mechanism": "self_check",
+        "message": "The extracted figure incorrectly represents a dollar amount as a percentage and fails to calculate the maximum cash requirement ratio from the $1.8 million out of $11.2 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-3",
+    "question": "what was the average value of structured commercial loan vehicles issued by vies in 2002 and 2003 , in billions?",
+    "gold_answer": 6.25,
+    "pre_verification_answer": 5.3125,
+    "final_answer": 5.3125,
+    "injected": [
+      {
+        "target_id": "clm_e1c67031",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 6.25,
+        "corrupted_value": 5.3125,
+        "affected_claim_ids": [
+          "clm_e1c67031"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-2",
+    "question": "what was the percentage change in net earnings from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.01667,
+    "pre_verification_answer": 1.67,
+    "final_answer": 1.67,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_925f8d94",
+        "mechanism": "self_check",
+        "message": "The calculation used the correct figures but incorrectly applied absolute values to both the numerator and denominator, which negates any negative sign in the difference; however, since both numbers are positive here, the arithmetic is actually correct for a percentage increase.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2015/page_98.pdf-2",
+    "question": "in december 2015 what was the ratio of the restricted cash and marketable securities to the allowance for doubtful accounts",
+    "gold_answer": 2.14775,
+    "pre_verification_answer": 2.147,
+    "final_answer": 2.15,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d208010e",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong; dividing 100.3 million by 46.7 million yields approximately 2.15, not 2.147.",
+        "proposed_value": 2.15
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "INTC/2013/page_31.pdf-4",
+    "question": "what was the percent of the increase in the dow jones u.s . technology index from 2011 to 2012",
+    "gold_answer": 0.00573,
+    "pre_verification_answer": 9.4,
+    "final_answer": 9.4,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2015/page_171.pdf-2",
+    "question": "what was the percentage change in securities purchased under agreements to resell between 2014 and 2015?",
+    "gold_answer": -0.05497,
+    "pre_verification_answer": 4728795.95,
+    "final_answer": 4728795.95,
+    "injected": [
+      {
+        "target_id": "fig_21b3b369",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -5.1,
+        "corrupted_value": 4728795.95,
+        "affected_claim_ids": [
+          "clm_eea1286a"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_eea1286a",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 'adjusted operating figure' is completely unrelated to the table data regarding securities purchased under agreements to resell, and no calculation was performed on the correct figures (120905 and 127938).",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_65.pdf-3",
+    "question": "what was the percentage change in total managed consumer loans from 2006 to 2007?",
+    "gold_answer": 0.15421,
+    "pre_verification_answer": 13.8,
+    "final_answer": 13.8,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-3",
+    "question": "what is the total cash outflow for the share purchased during november 2018?",
+    "gold_answer": 53382250.0,
+    "pre_verification_answer": 53489720.0,
+    "final_answer": 53496720.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e8022d70",
+        "mechanism": "self_check",
+        "message": "The extracted figure corresponds to the cash outflow for October-November purchases only, but the question asks for total November 2018 outflows which includes both late October and all of November.",
+        "proposed_value": 53496720.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GIS/2017/page_31.pdf-2",
+    "question": "what portion of total long-term obligations are due in 2018?",
+    "gold_answer": 0.23155,
+    "pre_verification_answer": 0.65,
+    "final_answer": 0.65,
+    "injected": [
+      {
+        "target_id": "fig_2ddc6606",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 3112.0,
+        "corrupted_value": -3112.0,
+        "affected_claim_ids": [
+          "clm_aea4a032"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_aea4a032",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly used the value for '2019-20' instead of '2018', and also misidentified which figure represents total long-term obligations.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_188.pdf-3",
+    "question": "what is the net change amount of unrecognized tax benefits during 2007 , ( in millions ) ?",
+    "gold_answer": 17.0,
+    "pre_verification_answer": 1.0,
+    "final_answer": -2.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_3843beeb",
+        "mechanism": "self_check",
+        "message": "The document shows a reduction of $6 million for prior year tax positions and settlements of $5 million, resulting in a net change (additions minus reductions) of -2 million.",
+        "proposed_value": -2.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-4",
+    "question": "what was the change in millions in off-balance-sheet exposures between 2016 and 2017?",
+    "gold_answer": 16609.0,
+    "pre_verification_answer": -19077.35,
+    "final_answer": 16609.0,
+    "injected": [
+      {
+        "target_id": "clm_2f5244e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -16589.0,
+        "corrupted_value": -19077.35,
+        "affected_claim_ids": [
+          "clm_2f5244e2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2f5244e2",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; the difference between 408,164 and 391,555 is 16,609, not -19,077.35.",
+        "proposed_value": 16609.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2008/page_72.pdf-3",
+    "question": "what is the percentage increase from beginning to end of 2008 in unrecognized tax benefits?",
+    "gold_answer": 10.38576,
+    "pre_verification_answer": 10.4,
+    "final_answer": 10.4,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ca435487",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly omitted the decimal point, reading $134.8 as 134,800,000 and $148.8 as 148,800,000 instead of their actual values.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2008/page_122.pdf-2",
+    "question": "for 2008 across the three categories , what were the average mount of liabilities in millions?",
+    "gold_answer": 797.66667,
+    "pre_verification_answer": 38.4,
+    "final_answer": 38.4,
+    "injected": [
+      {
+        "target_id": "fig_57920096",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 250000000.0,
+        "corrupted_value": 1824000000.0,
+        "affected_claim_ids": [
+          "clm_dfd41327"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_dfd41327",
+        "mechanism": "self_check",
+        "message": "The extracted figure for automobile liabilities was incorrectly read as 1824 instead of the correct value 250 from the document table.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_100.pdf-3",
+    "question": "how many total private investor repurchase claims were there in 2011 and 2012 combined , in millions?",
+    "gold_answer": 184.0,
+    "pre_verification_answer": 184.0,
+    "final_answer": 184.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_dc946254",
+        "mechanism": "self_check",
+        "message": "The extraction swapped the years, assigning the 2012 value ($74M) to 2011 and vice versa.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-4",
+    "question": "what is the ratio of the flight attendants to pilots",
+    "gold_answer": 1.5679,
+    "pre_verification_answer": 0.78,
+    "final_answer": 1.57,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_703b79ba",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong because dividing flight attendants (25400) by pilots (16200) yields approximately 1.57, not 0.78.",
+        "proposed_value": 1.57
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-2",
+    "question": "what was the percentage change in dividends declared per common share between 2016 and 2017?",
+    "gold_answer": 0.11538,
+    "pre_verification_answer": 4541962.25,
+    "final_answer": 4541962.25,
+    "injected": [
+      {
+        "target_id": "fig_bc109638",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 11.5,
+        "corrupted_value": 4541962.25,
+        "affected_claim_ids": [
+          "clm_da3fc697"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_da3fc697",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used the adjusted operating figure instead of calculating the percentage change between dividends declared per common share in 2017 ($2.90) and 2016 ($2.60).",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2010/page_57.pdf-2",
+    "question": "what was the ratio of the remaining discount of the notes due in 2017 to 2016",
+    "gold_answer": 1.33488,
+    "pre_verification_answer": 3.93,
+    "final_answer": 3.93,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_14d87796",
+        "mechanism": "self_check",
+        "message": "The extracted figure for notes due in 2017 is correct, but the 'other debt' category does not represent remaining discounts on specific debts; instead, it represents a residual sum of various items including other maturing debt and potentially loss components.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HIG/2011/page_53.pdf-2",
+    "question": "in 2011 what was the summary of environmental reserves as of december 31 , 2011",
+    "gold_answer": 0.18081,
+    "pre_verification_answer": 320.0,
+    "final_answer": 320.0,
+    "injected": [
+      {
+        "target_id": "fig_3de54826",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 320.0,
+        "corrupted_value": 0.32,
+        "affected_claim_ids": [
+          "clm_63ae704c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_63ae704c",
+        "mechanism": "self_check",
+        "message": "The extracted figure incorrectly converted the dollar amount $320 into a decimal value of 0.32, whereas the correct numeric representation is 320.",
+        "proposed_value": 320.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2012/page_79.pdf-1",
+    "question": "what was total rent expense for fiscal years 2010 to 2012 , in millions?",
+    "gold_answer": 6.5,
+    "pre_verification_answer": 97.5,
+    "final_answer": 97.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eea0e47b",
+        "mechanism": "self_check",
+        "message": "The extracted figures are mislabeled as 'net income' but correspond to total rent expense for fiscal years 2012, 2011, and 2010 respectively ($1.6M, $2.7M, $2.2M), the planned calculation is mathematically flawed (dividing a sum by itself yields 1 or undefined when multiplied by 100 instead of averaging), and the arithmetic does not produce an average.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-1",
+    "question": "what was the average of company 401 ( k ) match total for the three years ended 2014 , in millions?",
+    "gold_answer": 382.66667,
+    "pre_verification_answer": 382.67,
+    "final_answer": 382.67,
+    "injected": [
+      {
+        "target_id": "fig_6243a4e7",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 385.0,
+        "corrupted_value": -385.0,
+        "affected_claim_ids": [
+          "clm_0a99db04"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2013/page_21.pdf-1",
+    "question": "what is the growth rate in net revenue for entergy wholesale commodities in 2012?",
+    "gold_answer": -0.0934,
+    "pre_verification_answer": -900.0,
+    "final_answer": -9.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_adc688db",
+        "mechanism": "self_check",
+        "message": "The document states the decrease was 9%, not 900%; however, since the question asks for growth rate and revenue decreased, a negative value is appropriate.",
+        "proposed_value": -9.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-3",
+    "question": "what is the roi of an investment in s&p500 from 2008 to 2009?",
+    "gold_answer": 0.2646,
+    "pre_verification_answer": 0.2852,
+    "final_answer": -0.1547,
+    "injected": [
+      {
+        "target_id": "clm_ccc37983",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 0.248,
+        "corrupted_value": 0.2852,
+        "affected_claim_ids": [
+          "clm_ccc37983"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ccc37983",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the end of 2009 was misread as 63.0 (which is actually the value at the end of 2008), leading to an incorrect ROI calculation.",
+        "proposed_value": -0.1547
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GRMN/2008/page_85.pdf-2",
+    "question": "what is the difference between the growth of the balance throughout the fiscal year , during 2007 and 2008?",
+    "gold_answer": 0.10222,
+    "pre_verification_answer": 87800000.0,
+    "final_answer": 87800000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_7875a3b3",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly subtracted the beginning balance of 2007 from the ending balance of 2008, whereas growth is defined as Ending Balance minus Beginning Balance.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FIS/2012/page_48.pdf-2",
+    "question": "what is the percentage change in the impact of euro from 2011 to 2012?",
+    "gold_answer": 0.02652,
+    "pre_verification_answer": 2.69,
+    "final_answer": 2.69,
+    "injected": [
+      {
+        "target_id": "fig_f578e558",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 26400000.0,
+        "corrupted_value": 27100000.0,
+        "affected_claim_ids": [
+          "clm_e1d2908c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e1d2908c",
+        "mechanism": "self_check",
+        "message": "The extracted figures are identical (both representing the same value), so there is no change to calculate, making the result of dividing by zero or comparing equal values incorrect.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DG/2005/page_44.pdf-3",
+    "question": "what is the cost difference over lifo in the last two years?",
+    "gold_answer": 12.1,
+    "pre_verification_answer": 500000000.0,
+    "final_answer": -500000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_4948bada",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong because subtracting 630 million from 580 million yields -50 million (or a difference of $500k), not +$500 million.",
+        "proposed_value": -500000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-1",
+    "question": "what was total liability reflected as other long-term liabilities in the accompanying consolidated balance sheets for december 31 , 2012 and 2011 in millions?",
+    "gold_answer": 121321.0,
+    "pre_verification_answer": -27399.0,
+    "final_answer": -27399.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b4b9224f",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly subtracted the two figures without accounting for their respective years, and the question asks for total liability values rather than a change.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ILMN/2003/page_58.pdf-2",
+    "question": "at december 292000 what was the ratio of the nasdaq composite index to the nasdaq pharmaceutical index",
+    "gold_answer": 0.68498,
+    "pre_verification_answer": 0.68,
+    "final_answer": 0.68,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c17ca3e7",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the nasdaq pharmaceutical index is incorrect; the document shows a value of 93.20, not 93.2.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-2",
+    "question": "what is the total value of shares purchased during october 2018?",
+    "gold_answer": 13435200.0,
+    "pre_verification_answer": 7810854.13,
+    "final_answer": 7810854.13,
+    "injected": [
+      {
+        "target_id": "fig_60df6393",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 90000.0,
+        "corrupted_value": 7810854.13,
+        "affected_claim_ids": [
+          "clm_5c8593dc"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_5c8593dc",
+        "mechanism": "self_check",
+        "message": "The extracted figure for adjusted operating income is unrelated to the question about shares purchased in October, and no specific calculation was performed; instead, a value from an irrelevant line item (adjusted operating figure) was retrieved.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAPL/2005/page_43.pdf-2",
+    "question": "inventory was what percent of total working capital in 2005?",
+    "gold_answer": 0.02421,
+    "pre_verification_answer": 2.4,
+    "final_answer": 2.4,
+    "injected": [
+      {
+        "target_id": "fig_e60d3add",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 165000000.0,
+        "corrupted_value": 165000.0,
+        "affected_claim_ids": [
+          "clm_e52b80ca"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e52b80ca",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly scaled the document values by a factor of one million, whereas the question asks for a percentage based on the actual millions shown in the table.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2016/page_139.pdf-2",
+    "question": "as of december 31 , 2016 what was the percent of the outstanding authorized purchase capacity of the the october 2015 plan",
+    "gold_answer": 0.50189,
+    "pre_verification_answer": 50.19,
+    "final_answer": 50.19,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c4e26282",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly divides the remaining capacity by the total added amount instead of dividing the remaining capacity by the original authorization before adding the new $900 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UAA/2016/page_42.pdf-4",
+    "question": "what was the percentage change in working capital from 2015 to 2016?",
+    "gold_answer": 0.25431,
+    "pre_verification_answer": 56.8,
+    "final_answer": -34.86,
+    "injected": [
+      {
+        "target_id": "fig_031a1d97",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 1019953.0,
+        "corrupted_value": -1019953.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_95db0caf",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 2015 was read with the wrong sign, resulting in an incorrect percentage change calculation.",
+        "proposed_value": -34.86
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MS/2013/page_132.pdf-2",
+    "question": "how much of the december 31 , 2013 201cevent- driven 201d loans and commitments will mature in 2014 , in billions?",
+    "gold_answer": 3.135,
+    "pre_verification_answer": -5.37625e+17,
+    "final_answer": -5.37625e+17,
+    "injected": [
+      {
+        "target_id": "clm_76c2f54d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -6.325e+17,
+        "corrupted_value": -5.37625e+17,
+        "affected_claim_ids": [
+          "clm_76c2f54d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_76c2f54d",
+        "mechanism": "self_check",
+        "message": "The extracted figures are incorrect due to a unit mismatch (billions vs millions), and the calculation logic is flawed because subtracting 'less than 1 year' from total exposure does not yield loans maturing in exactly 2014.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRO/2004/page_125.pdf-1",
+    "question": "what was the average ending balance in the discounted ending cash flow balance?",
+    "gold_answer": 5970.33333,
+    "pre_verification_answer": 5706.0,
+    "final_answer": 5706.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_480153e7",
+        "mechanism": "self_check",
+        "message": "The question asks for the average ending balance, but the extracted figure represents only one of three years (2004) rather than calculating an average across all available data.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2002/page_15.pdf-4",
+    "question": "what was the percentage change in the earnings from service operations increased from 2000 to 2001",
+    "gold_answer": 0.07012,
+    "pre_verification_answer": 6.98,
+    "final_answer": 6.98,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2014/page_70.pdf-1",
+    "question": "what percentage of total net revenue was due to net interest income in 2013?",
+    "gold_answer": 0.44841,
+    "pre_verification_answer": 4.5,
+    "final_answer": 4.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c33e5b3e",
+        "mechanism": "self_check",
+        "message": "The extracted figure for net interest income was read incorrectly as 43,319 million instead of the correct value in the document.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_49.pdf-3",
+    "question": "what is the average repurchase price per share paid during 2006?",
+    "gold_answer": -0.38213,
+    "pre_verification_answer": 57.1,
+    "final_answer": 57.1,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_9a0fe74e",
+        "mechanism": "self_check",
+        "message": "The total amount paid for share repurchases in 2006 was incorrectly extracted as $109,800,000,000,000 instead of the correct value of $109.8 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_29.pdf-2",
+    "question": "what is the roi in snap-on if the investment was made at the end of 2005 and sold at the end of 2007?",
+    "gold_answer": 0.34755,
+    "pre_verification_answer": 7026886.13,
+    "final_answer": 7026886.13,
+    "injected": [
+      {
+        "target_id": "fig_c95b4e8d",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.08,
+        "corrupted_value": 7026886.13,
+        "affected_claim_ids": [
+          "clm_ce934c5f"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ce934c5f",
+        "mechanism": "self_check",
+        "message": "The extracted figure for adjusted operating income is unrelated to the total shareholder return calculation required by the question.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "APD/2018/page_30.pdf-2",
+    "question": "what is the increase observed in the payment of dividends during 2017 and 2018?",
+    "gold_answer": 0.14555,
+    "pre_verification_answer": 5400.0,
+    "final_answer": 0.54,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b3ef97fa",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly converted the per-share dividend amounts (in dollars and cents) into whole-dollar values by omitting decimal places, leading to an incorrect difference of $540 instead of $0.54.",
+        "proposed_value": 0.54
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2011/page_301.pdf-2",
+    "question": "by how much did the receivables from the money pool differ from 2009 to 2010?",
+    "gold_answer": 12872.0,
+    "pre_verification_answer": 12872000.0,
+    "final_answer": 12872.0,
+    "injected": [
+      {
+        "target_id": "fig_34fbf9b9",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 63003000.0,
+        "corrupted_value": 63003000000000.0,
+        "affected_claim_ids": [
+          "clm_3fefa486"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_3fefa486",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the document, but the arithmetic was wrong because $63,003 - $50,131 equals $12,872 (in thousands), not $12,872,000.",
+        "proposed_value": 12872.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2011/page_32.pdf-2",
+    "question": "what were average net sales in millions for the three years ending in 2011?",
+    "gold_answer": 7657.1,
+    "pre_verification_answer": 7657.1,
+    "final_answer": 7657.1,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2010/page_120.pdf-2",
+    "question": "what was the percentage change in loans retained from 2009 to 2010?",
+    "gold_answer": 0.11212,
+    "pre_verification_answer": 11.2,
+    "final_answer": 11.2,
+    "injected": [
+      {
+        "target_id": "fig_439a8305",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 222510.0,
+        "corrupted_value": -222510.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6d9b2793",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the base year (2009) was incorrectly read as negative, and while the arithmetic on those wrong inputs matches the output, the correct percentage change using positive values is approximately -1.7%.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-1",
+    "question": "what was the percentage total cumulative return on investment for united parcel service inc . for the five years ended 12/31/2012?",
+    "gold_answer": 0.2146,
+    "pre_verification_answer": 2146.0,
+    "final_answer": 2146.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2c76e5af",
+        "mechanism": "self_check",
+        "message": "The extracted figure incorrectly labeled the raw ending value ($121.46) as a percentage return, whereas the correct cumulative total return is calculated from an initial investment of $100 to a final value of $121.46.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-1",
+    "question": "what was the percentage change in dividends declared per common share between 2015 and 2016?",
+    "gold_answer": 0.01961,
+    "pre_verification_answer": 22.540000000000003,
+    "final_answer": -8.333333333333334,
+    "injected": [
+      {
+        "target_id": "clm_1fb43f24",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 19.6,
+        "corrupted_value": 22.540000000000003,
+        "affected_claim_ids": [
+          "clm_1fb43f24"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_1fb43f24",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 2016 was read correctly as $2.60, but the calculation used an incorrect numerator (difference between 2015 and 2017 instead of 2015 and 2016), resulting in a percentage change based on the wrong years.",
+        "proposed_value": -8.333333333333334
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-1",
+    "question": "productivity in the plastics business measured by million $ sales per employee was what in 2009?",
+    "gold_answer": 0.635,
+    "pre_verification_answer": 635000.0,
+    "final_answer": 635000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_93215012",
+        "mechanism": "self_check",
+        "message": "The extracted sales figure of $635 million was correctly read, but the calculation divided by employees instead of multiplying to find total productivity per employee; however, since 'million dollars' is already in the unit and dividing 635 (millions) by 1000 yields a value that doesn't match the question's request for sales per employee directly from millions.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2012/page_140.pdf-2",
+    "question": "what was the percentage change in loans retained from 2011 to 2012?",
+    "gold_answer": 0.09996,
+    "pre_verification_answer": 9.7,
+    "final_answer": 9.7,
+    "injected": [
+      {
+        "target_id": "fig_6038fa0d",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 278395.0,
+        "corrupted_value": 306222.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b36e00a9",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the year ended December 31, 2011 is incorrect; the document shows loans retained as $283,016 million in 2011 and $313,183 million in 2012.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRO/2013/page_39.pdf-1",
+    "question": "in 2013 , was the percentage of our u.s . crude oil and condensate production that was sweet higher than 2012 ?",
+    "gold_answer": null,
+    "pre_verification_answer": 13.0,
+    "final_answer": 13.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SLG/2001/page_48.pdf-1",
+    "question": "was the fair value of the interest rate collar greater than the fair value of the interest rate swap?",
+    "gold_answer": null,
+    "pre_verification_answer": -4987.0,
+    "final_answer": -4987.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_651d5029",
+        "mechanism": "self_check",
+        "message": "The calculation is arithmetically correct for the extracted figures, but the question asks if one value was greater than the other (a boolean comparison), not for their difference; additionally, comparing -4096 to 891 shows they are unequal rather than determining which is larger.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2007/page_70.pdf-3",
+    "question": "what was the growth of consolidated net sales , in percentage , from 2005 to 2007",
+    "gold_answer": 1.30121,
+    "pre_verification_answer": 7.18,
+    "final_answer": 7.18,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0b1c902c",
+        "mechanism": "self_check",
+        "message": "The calculation used the wrong years (it calculated growth from 2006 to 2007 instead of 2005 to 2007) and misidentified the figures as 'consolidated net sales' when they were actually segment net sales.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2018/page_85.pdf-1",
+    "question": "are the 2018 environmental reserves greater than asbestos-related claim reserves?",
+    "gold_answer": 471.0,
+    "pre_verification_answer": 8565209.77,
+    "final_answer": 8565209.77,
+    "injected": [
+      {
+        "target_id": "fig_644400c6",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 1.0,
+        "corrupted_value": 8565209.77,
+        "affected_claim_ids": [
+          "clm_f56a0a83"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_f56a0a83",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used an unrelated adjusted operating figure instead of comparing the asbestos reserves ($180 million) with environmental reserves ($291 million).",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2012/page_29.pdf-1",
+    "question": "what are cumulative three year dividends in millions?",
+    "gold_answer": 1073.0,
+    "pre_verification_answer": 3.6,
+    "final_answer": 3.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_07105f0a",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly summed only the 2012 dividend figure instead of adding all three years (2012, 2011, and 2010) before converting to millions.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-3",
+    "question": "what was the percentage change in collateral posted between 2011 and 2012?",
+    "gold_answer": -0.16226,
+    "pre_verification_answer": -16.2,
+    "final_answer": -15.87,
+    "injected": [
+      {
+        "target_id": "fig_30395d50",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 24296.0,
+        "corrupted_value": 24.296,
+        "affected_claim_ids": [
+          "clm_df8ad040"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_df8ad040",
+        "mechanism": "self_check",
+        "message": "The extracted figure for December 2011 was misread as 24,296 instead of the correct value 29,002 from the document.",
+        "proposed_value": -15.87
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-1",
+    "question": "what was the fluctuation between the effective tax expense rate and the statutory u.s . federal tax rate in 2016?",
+    "gold_answer": 0.021,
+    "pre_verification_answer": -210.0,
+    "final_answer": -1790.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_89b11217",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly omitted the percent signs and decimal points, reading percentages as whole numbers which led to an erroneous calculation.",
+        "proposed_value": -1790.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-2",
+    "question": "what was the decrease of the effective tax expense rate between 2015 and 2016?",
+    "gold_answer": 0.034,
+    "pre_verification_answer": 93.7,
+    "final_answer": 93.7,
+    "injected": [
+      {
+        "target_id": "fig_4ca5e1e9",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": -60.8,
+        "corrupted_value": 60.8,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b7d6ee24",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 2016 is incorrect; the document shows a positive rate of 32.9%, not -32.9%.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-4",
+    "question": "what is the percentual increase observed in the net derivative gains during 2006 and 2007?",
+    "gold_answer": 0.6,
+    "pre_verification_answer": 60.0,
+    "final_answer": 60.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2015/page_17.pdf-1",
+    "question": "based on the analysis of the change in net revenue from 2014 to 2015 what was the percent of the change",
+    "gold_answer": 0.01639,
+    "pre_verification_answer": 1.36,
+    "final_answer": 1.64,
+    "injected": [
+      {
+        "target_id": "clm_e27cd1e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 1.6,
+        "corrupted_value": 1.36,
+        "affected_claim_ids": [
+          "clm_e27cd1e2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e27cd1e2",
+        "mechanism": "self_check",
+        "message": "The arithmetic is wrong; the correct calculation of (5829 - 5735) / 5735 * 100 yields approximately 1.64%, not 1.36%.",
+        "proposed_value": 1.64
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements between 2011 and 2012?",
+    "gold_answer": -0.20479,
+    "pre_verification_answer": -20.46,
+    "final_answer": -20.46,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0682ab85",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the document, but the calculation used absolute values in both the numerator and denominator while subtracting a smaller number from a larger one (35066 - 27885), resulting in an incorrect sign for the percentage change.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2012/page_73.pdf-1",
+    "question": "what was the ratio of the shares in 2012 to 2011 that were excluded in the calculation of the diluted earnings due to the anti-dilute nature",
+    "gold_answer": 0.91156,
+    "pre_verification_answer": 0.59,
+    "final_answer": 0.59,
+    "injected": [
+      {
+        "target_id": "fig_93bb1946",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 8.0,
+        "corrupted_value": 13.4,
+        "affected_claim_ids": [
+          "clm_1a3a293c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_1a3a293c",
+        "mechanism": "self_check",
+        "message": "The extracted figure for shares excluded in 2012 is correct (8.0 million), but the extraction for 2011 incorrectly lists 13.4 million instead of the actual value of 4.7 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MS/2013/page_139.pdf-2",
+    "question": "what is the total exposure to government related derivatives , in millions?",
+    "gold_answer": 2413.0,
+    "pre_verification_answer": 17614000000.0,
+    "final_answer": 17614.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b7a64a48",
+        "mechanism": "self_check",
+        "message": "The document states the total is $17,614 million (which equals 17,614,000,000 USD), but the question asks for the value in millions, so the answer should be 17614.",
+        "proposed_value": 17614.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ILMN/2008/page_86.pdf-1",
+    "question": "what was the percent of the change in the company 2019s uncertain tax positions from 2007 to 2008",
+    "gold_answer": 0.11237,
+    "pre_verification_answer": 211.2369011976048,
+    "final_answer": -12.5489036756048,
+    "injected": [
+      {
+        "target_id": "clm_42f04431",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 11.2,
+        "corrupted_value": 211.2369011976048,
+        "affected_claim_ids": [
+          "clm_42f04431"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_42f04431",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly added the two balances instead of subtracting them to find the change, and also misinterpreted 'percent of the change' as a percentage increase rather than a simple percent decrease.",
+        "proposed_value": -12.5489036756048
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-3",
+    "question": "what was the change in millions in total supplementary leverage exposure between 2016 and 2017?",
+    "gold_answer": 70843.0,
+    "pre_verification_answer": 70843.0,
+    "final_answer": -70843.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ca687a53",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; the difference between 1,270,173 and 1,341,016 should be approximately -70,843 (a decrease), not an increase of 70,843.",
+        "proposed_value": -70843.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "EL/2008/page_59.pdf-2",
+    "question": "considering the 2008 net deferred loss , what is the percentage of amortization expenses?",
+    "gold_answer": 0.51282,
+    "pre_verification_answer": 481677.02,
+    "final_answer": 481677.02,
+    "injected": [
+      {
+        "target_id": "fig_09a5a855",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.28,
+        "corrupted_value": 481677.02,
+        "affected_claim_ids": [
+          "clm_62a12927"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_62a12927",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used the adjusted operating figure instead of calculating the percentage based on the net deferred loss and amortization expense figures.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CE/2016/page_19.pdf-4",
+    "question": "what was the percentage change in the the research and development costs from 2014 to 2015",
+    "gold_answer": 59.5,
+    "pre_verification_answer": 38.97,
+    "final_answer": 38.97,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_9517092d",
+        "mechanism": "self_check",
+        "message": "The calculation used the wrong years (2014 to 2016) instead of the requested period from 2014 to 2015, and also misidentified the source text year for one figure.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JKHY/2019/page_18.pdf-1",
+    "question": "what was the percentage growth of the 5 year- cumulative total return for the 2018 peer group from 2016 to 2017",
+    "gold_answer": -125.06,
+    "pre_verification_answer": 26.1,
+    "final_answer": 26.1,
+    "injected": [
+      {
+        "target_id": "fig_6c95cae9",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 177.26,
+        "corrupted_value": 0.17726,
+        "affected_claim_ids": [
+          "clm_85e4f28d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_85e4f28d",
+        "mechanism": "self_check",
+        "message": "The extracted figure for 2017 was misread as a percentage (0.177%) instead of the raw value from the table (177.26), and the calculation used these incorrect inputs.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_69.pdf-2",
+    "question": "what is the percentage change in the balance of the minority interests in consolidated subsidiaries from 2006 to 2007?",
+    "gold_answer": 0.02976,
+    "pre_verification_answer": 2.97,
+    "final_answer": 2.98,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_da0e1255",
+        "mechanism": "self_check",
+        "message": "The arithmetic for the percentage change is incorrect; using $17,300,000 and $16,800,000 yields approximately 2.98%, not 2.97%.",
+        "proposed_value": 2.98
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "L/2009/page_84.pdf-2",
+    "question": "what is the return on investment for s&p500 from 2007 to 2008?",
+    "gold_answer": -0.37001,
+    "pre_verification_answer": -0.6,
+    "final_answer": -0.6,
+    "injected": [
+      {
+        "target_id": "fig_475af3fb",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 128.16,
+        "corrupted_value": -128.16,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FBHS/2017/page_22.pdf-2",
+    "question": "what was the amount of sales in that went to international markets in millions",
+    "gold_answer": 792.495,
+    "pre_verification_answer": 35.2,
+    "final_answer": 35.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_7e356aa5",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly multiplies the total sales by a percentage to get an absolute value, whereas the question asks for that specific amount in millions; additionally, the extracted figure for international sales is already given as a percentage (15%), so multiplying it again yields nonsense.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-1",
+    "question": "what is the total interest expense incurred by the senior unsecured notes that was redeemed in august 2005?",
+    "gold_answer": 7.2,
+    "pre_verification_answer": 295780000.0,
+    "final_answer": 295780000.0,
+    "injected": [
+      {
+        "target_id": "clm_4d56e9d3",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 257200000.0,
+        "corrupted_value": 295780000.0,
+        "affected_claim_ids": [
+          "clm_4d56e9d3"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_4d56e9d3",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly subtracted the prepayment penalty from the total cost, whereas interest expense is a component of the total redemption cost and cannot be derived by this subtraction without knowing accrued interest.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2015/page_114.pdf-1",
+    "question": "as of december 312013 what was the percent of labor-related deemed claim as part of the total reorganization items net",
+    "gold_answer": 0.65273,
+    "pre_verification_answer": 65.3,
+    "final_answer": 65.28,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_bbf6c5f7",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; the correct percentage of 1,733 million divided by 2,655 million multiplied by 100 is approximately 65.28%, not 65.3.",
+        "proposed_value": 65.28
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2014/page_149.pdf-1",
+    "question": "was the change in asset impairment charges between 2014 and 2013 in us$ m?",
+    "gold_answer": -4.7,
+    "pre_verification_answer": -345900000.0,
+    "final_answer": -4700000.0,
+    "injected": [
+      {
+        "target_id": "fig_1e050155",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 8554500000.0,
+        "corrupted_value": 8900000000.0,
+        "affected_claim_ids": [
+          "clm_a260bdf5"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_a260bdf5",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly identified the carrying values of assets ($8,900 million and $8,554.5 million) as the asset impairment charges; the actual charges were explicitly stated in the text as $11.2 million for 2014 and $15.9 million for 2013.",
+        "proposed_value": -4700000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-4",
+    "question": "what percent of total contractual obligations in 2011 are made up of long-term debt obligations?",
+    "gold_answer": 0.9721,
+    "pre_verification_answer": 97.2,
+    "final_answer": 97.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c0ad1b74",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong; dividing 59656 by 61368 and multiplying by 100 yields approximately 97.2%, which matches the answer provided.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-2",
+    "question": "what is the growth rate in operating expenses in 2013?",
+    "gold_answer": -0.02121,
+    "pre_verification_answer": -1.6,
+    "final_answer": -1.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a0b99837",
+        "mechanism": "self_check",
+        "message": "The extracted figures were swapped, assigning the 2013 value to fig_7a50e299 and the 2014 value to fig_bc4ab1c5, which reverses the direction of growth in the calculation.",
+        "proposed_value": -1.6
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RL/2008/page_23.pdf-2",
+    "question": "what percentage of factory retail stores as of march 29 , 2008 where located in japan?",
+    "gold_answer": 0.02532,
+    "pre_verification_answer": 2.5,
+    "final_answer": 2.5,
+    "injected": [
+      {
+        "target_id": "fig_a3f61119",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 4.0,
+        "corrupted_value": 4000000.0,
+        "affected_claim_ids": [
+          "clm_b6218aa6"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b6218aa6",
+        "mechanism": "self_check",
+        "message": "The extracted figure for Japan was read incorrectly as 4,000,000 instead of the actual value 4 found in the document.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2010/page_72.pdf-4",
+    "question": "what was the percentage decline in recorded international slot and route authorities to $ 708 million from $ 736 million as of december 31 , 2010 and 2009 , respectively .",
+    "gold_answer": -0.03804,
+    "pre_verification_answer": 3.9,
+    "final_answer": 3.9,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ZBH/2008/page_57.pdf-3",
+    "question": "what percent of total contractual obligations is due 2012 or after?",
+    "gold_answer": 0.76002,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "fig_90001501",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 531799999.99999994,
+        "corrupted_value": -531799999.99999994,
+        "affected_claim_ids": [
+          "clm_39f58296"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_39f58296",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the '2012 and 2013' column was misread as $531.8 (the total) instead of $460.1 million, leading to an incorrect calculation.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISCA/2011/page_49.pdf-2",
+    "question": "what was the percentage cumulative total shareholder return on discb from september 18 , 2008 to december 31 , 2011?",
+    "gold_answer": 1.1756,
+    "pre_verification_answer": -4.59,
+    "final_answer": -4.59,
+    "injected": [
+      {
+        "target_id": "clm_abd0fe36",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -5.4,
+        "corrupted_value": -4.59,
+        "affected_claim_ids": [
+          "clm_abd0fe36"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_abd0fe36",
+        "mechanism": "self_check",
+        "message": "The extracted figure for December 31, 2011 is correctly read as $217.56 (interpreted as 21756 in the list), but the calculation incorrectly subtracts this value from 100 instead of calculating percentage growth based on an initial investment of $100.",
+        "proposed_value": -4.59
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2001/page_85.pdf-4",
+    "question": "what percentage of scheduled maturities of total debt at december 31 , 2001 are due in 2005?",
+    "gold_answer": 0.08172,
+    "pre_verification_answer": 8.17,
+    "final_answer": 8.17,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e88570c8",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong; dividing 1819 by 22258 and multiplying by 100 yields approximately 8.17%, which matches the answer provided.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2014/page_76.pdf-2",
+    "question": "what is the percent change in number of shares purchased by employees between 2013 and 2014?",
+    "gold_answer": -0.06667,
+    "pre_verification_answer": -6.7,
+    "final_answer": -6.7,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e9104613",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the calculation used absolute values in both numerator and denominator instead of signed differences, resulting in a positive percentage change rather than negative.",
+        "proposed_value": -6.7
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLK/2017/page_121.pdf-2",
+    "question": "what percent does the unamortized discount and debt issuance costs reduce the carrying amount by?",
+    "gold_answer": 0.00536,
+    "pre_verification_answer": 5.3849222177901875e-05,
+    "final_answer": 5.3849222177901875e-05,
+    "injected": [
+      {
+        "target_id": "clm_ab0ef068",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 0.54,
+        "corrupted_value": 5.3849222177901875e-05,
+        "affected_claim_ids": [
+          "clm_ab0ef068"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ab0ef068",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly divided the discount amount by the carrying value instead of dividing by the maturity (principal) amount to determine what percentage of the debt principal is reduced.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2016/page_114.pdf-1",
+    "question": "what was the change in millions of vehicles from 2015 to 2016?",
+    "gold_answer": -6.0,
+    "pre_verification_answer": -6.0,
+    "final_answer": 6.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_472d2017",
+        "mechanism": "self_check",
+        "message": "The calculation subtracted the 2016 value from the 2015 value, but 'change in vehicles' typically implies a forward-looking increase (2016 minus 2015), resulting in +6.0 million.",
+        "proposed_value": 6.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2003/page_27.pdf-1",
+    "question": "what portion of the boston property will be offered for sub-lease?",
+    "gold_answer": 0.33333,
+    "pre_verification_answer": 8371490.19,
+    "final_answer": 10000.0,
+    "injected": [
+      {
+        "target_id": "fig_0edfabdd",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 10000.0,
+        "corrupted_value": 8371490.19,
+        "affected_claim_ids": [
+          "clm_2266f7f0"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2266f7f0",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the sub-lease portion is correct (10,000), but the planned calculation incorrectly uses an unrelated financial figure instead of applying absolute value to that specific number.",
+        "proposed_value": 10000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CE/2013/page_16.pdf-2",
+    "question": "what is the growth rate in dividends received in 2012 compare to 2011?",
+    "gold_answer": 0.0641,
+    "pre_verification_answer": 6.4,
+    "final_answer": 5.81,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ae9865a3",
+        "mechanism": "self_check",
+        "message": "The growth rate calculation is correct based on the extracted figures, but the final answer of 6.4% appears to be a rounding error; the precise value is approximately 5.81%.",
+        "proposed_value": 5.81
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-3",
+    "question": "by how much did the low of mktx stock increase from 2011 to march 2012?",
+    "gold_answer": 0.19088,
+    "pre_verification_answer": 9.48,
+    "final_answer": 9.48,
+    "injected": [
+      {
+        "target_id": "fig_5f676332",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 29.26,
+        "corrupted_value": 2.926e-05,
+        "affected_claim_ids": [
+          "clm_0658105a"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_0658105a",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the low price in Jan-Mar 2012 was incorrectly read as 2.926e-05 instead of 29.26, leading to an erroneous calculation.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_174.pdf-4",
+    "question": "what was the two-year total for specific reserves in the alll , in millions?",
+    "gold_answer": 1167.0,
+    "pre_verification_answer": 1167.0,
+    "final_answer": 1167.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_24ec1572",
+        "mechanism": "self_check",
+        "message": "The document states specific reserves were $587 million in 2012 and $580 million in 2011, but the question asks for 'specific reserves' generally (not just TDR), which are not provided; only TDR-specific reserves ($236.9M + $405.4M) can be calculated from Table 7-1.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2008/page_52.pdf-2",
+    "question": "as of december 31 , 2008 , what percentage of unrecognized tax benefits would not impact the effective if recognized?",
+    "gold_answer": 0.10101,
+    "pre_verification_answer": 10.1,
+    "final_answer": -89.0,
+    "injected": [
+      {
+        "target_id": "fig_4e88a064",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 99.0,
+        "corrupted_value": -99.0,
+        "affected_claim_ids": [
+          "clm_b9e67b15"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b9e67b15",
+        "mechanism": "self_check",
+        "message": "The extracted figure for unrecognized tax benefits impacting the effective rate is missing a negative sign, making the calculation yield an incorrect percentage.",
+        "proposed_value": -89.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ADBE/1999/page_64.pdf-2",
+    "question": "what portion of the 1999 accrual balance related to restructurings is comprised of canceled contracts?",
+    "gold_answer": 0.5,
+    "pre_verification_answer": 40.0,
+    "final_answer": 51.83,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_17a71fec",
+        "mechanism": "self_check",
+        "message": "The extracted figure for canceled contracts is correct at $0.4 million, but the calculation incorrectly divides a single component by itself to get 100% instead of dividing that amount by the total accrued balance ($772k) to find its true proportion.",
+        "proposed_value": 51.83
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-3",
+    "question": "what percent increase in long-term debt did the floating rate notes maturing in 2010?",
+    "gold_answer": 1.07555,
+    "pre_verification_answer": -3.366,
+    "final_answer": -3.366,
+    "injected": [
+      {
+        "target_id": "clm_2d4246b2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -3.96,
+        "corrupted_value": -3.366,
+        "affected_claim_ids": [
+          "clm_2d4246b2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2d4246b2",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly used the old floating rate notes ($250.0M) as the base for comparison instead of the total long-term debt maturing in 2008 listed in the table (which is $2.8M), and misinterpreted the question's intent regarding 'long-term debt' versus specific note types.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2012/page_93.pdf-2",
+    "question": "what was the percentage change in the additions charged to expense from 2011 to 2012 as part of the allowance for doubtful accounts",
+    "gold_answer": 0.41429,
+    "pre_verification_answer": 41.4,
+    "final_answer": 41.4,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_4db87344",
+        "mechanism": "self_check",
+        "message": "The extracted figures were swapped, assigning the 2012 value (29.7) to the first position and the 2011 value (21.0) to the second, which reverses the order required for calculating change from 2011 to 2012.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-3",
+    "question": "what was the difference in percentage change in priceline group and the s&p 500 index for the five year period ended 2016?",
+    "gold_answer": 1.1527,
+    "pre_verification_answer": -3.7,
+    "final_answer": -28.67,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly added extra zeros to the actual values from the document (e.g., using 313450000 instead of 313.45), which caused a massive error in the calculated percentage changes.",
+        "proposed_value": -28.67
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_68.pdf-5",
+    "question": "commercial mortgage loans held for sale designated at fair value at december 31 , 2012 were what percent of total loans held for sale?,",
+    "gold_answer": 0.20904,
+    "pre_verification_answer": 20.9,
+    "final_answer": 20.9,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e9c0507e",
+        "mechanism": "self_check",
+        "message": "The numerator figure was read correctly as $772 million, but the denominator (total loans held for sale) should be $3693 million based on the table's 'Total' row.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-2",
+    "question": "what percent of total contractual obligations in 2010 are made up of long-term debt obligations?",
+    "gold_answer": 0.56374,
+    "pre_verification_answer": 56.38,
+    "final_answer": 56.4,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eb4cf8a5",
+        "mechanism": "self_check",
+        "message": "The extracted total figure is incorrect; the document states $83,659 million (not billion), so the correct percentage calculation yields approximately 56.40%.",
+        "proposed_value": 56.4
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CB/2008/page_229.pdf-3",
+    "question": "what is the net income-to-capital ratio for bermuda subsidiaries in 2008?",
+    "gold_answer": 0.0977,
+    "pre_verification_answer": 6828279.43,
+    "final_answer": 6828279.43,
+    "injected": [
+      {
+        "target_id": "fig_1a070937",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.098,
+        "corrupted_value": 6828279.43,
+        "affected_claim_ids": [
+          "clm_caf72717"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_caf72717",
+        "mechanism": "self_check",
+        "message": "The extracted figure for adjusted operating income is not present in the document, and even if calculated from missing data, the correct ratio should use statutory net income ($684 million) divided by statutory capital and surplus ($7001 million), resulting in approximately 0.0977.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2006/page_67.pdf-1",
+    "question": "current assets were what percent of net assets acquired for the can and alcan transactions?",
+    "gold_answer": 259.7,
+    "pre_verification_answer": 0.5,
+    "final_answer": 0.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "self_check",
+        "message": "The extracted figures are missing entirely from the document, making verification of both the data extraction and the arithmetic impossible.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_63.pdf-3",
+    "question": "what was the change in millions of total shareholders' equity from 2012 to 2013?",
+    "gold_answer": 2751.0,
+    "pre_verification_answer": -784.3,
+    "final_answer": -784.3,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e48cf83e",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the table, but the arithmetic was wrong; subtracting 75,716 million (2012) from 78,467 million (2013) yields a change of +2,751 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-3",
+    "question": "what was the percentage of the consumer banking gain as part of the 2007 pretax total gain",
+    "gold_answer": 0.16523,
+    "pre_verification_answer": 1.7,
+    "final_answer": 1.7,
+    "injected": [
+      {
+        "target_id": "fig_685d01d9",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 96000000.0,
+        "corrupted_value": -96000000.0,
+        "affected_claim_ids": [
+          "clm_ce36c359"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ce36c359",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the total pretax gain ($581 million) was misread as $5,810 million (multiplied by 10), while the specific consumer banking gain of -$96 million is correctly identified; dividing -96 by 581 yields approximately -1.72%, not +1.7%.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HIG/2004/page_140.pdf-2",
+    "question": "what is the total effect of reclassifying certain separate accounts to general account on the net income and other comprehensive income?",
+    "gold_answer": 324.0,
+    "pre_verification_answer": 324.0,
+    "final_answer": 324.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a3a2fd62",
+        "mechanism": "self_check",
+        "message": "The question asks for the total effect on net income and other comprehensive income, which requires summing their individual impacts (-54 + 30 = -24) rather than adding them together (30 + 294).",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FIS/2016/page_9.pdf-1",
+    "question": "what is the growth rate for the gfs segment in 2016?",
+    "gold_answer": 0.80085,
+    "pre_verification_answer": 92.0,
+    "final_answer": 92.0,
+    "injected": [
+      {
+        "target_id": "clm_75626d1d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 80.0,
+        "corrupted_value": 92.0,
+        "affected_claim_ids": [
+          "clm_75626d1d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_75626d1d",
+        "mechanism": "self_check",
+        "message": "The extracted figure for GFS revenue in 2015 was read incorrectly as 2360 instead of the correct value from the table.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-1",
+    "question": "what was the tax rate applied to the company recorded sales of the mastercard shares in 2007 , the company recorded a $ 367 million after-tax gain ( $ 581 million pretax )",
+    "gold_answer": 0.36833,
+    "pre_verification_answer": 0.37,
+    "final_answer": 0.37,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-1",
+    "question": "what is the average size ( in square feet ) of switching centers in 2017?",
+    "gold_answer": 21311.47541,
+    "pre_verification_answer": 21311.48,
+    "final_answer": 21311.48,
+    "injected": [
+      {
+        "target_id": "fig_2557bf35",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 1300000.0,
+        "corrupted_value": 61.0,
+        "affected_claim_ids": [
+          "clm_bec76dda"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_bec76dda",
+        "mechanism": "self_check",
+        "message": "The figure for total size was misread as 61 instead of the correct value 1,300,000 from the document.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GPN/2010/page_89.pdf-1",
+    "question": "in 2009 what was the percentage change in the non-vested at may 31 2009",
+    "gold_answer": 0.47104,
+    "pre_verification_answer": 47.1,
+    "final_answer": 47.1,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_82058e7c",
+        "mechanism": "self_check",
+        "message": "The calculation used the correct figures (518 and 762), but the formula should divide by the absolute value of the starting amount for percentage change, which yields approximately 47.09%, not 47.1; however, rounding to one decimal place makes this technically acceptable.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_37.pdf-4",
+    "question": "without the charge for the a/r securitization , what would cash flows provided by operating activities for all operations in 2010 have been ( in millions ) ?",
+    "gold_answer": 765.2,
+    "pre_verification_answer": -250.0,
+    "final_answer": -765.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_aac79e75",
+        "mechanism": "self_check",
+        "message": "The calculation subtracts the reported cash flow from the adjusted cash flow, but since the securitization caused a $250 million outflow (reducing the total), removing that impact should result in adding back the amount to get the higher figure.",
+        "proposed_value": -765.2
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HOLX/2007/page_126.pdf-1",
+    "question": "what is the total value of intangible asset taken into account when setting up the estimated purchase price?",
+    "gold_answer": 79900.0,
+    "pre_verification_answer": -2180.0,
+    "final_answer": -2180.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_3d81df07",
+        "mechanism": "self_check",
+        "message": "The question asks for the total value of intangible assets, which is explicitly listed as $47,300 (sum of developed technology and know how ($12,300), customer relationship ($17,000), and trade name ($2,800)), not derived from a calculation involving net tangible assets.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_149.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements from 2012 to 2013?",
+    "gold_answer": -0.20473,
+    "pre_verification_answer": 1038004.42,
+    "final_answer": -20.49,
+    "injected": [
+      {
+        "target_id": "fig_686082f5",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -15.8,
+        "corrupted_value": 1038004.42,
+        "affected_claim_ids": [
+          "clm_70f3fcd9"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_70f3fcd9",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used the extracted 'adjusted operating figure' instead of calculating the percentage change between the net derivative liabilities for 2012 ($27,885) and 2013 ($22,176).",
+        "proposed_value": -20.49
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-3",
+    "question": "what was total change in unrecognized tax benefits in millions from january 1 2011 to december 31 2011?",
+    "gold_answer": 40264.0,
+    "pre_verification_answer": -470.0,
+    "final_answer": -470.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_6ad4de1b",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly subtracted the prior period decrease from the increases to find the total change, whereas the correct method is simply (Ending Balance - Beginning Balance) or summing all activity lines for that year.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CDNS/2015/page_30.pdf-1",
+    "question": "what is the rate of return in nasdaq of an investment from 2010 to 2011?",
+    "gold_answer": 0.1761,
+    "pre_verification_answer": -1.7,
+    "final_answer": -3.4598,
+    "injected": [
+      {
+        "target_id": "fig_350fafdb",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 117.61,
+        "corrupted_value": 117610000.0,
+        "affected_claim_ids": [
+          "clm_efd6d871"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_efd6d871",
+        "mechanism": "self_check",
+        "message": "The extracted figure for January 2, 2010 was incorrectly read as 117610000 instead of the correct value 100 from the document.",
+        "proposed_value": -3.4598
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-1",
+    "question": "what percentage of approximate number of active full-time equivalent employees consist of u.s airways employees?",
+    "gold_answer": 0.2895,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_6cbe4736",
+        "mechanism": "self_check",
+        "message": "The extracted figure for US Airways employees (32,800) was correctly identified as the second column in the table, but this value represents only one category of employee rather than the total number of active full-time equivalent employees.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-4",
+    "question": "what was the percentage improvement in the unbilled receivables on construction contracts from 2007 to 2008",
+    "gold_answer": -0.3142,
+    "pre_verification_answer": 45.8,
+    "final_answer": 45.83,
+    "injected": [
+      {
+        "target_id": "fig_a1df0087",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 22700000000000.0,
+        "corrupted_value": -22700000000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_da2d424f",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the year 2007 was read with a negative sign, which is incorrect as unbilled receivables cannot be negative.",
+        "proposed_value": 45.83
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "INTC/2015/page_41.pdf-3",
+    "question": "what is the percent of the square foot in millions of owned facilities in the other countries to the of the total owned facilities",
+    "gold_answer": 0.35908,
+    "pre_verification_answer": 3.6,
+    "final_answer": 0.359,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_720568db",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly, but the arithmetic is wrong because dividing 17.2 by 47.9 yields approximately 0.359 (or 35.9%), not 3.6.",
+        "proposed_value": 0.359
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_85.pdf-3",
+    "question": "what percentage of total average securities and certain overnight cash deposits that are included in gce during 2012 were non-u.s . dollar-denominated?",
+    "gold_answer": 0.27301,
+    "pre_verification_answer": 26.8,
+    "final_answer": 26.8,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2fb32962",
+        "mechanism": "self_check",
+        "message": "The extracted figure for non-U.S.-dollar-denominated securities was misread as $4,698 million instead of the correct table value of $46,984 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2018/page_175.pdf-1",
+    "question": "what was the percent change of the principal transactions revenue associated with interest rate risks from 2016 to 2017",
+    "gold_answer": 0.25349,
+    "pre_verification_answer": 25.3,
+    "final_answer": 25.3,
+    "injected": [
+      {
+        "target_id": "fig_4e9e33a5",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 4229000000.0,
+        "corrupted_value": 5301000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_431b801d",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly used the 2017 value for both years, failing to identify that fig_4e9e33a5 corresponds to 2016 ($4229) and fig_148874c9 corresponds to 2017 ($5301), resulting in an incorrect calculation of the percent change.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_189.pdf-4",
+    "question": "what was the percentage change in risk-weighted assets at gs bank usa between 2011 and 2012?",
+    "gold_answer": -0.02796,
+    "pre_verification_answer": 2.8,
+    "final_answer": 2.8,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_fb7728d0",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly added three extra zeros to the millions values, treating them as billions instead of millions.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CMCSA/2015/page_112.pdf-1",
+    "question": "what was the change in unrecognized tax benefits from the end of 2013 to the end of 2014?",
+    "gold_answer": -530.0,
+    "pre_verification_answer": -530.0,
+    "final_answer": -530.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_18497496",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the end of 2014 is incorrect; the table shows $1,701 million as the balance at December 31, 2015 (first column), while the second column represents January 1, 2016 ($1,136) and the third column represents January 1, 2014 ($1,701). The correct end-of-2014 balance is $1,701 million, making the change from 2013 to 2014 equal to zero.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GIS/2019/page_68.pdf-2",
+    "question": "what was the percent of the change in the net sales from 2017 to 2018",
+    "gold_answer": 0.01696,
+    "pre_verification_answer": 1.5,
+    "final_answer": 0.2764593185,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_990f145f",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the document, but the arithmetic calculation of the percentage change is wrong.",
+        "proposed_value": 0.2764593185
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-4",
+    "question": "in 2014 what was the ratio of the estimated future benefit payments due in 2015 compared to the amount after 2020",
+    "gold_answer": 0.15413,
+    "pre_verification_answer": 4580846.01,
+    "final_answer": 4580846.01,
+    "injected": [
+      {
+        "target_id": "fig_7f633637",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.154,
+        "corrupted_value": 4580846.01,
+        "affected_claim_ids": [
+          "clm_2f0175b2"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "D/2002/page_87.pdf-1",
+    "question": "estimated payments under natural gas pipeline and storage capacity commitments for the next three years total how much , in millions?",
+    "gold_answer": 70.0,
+    "pre_verification_answer": 34000000.0,
+    "final_answer": 70.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_78b51c14",
+        "mechanism": "self_check",
+        "message": "The extracted figure only covers the year 2003, but the question asks for the total over the next three years (2003-2005), which requires summing $34 million + $23 million + $13 million.",
+        "proposed_value": 70.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IP/2006/page_30.pdf-2",
+    "question": "brazilian paper sales represented what percentage of printing papers in 2005?",
+    "gold_answer": 0.06485,
+    "pre_verification_answer": 6.9,
+    "final_answer": 6.9,
+    "injected": [
+      {
+        "target_id": "fig_a7f1d821",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 7170000000.0,
+        "corrupted_value": 7170000000000000.0,
+        "affected_claim_ids": [
+          "clm_e1ff3ebd"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e1ff3ebd",
+        "mechanism": "self_check",
+        "message": "The extracted figure for printing papers sales in 2005 was read incorrectly as $7,170 million instead of the correct value from the table.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MMM/2013/page_75.pdf-1",
+    "question": "what was the ratio of the company contribution in 2011 to the amount in 2013 to the us pension contributions",
+    "gold_answer": 1.08613,
+    "pre_verification_answer": 85.4,
+    "final_answer": 85.4,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0a62d5dd",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the year 2013 is incorrect; the document states $6 million was contributed to postretirement plans, not U.S. pension contributions.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-3",
+    "question": "what is the percent of americans labor-related deemed claim as a part of the total claims and other bankruptcy settlement obligations as of december2013",
+    "gold_answer": 0.15653,
+    "pre_verification_answer": 15.65,
+    "final_answer": 15.65,
+    "injected": [
+      {
+        "target_id": "fig_5801f329",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 849000000.0,
+        "corrupted_value": -849000000.0,
+        "affected_claim_ids": [
+          "clm_d5203cac"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_d5203cac",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; the correct percentage of 849 to 5424 is approximately 15.65%, but the calculation shown in the prompt yields a different result due to an error.",
+        "proposed_value": 15.65
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-4",
+    "question": "what is the growth rate in the price of shares purchased by employees from 2006 to 2007?",
+    "gold_answer": 0.35829,
+    "pre_verification_answer": -26.5,
+    "final_answer": -15.45,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c89986e0",
+        "mechanism": "self_check",
+        "message": "The extracted figures are swapped; the weighted average price for 2006 is $24.98 and for 2007 is $33.93, which reverses the order used in the calculation.",
+        "proposed_value": -15.45
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SLB/2012/page_56.pdf-2",
+    "question": "the stock repurchase program reduced shares outstanding by how many million shares in the period?",
+    "gold_answer": 64.0,
+    "pre_verification_answer": -112700000.0,
+    "final_answer": -106700000.0,
+    "injected": [
+      {
+        "target_id": "clm_bd844291",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -98000000.0,
+        "corrupted_value": -112700000.0,
+        "affected_claim_ids": [
+          "clm_bd844291"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_bd844291",
+        "mechanism": "self_check",
+        "message": "The extracted figures are in millions, so summing them directly without converting to the actual share count results in a value that is off by a factor of one million.",
+        "proposed_value": -106700000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-3",
+    "question": "what was the percentage change in diluted earnings per common share from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.04171,
+    "pre_verification_answer": 14.5,
+    "final_answer": -3.65,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d90c590d",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly read the values from the table (reading 11.79 and 10.29 instead of 11.24 and 10.79), which leads to an incorrect percentage change calculation.",
+        "proposed_value": -3.65
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2002/page_128.pdf-4",
+    "question": "what was the average rental expense in millions for 2000 through 2002?",
+    "gold_answer": 55.33333,
+    "pre_verification_answer": 53.3,
+    "final_answer": 53.3,
+    "injected": [
+      {
+        "target_id": "fig_48d8fe99",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 31000000.0,
+        "corrupted_value": 58000000.0,
+        "affected_claim_ids": [
+          "clm_ac3564e1"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ac3564e1",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly map the source text values to years and duplicate entries, leading to an incorrect sum for the average calculation.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "VRTX/2006/page_111.pdf-2",
+    "question": "what percent of the gross total property and equipment values in 2006 are related to computers?",
+    "gold_answer": 0.32068,
+    "pre_verification_answer": 9.24,
+    "final_answer": 9.24,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d1688918",
+        "mechanism": "self_check",
+        "message": "The extracted figure for computers was incorrectly scaled by a factor of 1,000 (reading $19733 as $19,733,000 instead of the table's unit of thousands), which invalidates the calculation.",
+        "proposed_value": 9.24
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-3",
+    "question": "what are the average net unrealized investment gains for the period?",
+    "gold_answer": 67.0,
+    "pre_verification_answer": 67000000.0,
+    "final_answer": 67000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8285c6a3",
+        "mechanism": "self_check",
+        "message": "The figures were read correctly from the document, but the arithmetic is wrong because (76 + 73 + 52) / 3 equals approximately 67 million, not exactly 67000000.0.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETFC/2011/page_144.pdf-1",
+    "question": "as of december 312011 what was the ratio of the loans with a maturity in 2037 to the loans with a maturity in 2033",
+    "gold_answer": 1.69231,
+    "pre_verification_answer": 1.69,
+    "final_answer": 1.6923,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a0c2b192",
+        "mechanism": "self_check",
+        "message": "The extracted figures are correct, but the arithmetic is wrong as 110,000 divided by 65,000 equals approximately 1.6923.",
+        "proposed_value": 1.6923
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2001/page_33.pdf-3",
+    "question": "what was the 2001 first quarter average of high and low stock prices?",
+    "gold_answer": 50.725,
+    "pre_verification_answer": 5798562.17,
+    "final_answer": 5798562.17,
+    "injected": [
+      {
+        "target_id": "fig_191dcd83",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 50.725,
+        "corrupted_value": 5798562.17,
+        "affected_claim_ids": [
+          "clm_a43ffa90"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_a43ffa90",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the low stock price was misread as 41.30 instead of 39.95, and the calculation used an unrelated adjusted operating figure (5798562.17) rather than averaging the correct high ($60.15) and low ($39.95) prices.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-3",
+    "question": "what was the average basic net income available for common shareholders from 2006 to 2008 in millions",
+    "gold_answer": 209703.0,
+    "pre_verification_answer": 309714.3,
+    "final_answer": 309.714,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2ae8acaf",
+        "mechanism": "self_check",
+        "message": "The extracted figures were read correctly from the table (in thousands), but they failed to convert these values into millions before averaging, resulting in a value that is off by a factor of 1000.",
+        "proposed_value": 309.714
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DVN/2014/page_87.pdf-2",
+    "question": "what was the weighted value of the devon 2019s commercial paper borrowings as of december 31 , 2014 in millions",
+    "gold_answer": 410.08,
+    "pre_verification_answer": 932.0,
+    "final_answer": 932.0,
+    "injected": [
+      {
+        "target_id": "fig_cbf02a26",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 932000000.0,
+        "corrupted_value": 932000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-1",
+    "question": "what was the percentage change in the weighted average fair value for the espp shares purchased from 2007 to 2005",
+    "gold_answer": 0.76505,
+    "pre_verification_answer": 80.0,
+    "final_answer": 80.0,
+    "injected": [
+      {
+        "target_id": "fig_b4b66ed9",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 9.09,
+        "corrupted_value": -9.09,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_92d6c626",
+        "mechanism": "self_check",
+        "message": "The extracted figures incorrectly truncated the value for 2005 from $5.15 to $5.1, leading to an inaccurate percentage change calculation.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "VNO/2014/page_57.pdf-2",
+    "question": "what was the five year change in the s&p 500 index?",
+    "gold_answer": 105.0,
+    "pre_verification_answer": 105.0,
+    "final_answer": 105.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e2c39edf",
+        "mechanism": "self_check",
+        "message": "The five-year change is calculated as the difference between the 2014 value (205) and the 2009 value (100), which equals 105, so the answer appears correct despite the flawed extraction notes.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2008/page_94.pdf-1",
+    "question": "as of december 31 , 2008 , what was the percent of the maturities in 2012 of the aggregate carrying value of long-term debt , including capital leases",
+    "gold_answer": 0.45298,
+    "pre_verification_answer": 85.0,
+    "final_answer": 85.0,
+    "injected": [
+      {
+        "target_id": "clm_44fdb963",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 100.0,
+        "corrupted_value": 85.0,
+        "affected_claim_ids": [
+          "clm_44fdb963"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_44fdb963",
+        "mechanism": "self_check",
+        "message": "The calculation incorrectly divides the 2012 maturity amount by itself instead of dividing it by the total aggregate carrying value, and also misreads the document's table which lists values in thousands.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2015/page_93.pdf-1",
+    "question": "for interest only products , what percent of the total was due in 2020 and thereafter?",
+    "gold_answer": 0.40879,
+    "pre_verification_answer": 40.87,
+    "final_answer": 57.48,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_3c965e2d",
+        "mechanism": "self_check",
+        "message": "The extracted figure for the total interest-only product is incorrectly read as $8,124 million (from column 'a') instead of $3,690 million (column 'b'), leading to an incorrect percentage calculation.",
+        "proposed_value": 57.48
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2017/page_92.pdf-4",
+    "question": "what portion of the total contingent acquisition payments is related to deferred acquisition payments?",
+    "gold_answer": 0.45082,
+    "pre_verification_answer": 45.15,
+    "final_answer": 45.15,
+    "injected": [
+      {
+        "target_id": "fig_a06aed84",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 0.000121,
+        "corrupted_value": 0.000268,
+        "affected_claim_ids": [
+          "clm_10c7a478"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_10c7a478",
+        "mechanism": "self_check",
+        "message": "The extracted figure for deferred acquisition payments is incorrect; the document shows $121.0 million, not $268.4 million.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETFC/2012/page_43.pdf-2",
+    "question": "what was the percentage change in otti between 2011 and 2012?",
+    "gold_answer": 1.15217,
+    "pre_verification_answer": -2.0,
+    "final_answer": -0.3756410256410256,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_12536d9d",
+        "mechanism": "self_check",
+        "message": "The extracted figures are incorrect because the document shows gross OTTI as $19.8 million and $9.2 million, not approximately zero.",
+        "proposed_value": -0.3756410256410256
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-2",
+    "question": "what is the ratio of the aag series a preferred stock to single-dip equity obligations",
+    "gold_answer": 2.67175,
+    "pre_verification_answer": 2.67,
+    "final_answer": 2.67,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_4f58d240",
+        "mechanism": "self_check",
+        "message": "The arithmetic is incorrect; the ratio of 3,329 to 1,246 should be approximately 2.67 when rounded to two decimal places.",
+        "proposed_value": 2.67
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISH/2011/page_122.pdf-1",
+    "question": "what is the working capital of blockbuster at the point of acquisition?",
+    "gold_answer": 67178.0,
+    "pre_verification_answer": 3691682.18,
+    "final_answer": -86080.0,
+    "injected": [
+      {
+        "target_id": "fig_a2562212",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -86080000.0,
+        "corrupted_value": 3691682.18,
+        "affected_claim_ids": [
+          "clm_3c564604"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_3c564604",
+        "mechanism": "self_check",
+        "message": "The answer incorrectly used the extracted 'adjusted operating figure' instead of calculating working capital from current assets and liabilities, and misinterpreted the sign convention for negative numbers in financial statements.",
+        "proposed_value": -86080.0
+      }
+    ],
+    "coverage": 1.0
+  }
+]

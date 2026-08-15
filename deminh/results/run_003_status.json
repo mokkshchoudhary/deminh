@@ -1,0 +1,14 @@
+﻿{
+    "finished_at":  "2026-08-15 04:19:59",
+    "model":  "qwen3.5:4b",
+    "run_003a":  {
+                     "offset":  550,
+                     "result":  "ok",
+                     "limit":  175
+                 },
+    "run_003b":  {
+                     "offset":  725,
+                     "result":  "ok",
+                     "limit":  175
+                 }
+}

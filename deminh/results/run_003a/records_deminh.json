@@ -1,0 +1,4477 @@
+[
+  {
+    "question_id": "MRO/2006/page_93.pdf-1",
+    "question": "by what percentage did total amount of the liability for asset retirement obligations increase from 2003 to 2005?",
+    "gold_answer": 0.62329,
+    "pre_verification_answer": 52.955,
+    "final_answer": 62.328767123287676,
+    "injected": [
+      {
+        "target_id": "clm_adbcab4e",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 62.3,
+        "corrupted_value": 52.955,
+        "affected_claim_ids": [
+          "clm_adbcab4e"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_adbcab4e",
+        "mechanism": "recompute",
+        "message": "Claimed 52.955 but (fig_fbc3bc39 - fig_ac5ec35b) / abs(fig_ac5ec35b) * 100 evaluates to 62.328767123287676 under the extracted figures.",
+        "proposed_value": 62.328767123287676
+      },
+      {
+        "claim_id": "clm_adbcab4e",
+        "mechanism": "provenance",
+        "message": "Figure 'liability for asset retirement obligations (2005)' cites a span that does not appear verbatim in the document: '( in millions ) .\\ndecember 31 2005 | 711'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UNP/2010/page_21.pdf-2",
+    "question": "for the quarter ended december 312010 what was percent of the total number of shares attested to upc by employees to pay stock option exercise prices",
+    "gold_answer": 0.18383,
+    "pre_verification_answer": 5.4,
+    "final_answer": 5.439821029082774,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_15d1a5fc",
+        "mechanism": "recompute",
+        "message": "Claimed 5.4 but (fig_969de9ad / fig_23f64ba6) evaluates to 5.439821029082774 under the extracted figures.",
+        "proposed_value": 5.439821029082774
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRK/2013/page_125.pdf-3",
+    "question": "what was the ratio of interest and penalties associated with uncertain tax positions in 2013 to 2012",
+    "gold_answer": 3.625,
+    "pre_verification_answer": 3.6,
+    "final_answer": 1.0,
+    "injected": [
+      {
+        "target_id": "fig_08cdd162",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 88.0,
+        "corrupted_value": 319.0,
+        "affected_claim_ids": [
+          "clm_e8e970fe"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e8e970fe",
+        "mechanism": "recompute",
+        "message": "Claimed 3.6 but (fig_3470ac17 / fig_08cdd162) evaluates to 1.0 under the extracted figures.",
+        "proposed_value": 1.0
+      },
+      {
+        "claim_id": "clm_e8e970fe",
+        "mechanism": "provenance",
+        "message": "Figure 'interest and penalties benefit in 2013' has value 319.0 which does not appear in its cited span 'interest and penalties associated with uncertain tax positions amounted to a ben'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e8e970fe",
+        "mechanism": "provenance",
+        "message": "Figure 'interest and penalties benefit in 2012' has value 319.0 which does not appear in its cited span 'interest and penalties associated with uncertain tax positions amounted to a ben'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2005/page_29.pdf-1",
+    "question": "assuming the same rate of growth as in 2005 , what would the projected risk free interest rate be in 2006?",
+    "gold_answer": 0.0585,
+    "pre_verification_answer": 9.0,
+    "final_answer": 9.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_127fea49",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '1.03' for variable 'growth_factor'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_127fea49",
+        "mechanism": "provenance",
+        "message": "Figure 'risk-free interest rate' cites a span that does not appear verbatim in the document: '| risk-free interest rate | 2.92% ( 2.92 % ) |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_127fea49",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '1.03'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-2",
+    "question": "in 2003 what was the ratio of the structured commercial loan vehicles to credit-linked note vehicles",
+    "gold_answer": 0.29944,
+    "pre_verification_answer": 0.3,
+    "final_answer": 0.2994350282485876,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_bb04b1f8",
+        "mechanism": "recompute",
+        "message": "Claimed 0.3 but (fig_7c14c0d0 / fig_61f9be5e) evaluates to 0.2994350282485876 under the extracted figures.",
+        "proposed_value": 0.2994350282485876
+      },
+      {
+        "claim_id": "clm_bb04b1f8",
+        "mechanism": "provenance",
+        "message": "Figure 'structured commercial loan vehicles' cites a span that does not appear verbatim in the document: '| structured commercial loan vehicles | $ 5.3 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_bb04b1f8",
+        "mechanism": "provenance",
+        "message": "Figure 'credit-linked note vehicles' cites a span that does not appear verbatim in the document: '| credit-linked note vehicles | 17.7 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-2",
+    "question": "for the period of october 1 2011 to december 31 2011 , what was the difference between high and low share price?",
+    "gold_answer": 6.59,
+    "pre_verification_answer": 6.59,
+    "final_answer": 6.59,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-1",
+    "question": "what is the growth rate in operating expenses in 2014?",
+    "gold_answer": -0.01326,
+    "pre_verification_answer": -3.8,
+    "final_answer": -3.8,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eff82d12",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '9480000000.0 USD (FY2014)' for variable 'fig_6ec612c0'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_eff82d12",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '9480000000.0 USD (FY2014)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_eff82d12",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '9856000000.0 USD (FY2013)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-3",
+    "question": "what is the approximate size of each data center leased in square feet",
+    "gold_answer": 83333.33333,
+    "pre_verification_answer": 500000.0,
+    "final_answer": 0.5,
+    "injected": [
+      {
+        "target_id": "fig_409a458f",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 500000.0,
+        "corrupted_value": 0.5,
+        "affected_claim_ids": [
+          "clm_d8ce0afa"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_d8ce0afa",
+        "mechanism": "recompute",
+        "message": "Claimed 500000.0 but fig_409a458f evaluates to 0.5 under the extracted figures.",
+        "proposed_value": 0.5
+      },
+      {
+        "claim_id": "clm_d8ce0afa",
+        "mechanism": "provenance",
+        "message": "Figure 'approximate size' cites a span that does not appear verbatim in the document: '| approximate number | approximate size in square feet\\\\ndata centers | 6 | 50000'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MO/2014/page_39.pdf-2",
+    "question": "what are the npm adjustment items as a percentage of the operating companies income increase?",
+    "gold_answer": 0.80583,
+    "pre_verification_answer": 80.6,
+    "final_answer": 80.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8e1c60c5",
+        "mechanism": "provenance",
+        "message": "Figure 'npm adjustment items' has value 664000000.0 which does not appear in its cited span 'npm adjustment items ( $ 664 million )'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-2",
+    "question": "what was the percent of the growth in measurement of the the priceline group inc . from 2014 to 2015",
+    "gold_answer": 0.11813,
+    "pre_verification_answer": 11.8,
+    "final_answer": 2.1181344599860537,
+    "injected": [
+      {
+        "target_id": "fig_df27eaf5",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 243.79,
+        "corrupted_value": -243.79,
+        "affected_claim_ids": [
+          "clm_6423c103"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6423c103",
+        "mechanism": "recompute",
+        "message": "Claimed 11.8 but (fig_29276f1d - fig_df27eaf5) / abs(fig_df27eaf5) evaluates to 2.1181344599860537 under the extracted figures.",
+        "proposed_value": 2.1181344599860537
+      },
+      {
+        "claim_id": "clm_6423c103",
+        "mechanism": "provenance",
+        "message": "Figure 'measurement of priceline group inc in 2014' cites a span that does not appear verbatim in the document: '| 2014 | 243.79 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6423c103",
+        "mechanism": "provenance",
+        "message": "Figure 'measurement of priceline group inc in 2015' cites a span that does not appear verbatim in the document: '| 2015 | 272.59 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GRMN/2006/page_68.pdf-1",
+    "question": "what is the decrease observed in the operating leases with payments due to 3-5 years and payments due to more than 5 years?",
+    "gold_answer": 9437.0,
+    "pre_verification_answer": -9437.0,
+    "final_answer": -9437.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-4",
+    "question": "what is the 3 year average net state effective tax rate?",
+    "gold_answer": 2.93333,
+    "pre_verification_answer": 19.55,
+    "final_answer": 19.55,
+    "injected": [
+      {
+        "target_id": "clm_94f6f692",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 17.0,
+        "corrupted_value": 19.55,
+        "affected_claim_ids": [
+          "clm_94f6f692"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_94f6f692",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '-60.8' for variable 'fig_898737fc'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_94f6f692",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '-60.8'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_94f6f692",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '32.9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_94f6f692",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '36.3'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISH/2010/page_117.pdf-1",
+    "question": "what percentage of total minimum lease payments are due after 2015?",
+    "gold_answer": 0.50195,
+    "pre_verification_answer": 50.2,
+    "final_answer": 50.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_12bb6b36",
+        "mechanism": "provenance",
+        "message": "Figure 'minimum lease payments due after 2015 (thereafter)' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_12bb6b36",
+        "mechanism": "provenance",
+        "message": "Figure 'total minimum lease payments' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKR/2017/page_56.pdf-1",
+    "question": "what is the cash from operating activities in 2017 as a percentage of cash and equivalents in 2017?",
+    "gold_answer": 1.55986,
+    "pre_verification_answer": -11.4,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "fig_244a06e3",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": -799000000.0,
+        "corrupted_value": 7000000000.0,
+        "affected_claim_ids": [
+          "clm_34045880"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_34045880",
+        "mechanism": "recompute",
+        "message": "Claimed -11.4 but (fig_244a06e3 / fig_aa78c3af) * 100 evaluates to 100.0 under the extracted figures.",
+        "proposed_value": 100.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2012/page_87.pdf-2",
+    "question": "what is the percent change of weighted-average estimated fair value of employee stock options between 2011 and 2012?",
+    "gold_answer": -0.27547,
+    "pre_verification_answer": -27.5,
+    "final_answer": 27.54716981132076,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_07cac07c",
+        "mechanism": "recompute",
+        "message": "Claimed -27.5 but (abs(fig_5a68b7e7 - fig_4a6ed12a) / abs(fig_5a68b7e7)) * 100 evaluates to 27.54716981132076 under the extracted figures.",
+        "proposed_value": 27.54716981132076
+      },
+      {
+        "claim_id": "clm_07cac07c",
+        "mechanism": "provenance",
+        "message": "Figure 'weighted-average estimated fair value of employee stock options' cites a span that does not appear verbatim in the document: '| expected volatility | 28.8% ( 28.8 % ) |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_07cac07c",
+        "mechanism": "provenance",
+        "message": "Figure 'weighted-average estimated fair value of employee stock options' cites a span that does not appear verbatim in the document: '| expected volatility | 24.0% ( 24.0 % ) |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-3",
+    "question": "what was the percentage change in net sales for the discontinued operations between 2008 and 2009?",
+    "gold_answer": -0.13666,
+    "pre_verification_answer": -14.6,
+    "final_answer": -14.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a570eaa3",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net sales (2009)' for variable 'fig_aafc38ab'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a570eaa3",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net sales (2009)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a570eaa3",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net sales (2008)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2010/page_227.pdf-2",
+    "question": "what percentage of recourse debt as of december 31 , 2010 matures in 2015?",
+    "gold_answer": 0.10841,
+    "pre_verification_answer": 1.0,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_abcd3a6c",
+        "mechanism": "provenance",
+        "message": "Figure 'recourse debt maturing in 2015' cites a span that does not appear verbatim in the document: 'december 31 , annual maturities ( in millions )\\ndecember 31 | annual maturities '",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ADBE/2008/page_74.pdf-3",
+    "question": "is the weighted average useful life ( years ) for trademarks greater than customer contracts and relationships?",
+    "gold_answer": null,
+    "pre_verification_answer": 6446697.06,
+    "final_answer": 6446697.06,
+    "injected": [
+      {
+        "target_id": "fig_203d0d0c",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.0,
+        "corrupted_value": 6446697.06,
+        "affected_claim_ids": [
+          "clm_eae7f209"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_eae7f209",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Disallowed syntax: Compare",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_eae7f209",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 6,446,697.06'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2010/page_123.pdf-3",
+    "question": "what was the percent of the total number of securities to be issued upon exercise of outstanding options that was securities to be issued upon exercise of outstanding options",
+    "gold_answer": 0.99509,
+    "pre_verification_answer": 0.98,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_315d15e9",
+        "mechanism": "recompute",
+        "message": "Claimed 0.98 but (fig_eb7c1a65 / fig_eb7c1a65) evaluates to 1.0 under the extracted figures.",
+        "proposed_value": 1.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UA/2011/page_69.pdf-2",
+    "question": "as of december 312012 what was the percent of the scheduled maturities of long term debt as part of the long term debt",
+    "gold_answer": 0.09715,
+    "pre_verification_answer": 8.9,
+    "final_answer": 8854407.904894242,
+    "injected": [
+      {
+        "target_id": "fig_e7245be6",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 77724000.0,
+        "corrupted_value": 77.72399999999999,
+        "affected_claim_ids": [
+          "clm_38cbef88"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_38cbef88",
+        "mechanism": "recompute",
+        "message": "Claimed 8.9 but (fig_dd1db571 / fig_e7245be6) * 100 evaluates to 8854407.904894242 under the extracted figures.",
+        "proposed_value": 8854407.904894242
+      },
+      {
+        "claim_id": "clm_38cbef88",
+        "mechanism": "provenance",
+        "message": "Figure 'total scheduled maturities of long term debt' appears to be off by a factor of 0.001 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "NWS/2019/page_116.pdf-2",
+    "question": "what was the difference in millions of deferral of revenue and recognition of deferred revenue for the fiscal year ended june 30 , 2019?",
+    "gold_answer": -76.0,
+    "pre_verification_answer": 6092.0,
+    "final_answer": 6092.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0c360e6a",
+        "mechanism": "provenance",
+        "message": "Figure 'deferral of revenue' cites a span that does not appear verbatim in the document: '| deferral of revenue | 3008'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_0c360e6a",
+        "mechanism": "provenance",
+        "message": "Figure 'recognition of deferred revenue' cites a span that does not appear verbatim in the document: '| recognition of deferred revenue ( a ) | -3084'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2005/page_102.pdf-1",
+    "question": "what was the average write-off of construction-in-progress impairment charges from 2003 to 2005 in millions",
+    "gold_answer": 5.36667,
+    "pre_verification_answer": 600000000000.0,
+    "final_answer": 3833333333333.3335,
+    "injected": [
+      {
+        "target_id": "fig_7800e291",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 2300000000000.0,
+        "corrupted_value": -2300000000000.0,
+        "affected_claim_ids": [
+          "clm_ac79e856"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ac79e856",
+        "mechanism": "recompute",
+        "message": "Claimed 600000000000.0 but (sum([fig_7800e291, fig_342ca529, fig_aeb85c34]) / 3) evaluates to 3833333333333.3335 under the extracted figures.",
+        "proposed_value": 3833333333333.3335
+      },
+      {
+        "claim_id": "clm_ac79e856",
+        "mechanism": "provenance",
+        "message": "Figure 'construction-in-progress impairment charge' has value -2300000000000.0 which does not appear in its cited span 'for the year ended december 31 , 2005 , 2004 and 2003 , the company wrote-off ap'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ac79e856",
+        "mechanism": "provenance",
+        "message": "Figure 'construction-in-progress impairment charge' has value 4600000000000.0 which does not appear in its cited span 'for the year ended december 31 , 2005 , 2004 and 2003 , the company wrote-off ap'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ac79e856",
+        "mechanism": "provenance",
+        "message": "Figure 'construction-in-progress impairment charge' has value 9200000000000.0 which does not appear in its cited span 'for the year ended december 31 , 2005 , 2004 and 2003 , the company wrote-off ap'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2008/page_86.pdf-2",
+    "question": "what is the maximum percentage of the june 2008 , contingent consideration for impella that must be satisfied in cash ? t",
+    "gold_answer": 0.32143,
+    "pre_verification_answer": 94000000.0,
+    "final_answer": 94000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c34641b2",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Disallowed constant: None",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-3",
+    "question": "what was the average value of structured commercial loan vehicles issued by vies in 2002 and 2003 , in billions?",
+    "gold_answer": 6.25,
+    "pre_verification_answer": 7.1875,
+    "final_answer": 7.1875,
+    "injected": [
+      {
+        "target_id": "clm_e1c67031",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 6.25,
+        "corrupted_value": 7.1875,
+        "affected_claim_ids": [
+          "clm_e1c67031"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e1c67031",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '7.2' for variable 'fig_09adb091'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e1c67031",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '7.2'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e1c67031",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '5.3'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-2",
+    "question": "what was the percentage change in net earnings from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.01667,
+    "pre_verification_answer": 1.67,
+    "final_answer": 1.67,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_925f8d94",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net earnings from continuing operations FY2014' for variable 'fig_54f5345b'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_925f8d94",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net earnings from continuing operations FY2014'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_925f8d94",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net earnings from continuing operations FY2015'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2015/page_98.pdf-2",
+    "question": "in december 2015 what was the ratio of the restricted cash and marketable securities to the allowance for doubtful accounts",
+    "gold_answer": 2.14775,
+    "pre_verification_answer": 2.147,
+    "final_answer": 2147751.6059957175,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d208010e",
+        "mechanism": "recompute",
+        "message": "Claimed 2.147 but (fig_4af81ed5 / fig_8658ef24) evaluates to 2147751.6059957175 under the extracted figures.",
+        "proposed_value": 2147751.6059957175
+      },
+      {
+        "claim_id": "clm_d208010e",
+        "mechanism": "provenance",
+        "message": "Figure 'allowance for doubtful accounts' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "INTC/2013/page_31.pdf-4",
+    "question": "what was the percent of the increase in the dow jones u.s . technology index from 2011 to 2012",
+    "gold_answer": 0.00573,
+    "pre_verification_answer": 9.4,
+    "final_answer": 9.424083769633508,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8f008bb6",
+        "mechanism": "recompute",
+        "message": "Claimed 9.4 but (fig_50ddd86e - fig_b935ee62) / abs(fig_b935ee62) * 100 evaluates to 9.424083769633508 under the extracted figures.",
+        "proposed_value": 9.424083769633508
+      },
+      {
+        "claim_id": "clm_8f008bb6",
+        "mechanism": "provenance",
+        "message": "Figure 'dow jones u.s . technology index value in 2011' cites a span that does not appear verbatim in the document: '| dow jones u.s . technology index | $ 100 | $ 170 | $ 191 | $ 191 | $ 209 | $ 2'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_8f008bb6",
+        "mechanism": "provenance",
+        "message": "Figure 'dow jones u.s . technology index value in 2012' cites a span that does not appear verbatim in the document: '| dow jones u.s . technology index | $ 100 | $ 170 | $ 191 | $ 191 | $ 209 | $ 2'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2015/page_171.pdf-2",
+    "question": "what was the percentage change in securities purchased under agreements to resell between 2014 and 2015?",
+    "gold_answer": -0.05497,
+    "pre_verification_answer": 3774096.68,
+    "final_answer": 5.49719395332114,
+    "injected": [
+      {
+        "target_id": "fig_5cc938e2",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -5.1,
+        "corrupted_value": 3774096.68,
+        "affected_claim_ids": [
+          "clm_eea1286a"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_eea1286a",
+        "mechanism": "recompute",
+        "message": "Claimed 3774096.68 but (abs(fig_60363b93 - fig_0f34fac6) / abs(fig_0f34fac6)) * 100 evaluates to 5.49719395332114 under the extracted figures.",
+        "proposed_value": 5.49719395332114
+      },
+      {
+        "claim_id": "clm_eea1286a",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 3,774,096.68'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_65.pdf-3",
+    "question": "what was the percentage change in total managed consumer loans from 2006 to 2007?",
+    "gold_answer": 0.15421,
+    "pre_verification_answer": 13.8,
+    "final_answer": 13.8,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_074d8e92",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'total managed consumer loans in 2007' for variable 'fig_a3e1be79'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_074d8e92",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'total managed consumer loans in 2007'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_074d8e92",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'total managed consumer loans in 2006'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-3",
+    "question": "what is the total cash outflow for the share purchased during november 2018?",
+    "gold_answer": 53382250.0,
+    "pre_verification_answer": 53489720.0,
+    "final_answer": 53489720.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e8022d70",
+        "mechanism": "provenance",
+        "message": "Figure 'total cash outflow' has value 53489720.0 which does not appear in its cited span '10/28/18 to 11/24/18 | 335000 | $ 159.35'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GIS/2017/page_31.pdf-2",
+    "question": "what portion of total long-term obligations are due in 2018?",
+    "gold_answer": 0.23155,
+    "pre_verification_answer": 0.65,
+    "final_answer": -0.647172236503856,
+    "injected": [
+      {
+        "target_id": "fig_754a7553",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 2014.0,
+        "corrupted_value": -2014.0,
+        "affected_claim_ids": [
+          "clm_aea4a032"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_aea4a032",
+        "mechanism": "recompute",
+        "message": "Claimed 0.65 but (other_long_term_obligations / total_long_term_obligations) evaluates to -0.647172236503856 under the extracted figures.",
+        "proposed_value": -0.647172236503856
+      },
+      {
+        "claim_id": "clm_aea4a032",
+        "mechanism": "provenance",
+        "message": "Figure 'other long-term obligations' has value -2014.0 which does not appear in its cited span '2014'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_188.pdf-3",
+    "question": "what is the net change amount of unrecognized tax benefits during 2007 , ( in millions ) ?",
+    "gold_answer": 17.0,
+    "pre_verification_answer": 1.0,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-4",
+    "question": "what was the change in millions in off-balance-sheet exposures between 2016 and 2017?",
+    "gold_answer": 16609.0,
+    "pre_verification_answer": -19077.35,
+    "final_answer": 16609.0,
+    "injected": [
+      {
+        "target_id": "clm_2f5244e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -16589.0,
+        "corrupted_value": -19077.35,
+        "affected_claim_ids": [
+          "clm_2f5244e2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2f5244e2",
+        "mechanism": "recompute",
+        "message": "Claimed -19077.35 but (fig_a076dc09 - fig_b4c9e14e) evaluates to 16609.0 under the extracted figures.",
+        "proposed_value": 16609.0
+      },
+      {
+        "claim_id": "clm_2f5244e2",
+        "mechanism": "provenance",
+        "message": "Figure 'off-balance-sheet exposures' has value 408164.0 which does not appear in its cited span '$ in millions | for the three months ended or as of december 2017'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2f5244e2",
+        "mechanism": "provenance",
+        "message": "Figure 'off-balance-sheet exposures' cites a span that does not appear verbatim in the document: '$ in millions | for the three months ended or as of december 2016'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2008/page_72.pdf-3",
+    "question": "what is the percentage increase from beginning to end of 2008 in unrecognized tax benefits?",
+    "gold_answer": 10.38576,
+    "pre_verification_answer": 10.4,
+    "final_answer": 10.385756676557865,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ca435487",
+        "mechanism": "recompute",
+        "message": "Claimed 10.4 but (fig_9e2ba8c5 - fig_895f8ce0) / abs(fig_895f8ce0) * 100 evaluates to 10.385756676557865 under the extracted figures.",
+        "proposed_value": 10.385756676557865
+      },
+      {
+        "claim_id": "clm_ca435487",
+        "mechanism": "provenance",
+        "message": "Figure 'unrecognized tax benefits beginning balance' cites a span that does not appear verbatim in the document: '| balance at beginning of period | $ 134.8 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ca435487",
+        "mechanism": "provenance",
+        "message": "Figure 'unrecognized tax benefits ending balance' cites a span that does not appear verbatim in the document: '| balance at end of period | $ 148.8 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2008/page_122.pdf-2",
+    "question": "for 2008 across the three categories , what were the average mount of liabilities in millions?",
+    "gold_answer": 797.66667,
+    "pre_verification_answer": 38.4,
+    "final_answer": 1299333333.3333333,
+    "injected": [
+      {
+        "target_id": "fig_c14ef4a2",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 319000000.0,
+        "corrupted_value": 1824000000.0,
+        "affected_claim_ids": [
+          "clm_dfd41327"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_dfd41327",
+        "mechanism": "recompute",
+        "message": "Claimed 38.4 but (sum([fig_7f566cdb, fig_57920096, fig_c14ef4a2]) / 3) evaluates to 1299333333.3333333 under the extracted figures.",
+        "proposed_value": 1299333333.3333333
+      },
+      {
+        "claim_id": "clm_dfd41327",
+        "mechanism": "provenance",
+        "message": "Figure 'liabilities - credit card' cites a span that does not appear verbatim in the document: '| liabilities | 1824'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_dfd41327",
+        "mechanism": "provenance",
+        "message": "Figure 'liabilities - automobile' cites a span that does not appear verbatim in the document: '| liabilities | 1824 | 250'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_dfd41327",
+        "mechanism": "provenance",
+        "message": "Figure 'liabilities - mortgage' cites a span that does not appear verbatim in the document: '| liabilities | 1824'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_100.pdf-3",
+    "question": "how many total private investor repurchase claims were there in 2011 and 2012 combined , in millions?",
+    "gold_answer": 184.0,
+    "pre_verification_answer": 184.0,
+    "final_answer": 184.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-4",
+    "question": "what is the ratio of the flight attendants to pilots",
+    "gold_answer": 1.5679,
+    "pre_verification_answer": 0.78,
+    "final_answer": 1.5679012345679013,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_703b79ba",
+        "mechanism": "recompute",
+        "message": "Claimed 0.78 but (fig_eb95ce3d / fig_32cb6d15) evaluates to 1.5679012345679013 under the extracted figures.",
+        "proposed_value": 1.5679012345679013
+      },
+      {
+        "claim_id": "clm_703b79ba",
+        "mechanism": "provenance",
+        "message": "Figure 'number of flight attendants' cites a span that does not appear verbatim in the document: '| american | us airways | wholly-owned regional carriers | total\\nflight attendan'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-2",
+    "question": "what was the percentage change in dividends declared per common share between 2016 and 2017?",
+    "gold_answer": 0.11538,
+    "pre_verification_answer": 4163091.08,
+    "final_answer": 11.538461538461531,
+    "injected": [
+      {
+        "target_id": "fig_31bd6881",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 11.5,
+        "corrupted_value": 4163091.08,
+        "affected_claim_ids": [
+          "clm_da3fc697"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_da3fc697",
+        "mechanism": "recompute",
+        "message": "Claimed 4163091.08 but (fig_63297349 - fig_59cd9aa3) / abs(fig_59cd9aa3) * 100 evaluates to 11.538461538461531 under the extracted figures.",
+        "proposed_value": 11.538461538461531
+      },
+      {
+        "claim_id": "clm_da3fc697",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 4,163,091.08'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2010/page_57.pdf-2",
+    "question": "what was the ratio of the remaining discount of the notes due in 2017 to 2016",
+    "gold_answer": 1.33488,
+    "pre_verification_answer": 3.93,
+    "final_answer": 3.93,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HIG/2011/page_53.pdf-2",
+    "question": "in 2011 what was the summary of environmental reserves as of december 31 , 2011",
+    "gold_answer": 0.18081,
+    "pre_verification_answer": 320.0,
+    "final_answer": 0.32,
+    "injected": [
+      {
+        "target_id": "fig_3de54826",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 320.0,
+        "corrupted_value": 0.32,
+        "affected_claim_ids": [
+          "clm_63ae704c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_63ae704c",
+        "mechanism": "recompute",
+        "message": "Claimed 320.0 but fig_3de54826 evaluates to 0.32 under the extracted figures.",
+        "proposed_value": 0.32
+      },
+      {
+        "claim_id": "clm_63ae704c",
+        "mechanism": "provenance",
+        "message": "Figure 'net environmental reserves' cites a span that does not appear verbatim in the document: 'Net | $ 320'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ABMD/2012/page_79.pdf-1",
+    "question": "what was total rent expense for fiscal years 2010 to 2012 , in millions?",
+    "gold_answer": 6.5,
+    "pre_verification_answer": 97.5,
+    "final_answer": 97.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eea0e47b",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '[sum(fig_2cbbcb8d, fig_616ec1be, fig_68ee4c38)]' for variable 'net_income_sum'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_eea0e47b",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '[sum(fig_2cbbcb8d, fig_616ec1be, fig_68ee4c38)]'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-1",
+    "question": "what was the average of company 401 ( k ) match total for the three years ended 2014 , in millions?",
+    "gold_answer": 382.66667,
+    "pre_verification_answer": 382.67,
+    "final_answer": 129.33333333333334,
+    "injected": [
+      {
+        "target_id": "fig_98dd39d0",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 380.0,
+        "corrupted_value": -380.0,
+        "affected_claim_ids": [
+          "clm_0a99db04"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_0a99db04",
+        "mechanism": "recompute",
+        "message": "Claimed 382.67 but (sum([fig_6243a4e7, fig_90a24c42, fig_98dd39d0]) / 3) evaluates to 129.33333333333334 under the extracted figures.",
+        "proposed_value": 129.33333333333334
+      },
+      {
+        "claim_id": "clm_0a99db04",
+        "mechanism": "provenance",
+        "message": "Figure 'company 401(k) match total' has value 385.0 which does not appear in its cited span 'our contributions were $ 385 million in 2014'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_0a99db04",
+        "mechanism": "provenance",
+        "message": "Figure 'company 401(k) match total' has value 383.0 which does not appear in its cited span '$ 383 million in 2013'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_0a99db04",
+        "mechanism": "provenance",
+        "message": "Figure 'company 401(k) match total' has value -380.0 which does not appear in its cited span '$ 380 million in 2012'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2013/page_21.pdf-1",
+    "question": "what is the growth rate in net revenue for entergy wholesale commodities in 2012?",
+    "gold_answer": -0.0934,
+    "pre_verification_answer": -900.0,
+    "final_answer": -900.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_adc688db",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '-900.0' for variable 'fig_8c276a36'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_adc688db",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '-900.0'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-3",
+    "question": "what is the roi of an investment in s&p500 from 2008 to 2009?",
+    "gold_answer": 0.2646,
+    "pre_verification_answer": 0.2852,
+    "final_answer": 0.2646031746031746,
+    "injected": [
+      {
+        "target_id": "clm_ccc37983",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 0.248,
+        "corrupted_value": 0.2852,
+        "affected_claim_ids": [
+          "clm_ccc37983"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ccc37983",
+        "mechanism": "recompute",
+        "message": "Claimed 0.2852 but (fig_1a7618e6 - fig_eb7bf5c9) / abs(fig_eb7bf5c9) evaluates to 0.2646031746031746 under the extracted figures.",
+        "proposed_value": 0.2646031746031746
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GRMN/2008/page_85.pdf-2",
+    "question": "what is the difference between the growth of the balance throughout the fiscal year , during 2007 and 2008?",
+    "gold_answer": 0.10222,
+    "pre_verification_answer": 87800000.0,
+    "final_answer": 87800000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_7875a3b3",
+        "mechanism": "provenance",
+        "message": "Figure 'balance at beginning of year (2007)' cites a span that does not appear verbatim in the document: 'Balance at beginning of year | $ 126.6'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_7875a3b3",
+        "mechanism": "provenance",
+        "message": "Figure 'balance at december 27 2008 (end)' cites a span that does not appear verbatim in the document: 'Balance at december 27 2008 | $ 214.4'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FIS/2012/page_48.pdf-2",
+    "question": "what is the percentage change in the impact of euro from 2011 to 2012?",
+    "gold_answer": 0.02652,
+    "pre_verification_answer": 2.69,
+    "final_answer": 0.0,
+    "injected": [
+      {
+        "target_id": "fig_f578e558",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 26400000.0,
+        "corrupted_value": 27100000.0,
+        "affected_claim_ids": [
+          "clm_e1d2908c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e1d2908c",
+        "mechanism": "recompute",
+        "message": "Claimed 2.69 but (abs(fig_f23a580b - fig_f578e558) / abs(fig_f578e558)) * 100 evaluates to 0.0 under the extracted figures.",
+        "proposed_value": 0.0
+      },
+      {
+        "claim_id": "clm_e1d2908c",
+        "mechanism": "provenance",
+        "message": "Figure 'euro impact' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e1d2908c",
+        "mechanism": "provenance",
+        "message": "Figure 'euro impact' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DG/2005/page_44.pdf-3",
+    "question": "what is the cost difference over lifo in the last two years?",
+    "gold_answer": 12.1,
+    "pre_verification_answer": 500000000.0,
+    "final_answer": 500000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_4948bada",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'excess of current cost over lifo cost = 6300000000.0 USD (FY2005)' for variable 'fig_18240873'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_4948bada",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'excess of current cost over lifo cost = 6300000000.0 USD (FY2005)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_4948bada",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'excess of current cost over lifo cost = 5800000000.0 USD (FY2006)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-1",
+    "question": "what was total liability reflected as other long-term liabilities in the accompanying consolidated balance sheets for december 31 , 2012 and 2011 in millions?",
+    "gold_answer": 121321.0,
+    "pre_verification_answer": -27399.0,
+    "final_answer": 27399.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b4b9224f",
+        "mechanism": "recompute",
+        "message": "Claimed -27399.0 but (fig_5ba14b77 - fig_54316817) evaluates to 27399.0 under the extracted figures.",
+        "proposed_value": 27399.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ILMN/2003/page_58.pdf-2",
+    "question": "at december 292000 what was the ratio of the nasdaq composite index to the nasdaq pharmaceutical index",
+    "gold_answer": 0.68498,
+    "pre_verification_answer": 0.68,
+    "final_answer": 0.6849785407725322,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c17ca3e7",
+        "mechanism": "recompute",
+        "message": "Claimed 0.68 but (fig_0bdfb214 / fig_6052a3f4) evaluates to 0.6849785407725322 under the extracted figures.",
+        "proposed_value": 0.6849785407725322
+      },
+      {
+        "claim_id": "clm_c17ca3e7",
+        "mechanism": "provenance",
+        "message": "Figure 'nasdaq composite index value' has value 63.84 which does not appear in its cited span '| july 27 2000 | december 29 2000 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c17ca3e7",
+        "mechanism": "provenance",
+        "message": "Figure 'nasdaq pharmaceutical index value' has value 93.2 which does not appear in its cited span '| july 27 2000 | december 29 2000 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-2",
+    "question": "what is the total value of shares purchased during october 2018?",
+    "gold_answer": 13435200.0,
+    "pre_verification_answer": 8147596.05,
+    "final_answer": 90000.0,
+    "injected": [
+      {
+        "target_id": "fig_99a2fefa",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 90000.0,
+        "corrupted_value": 8147596.05,
+        "affected_claim_ids": [
+          "clm_5c8593dc"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_5c8593dc",
+        "mechanism": "recompute",
+        "message": "Claimed 8147596.05 but fig_4df0990f evaluates to 90000.0 under the extracted figures.",
+        "proposed_value": 90000.0
+      },
+      {
+        "claim_id": "clm_5c8593dc",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 8,147,596.05'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAPL/2005/page_43.pdf-2",
+    "question": "inventory was what percent of total working capital in 2005?",
+    "gold_answer": 0.02421,
+    "pre_verification_answer": 2.4,
+    "final_answer": 2420774.647887324,
+    "injected": [
+      {
+        "target_id": "fig_500a025f",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 6816000000.0,
+        "corrupted_value": 6816.0,
+        "affected_claim_ids": [
+          "clm_e52b80ca"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e52b80ca",
+        "mechanism": "recompute",
+        "message": "Claimed 2.4 but (fig_e60d3add / fig_500a025f) * 100 evaluates to 2420774.647887324 under the extracted figures.",
+        "proposed_value": 2420774.647887324
+      },
+      {
+        "claim_id": "clm_e52b80ca",
+        "mechanism": "provenance",
+        "message": "Figure 'inventory' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2016/page_139.pdf-2",
+    "question": "as of december 31 , 2016 what was the percent of the outstanding authorized purchase capacity of the the october 2015 plan",
+    "gold_answer": 0.50189,
+    "pre_verification_answer": 50.19,
+    "final_answer": 50.19,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UAA/2016/page_42.pdf-4",
+    "question": "what was the percentage change in working capital from 2015 to 2016?",
+    "gold_answer": 0.25431,
+    "pre_verification_answer": 56.8,
+    "final_answer": 56.8,
+    "injected": [
+      {
+        "target_id": "fig_cf5e3161",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 651370.0,
+        "corrupted_value": -651370.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_95db0caf",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'working capital in thousands (2016)' for variable 'fig_031a1d97'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_95db0caf",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'working capital in thousands (2016)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_95db0caf",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'working capital in thousands (2014)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MS/2013/page_132.pdf-2",
+    "question": "how much of the december 31 , 2013 201cevent- driven 201d loans and commitments will mature in 2014 , in billions?",
+    "gold_answer": 3.135,
+    "pre_verification_answer": -7.27375e+17,
+    "final_answer": 6.325e+17,
+    "injected": [
+      {
+        "target_id": "clm_76c2f54d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -6.325e+17,
+        "corrupted_value": -7.27375e+17,
+        "affected_claim_ids": [
+          "clm_76c2f54d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_76c2f54d",
+        "mechanism": "recompute",
+        "message": "Claimed -7.27375e+17 but (fig_42cfff13 - fig_c2c104ef) evaluates to 6.325e+17 under the extracted figures.",
+        "proposed_value": 6.325e+17
+      },
+      {
+        "claim_id": "clm_76c2f54d",
+        "mechanism": "provenance",
+        "message": "Figure 'mature less than 1 year' has value 3.175e+17 which does not appear in its cited span '33% ( 33 % ) will mature in less than 1 year'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRO/2004/page_125.pdf-1",
+    "question": "what was the average ending balance in the discounted ending cash flow balance?",
+    "gold_answer": 5970.33333,
+    "pre_verification_answer": 5706.0,
+    "final_answer": 5706.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_480153e7",
+        "mechanism": "provenance",
+        "message": "Figure 'average ending balance' has value 5706.0 which does not appear in its cited span 'end of year | $ 6469 | $ 6001 | $ 5441'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2002/page_15.pdf-4",
+    "question": "what was the percentage change in the earnings from service operations increased from 2000 to 2001",
+    "gold_answer": 0.07012,
+    "pre_verification_answer": 6.98,
+    "final_answer": 6.98,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_043ae21e",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '32800000.0 USD (FY2000)' for variable 'fig_8fdff640'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_043ae21e",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '32800000.0 USD (FY2000)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_043ae21e",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '35100000.0 USD (FY2001)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2014/page_70.pdf-1",
+    "question": "what percentage of total net revenue was due to net interest income in 2013?",
+    "gold_answer": 0.44841,
+    "pre_verification_answer": 4.5,
+    "final_answer": 44.84090015112933,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c33e5b3e",
+        "mechanism": "recompute",
+        "message": "Claimed 4.5 but (fig_a2a4acf9 / fig_f64a7d70) * 100 evaluates to 44.84090015112933 under the extracted figures.",
+        "proposed_value": 44.84090015112933
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_49.pdf-3",
+    "question": "what is the average repurchase price per share paid during 2006?",
+    "gold_answer": -0.38213,
+    "pre_verification_answer": 57.1,
+    "final_answer": 41962563.8897233,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_9a0fe74e",
+        "mechanism": "recompute",
+        "message": "Claimed 57.1 but (fig_d6b4d0aa / fig_83eedd62) evaluates to 41962563.8897233 under the extracted figures.",
+        "proposed_value": 41962563.8897233
+      },
+      {
+        "claim_id": "clm_9a0fe74e",
+        "mechanism": "provenance",
+        "message": "Figure 'total amount paid for share repurchases in 2006' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_29.pdf-2",
+    "question": "what is the roi in snap-on if the investment was made at the end of 2005 and sold at the end of 2007?",
+    "gold_answer": 0.34755,
+    "pre_verification_answer": 8099595.09,
+    "final_answer": 51.08000000000001,
+    "injected": [
+      {
+        "target_id": "fig_c5572f28",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.08,
+        "corrupted_value": 8099595.09,
+        "affected_claim_ids": [
+          "clm_ce934c5f"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ce934c5f",
+        "mechanism": "recompute",
+        "message": "Claimed 8099595.09 but (fig_ba55cf73 - fig_297d9177) evaluates to 51.08000000000001 under the extracted figures.",
+        "proposed_value": 51.08000000000001
+      },
+      {
+        "claim_id": "clm_ce934c5f",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 8,099,595.09'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "APD/2018/page_30.pdf-2",
+    "question": "what is the increase observed in the payment of dividends during 2017 and 2018?",
+    "gold_answer": 0.14555,
+    "pre_verification_answer": 5400.0,
+    "final_answer": 5400.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2011/page_301.pdf-2",
+    "question": "by how much did the receivables from the money pool differ from 2009 to 2010?",
+    "gold_answer": 12872.0,
+    "pre_verification_answer": 12872000.0,
+    "final_answer": -50067997000.0,
+    "injected": [
+      {
+        "target_id": "fig_ab63e939",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 50131000.0,
+        "corrupted_value": 50131000000.0,
+        "affected_claim_ids": [
+          "clm_3fefa486"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_3fefa486",
+        "mechanism": "recompute",
+        "message": "Claimed 12872000.0 but (fig_34fbf9b9 - fig_ab63e939) evaluates to -50067997000.0 under the extracted figures.",
+        "proposed_value": -50067997000.0
+      },
+      {
+        "claim_id": "clm_3fefa486",
+        "mechanism": "provenance",
+        "message": "Figure 'receivables from money pool' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_3fefa486",
+        "mechanism": "provenance",
+        "message": "Figure 'receivables from money pool' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2011/page_32.pdf-2",
+    "question": "what were average net sales in millions for the three years ending in 2011?",
+    "gold_answer": 7657.1,
+    "pre_verification_answer": 7657.1,
+    "final_answer": 7657.1,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2010/page_120.pdf-2",
+    "question": "what was the percentage change in loans retained from 2009 to 2010?",
+    "gold_answer": 0.11212,
+    "pre_verification_answer": 11.2,
+    "final_answer": 11.2,
+    "injected": [
+      {
+        "target_id": "fig_bef8cf40",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 200077.0,
+        "corrupted_value": -200077.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_6d9b2793",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '200077.0 millions USD (FY2009)' for variable 'fig_bef8cf40'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6d9b2793",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '200077.0 millions USD (FY2009)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6d9b2793",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '222510.0 millions USD (FY2010)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-1",
+    "question": "what was the percentage total cumulative return on investment for united parcel service inc . for the five years ended 12/31/2012?",
+    "gold_answer": 0.2146,
+    "pre_verification_answer": 2146.0,
+    "final_answer": 2146.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2c76e5af",
+        "mechanism": "provenance",
+        "message": "Figure 'percentage total cumulative return on investment' has value 2146.0 which does not appear in its cited span '| 12/31/2007 | 12/31/2008 | 12/31/2009 | 12/31/2010 | 12/31/2011 | 12/31/2012\\nun'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-1",
+    "question": "what was the percentage change in dividends declared per common share between 2015 and 2016?",
+    "gold_answer": 0.01961,
+    "pre_verification_answer": 16.66,
+    "final_answer": 16.66,
+    "injected": [
+      {
+        "target_id": "clm_1fb43f24",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 19.6,
+        "corrupted_value": 16.66,
+        "affected_claim_ids": [
+          "clm_1fb43f24"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_1fb43f24",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '2.6' for variable 'fig_4f5dd385'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_1fb43f24",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '2.6'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_1fb43f24",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '2.55'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-1",
+    "question": "productivity in the plastics business measured by million $ sales per employee was what in 2009?",
+    "gold_answer": 0.635,
+    "pre_verification_answer": 635000.0,
+    "final_answer": 635000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JPM/2012/page_140.pdf-2",
+    "question": "what was the percentage change in loans retained from 2011 to 2012?",
+    "gold_answer": 0.09996,
+    "pre_verification_answer": 9.7,
+    "final_answer": 9.7,
+    "injected": [
+      {
+        "target_id": "fig_6038fa0d",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 278395.0,
+        "corrupted_value": 306222.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b36e00a9",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'loans retained FY2012' for variable 'fig_2738eb2e'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b36e00a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'loans retained FY2012'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b36e00a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'loans retained FY2011'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MRO/2013/page_39.pdf-1",
+    "question": "in 2013 , was the percentage of our u.s . crude oil and condensate production that was sweet higher than 2012 ?",
+    "gold_answer": null,
+    "pre_verification_answer": 13.0,
+    "final_answer": 13.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a663dc7a",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'percentage of u.s. crude oil and condensate production that was sweet in 2013' for variable 'fig_fda37af9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a663dc7a",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'percentage of u.s. crude oil and condensate production that was sweet in 2013'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a663dc7a",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'percentage of u.s. crude oil and condensate production that was sweet in 2012'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SLG/2001/page_48.pdf-1",
+    "question": "was the fair value of the interest rate collar greater than the fair value of the interest rate swap?",
+    "gold_answer": null,
+    "pre_verification_answer": -4987.0,
+    "final_answer": -4987.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_651d5029",
+        "mechanism": "provenance",
+        "message": "Figure 'fair value of interest rate collar' cites a span that does not appear verbatim in the document: '| interest rate collar | $ 70000 | 6.580% ( 6.580 % ) | 11/2004 | $ -4096 ( 4096'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_651d5029",
+        "mechanism": "provenance",
+        "message": "Figure 'fair value of interest rate swap' cites a span that does not appear verbatim in the document: '| interest rate swap | $ 65000 | 4.010 | 8/2005 | $ 891'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2007/page_70.pdf-3",
+    "question": "what was the growth of consolidated net sales , in percentage , from 2005 to 2007",
+    "gold_answer": 1.30121,
+    "pre_verification_answer": 7.18,
+    "final_answer": 7.18,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2018/page_85.pdf-1",
+    "question": "are the 2018 environmental reserves greater than asbestos-related claim reserves?",
+    "gold_answer": 471.0,
+    "pre_verification_answer": 6888642.06,
+    "final_answer": 6888642.06,
+    "injected": [
+      {
+        "target_id": "fig_2995c6a3",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 1.0,
+        "corrupted_value": 6888642.06,
+        "affected_claim_ids": [
+          "clm_f56a0a83"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_f56a0a83",
+        "mechanism": "recompute",
+        "message": "Expression could not be evaluated: Disallowed syntax: Compare",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_f56a0a83",
+        "mechanism": "provenance",
+        "message": "Figure 'asbestos-related claim reserves' has value 180.0 which does not appear in its cited span 'ppg has established reserves totaling approximately $ 180 million for asbestos-r'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_f56a0a83",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 6,888,642.06'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2012/page_29.pdf-1",
+    "question": "what are cumulative three year dividends in millions?",
+    "gold_answer": 1073.0,
+    "pre_verification_answer": 3.6,
+    "final_answer": 358.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_07105f0a",
+        "mechanism": "recompute",
+        "message": "Claimed 3.6 but (sum([fig_5230484e]) / 1000000) evaluates to 358.0 under the extracted figures.",
+        "proposed_value": 358.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-3",
+    "question": "what was the percentage change in collateral posted between 2011 and 2012?",
+    "gold_answer": -0.16226,
+    "pre_verification_answer": -16.2,
+    "final_answer": 99.9162264671402,
+    "injected": [
+      {
+        "target_id": "fig_30395d50",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 24296.0,
+        "corrupted_value": 24.296,
+        "affected_claim_ids": [
+          "clm_df8ad040"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_df8ad040",
+        "mechanism": "recompute",
+        "message": "Claimed -16.2 but (abs(fig_30395d50 - fig_4d5a59f8) / abs(fig_4d5a59f8)) * 100 evaluates to 99.9162264671402 under the extracted figures.",
+        "proposed_value": 99.9162264671402
+      },
+      {
+        "claim_id": "clm_df8ad040",
+        "mechanism": "provenance",
+        "message": "Figure 'collateral posted' appears to be off by a factor of 0.001 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-1",
+    "question": "what was the fluctuation between the effective tax expense rate and the statutory u.s . federal tax rate in 2016?",
+    "gold_answer": 0.021,
+    "pre_verification_answer": -210.0,
+    "final_answer": -210.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_89b11217",
+        "mechanism": "provenance",
+        "message": "Figure 'statutory u.s . federal tax rate' appears to be off by a factor of 100 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-2",
+    "question": "what was the decrease of the effective tax expense rate between 2015 and 2016?",
+    "gold_answer": 0.034,
+    "pre_verification_answer": 93.7,
+    "final_answer": 93.7,
+    "injected": [
+      {
+        "target_id": "fig_c11039a0",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 32.9,
+        "corrupted_value": -32.9,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b7d6ee24",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '-60.8' for variable 'fig_4ca5e1e9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b7d6ee24",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '-60.8'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b7d6ee24",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '32.9'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-4",
+    "question": "what is the percentual increase observed in the net derivative gains during 2006 and 2007?",
+    "gold_answer": 0.6,
+    "pre_verification_answer": 60.0,
+    "final_answer": 60.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b1153e5d",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net_derivative_gains_2007' for variable 'fig_888dca0c'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b1153e5d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net_derivative_gains_2007'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b1153e5d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net_derivative_gains_2006'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETR/2015/page_17.pdf-1",
+    "question": "based on the analysis of the change in net revenue from 2014 to 2015 what was the percent of the change",
+    "gold_answer": 0.01639,
+    "pre_verification_answer": 1.84,
+    "final_answer": 1.84,
+    "injected": [
+      {
+        "target_id": "clm_e27cd1e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 1.6,
+        "corrupted_value": 1.84,
+        "affected_claim_ids": [
+          "clm_e27cd1e2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e27cd1e2",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net revenue FY2014' for variable 'fig_ee078d79'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e27cd1e2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net revenue FY2014'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e27cd1e2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net revenue FY2015'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements between 2011 and 2012?",
+    "gold_answer": -0.20479,
+    "pre_verification_answer": -20.46,
+    "final_answer": -20.46,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0682ab85",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '35066000000.0' for variable 'fig_77fe6ea7'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_0682ab85",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '35066000000.0'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_0682ab85",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '27885000000.0'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2012/page_73.pdf-1",
+    "question": "what was the ratio of the shares in 2012 to 2011 that were excluded in the calculation of the diluted earnings due to the anti-dilute nature",
+    "gold_answer": 0.91156,
+    "pre_verification_answer": 0.59,
+    "final_answer": 1.0,
+    "injected": [
+      {
+        "target_id": "fig_a719c14b",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 13.4,
+        "corrupted_value": 8.0,
+        "affected_claim_ids": [
+          "clm_1a3a293c"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_1a3a293c",
+        "mechanism": "recompute",
+        "message": "Claimed 0.59 but (fig_93bb1946 / fig_a719c14b) evaluates to 1.0 under the extracted figures.",
+        "proposed_value": 1.0
+      },
+      {
+        "claim_id": "clm_1a3a293c",
+        "mechanism": "provenance",
+        "message": "Figure 'shares excluded in 2012' has value 8.0 which does not appear in its cited span 'the computation of diluted earnings per common share excluded 8.0 million , 13.4'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_1a3a293c",
+        "mechanism": "provenance",
+        "message": "Figure 'shares excluded in 2011' has value 8.0 which does not appear in its cited span 'the computation of diluted earnings per common share excluded 8.0 million , 13.4'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MS/2013/page_139.pdf-2",
+    "question": "what is the total exposure to government related derivatives , in millions?",
+    "gold_answer": 2413.0,
+    "pre_verification_answer": 17614000000.0,
+    "final_answer": 17614000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_b7a64a48",
+        "mechanism": "provenance",
+        "message": "Figure 'total exposure' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ILMN/2008/page_86.pdf-1",
+    "question": "what was the percent of the change in the company 2019s uncertain tax positions from 2007 to 2008",
+    "gold_answer": 0.11237,
+    "pre_verification_answer": 211.2369011976048,
+    "final_answer": 211.2369011976048,
+    "injected": [
+      {
+        "target_id": "clm_42f04431",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 11.2,
+        "corrupted_value": 211.2369011976048,
+        "affected_claim_ids": [
+          "clm_42f04431"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-3",
+    "question": "what was the change in millions in total supplementary leverage exposure between 2016 and 2017?",
+    "gold_answer": 70843.0,
+    "pre_verification_answer": 70843.0,
+    "final_answer": 70843.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ca687a53",
+        "mechanism": "provenance",
+        "message": "Figure 'total supplementary leverage exposure' has value 1341016.0 which does not appear in its cited span '$ in millions | for the three months ended or as of december 2017'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ca687a53",
+        "mechanism": "provenance",
+        "message": "Figure 'total supplementary leverage exposure' cites a span that does not appear verbatim in the document: '$ in millions | for the three months ended or as of december 2016'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "EL/2008/page_59.pdf-2",
+    "question": "considering the 2008 net deferred loss , what is the percentage of amortization expenses?",
+    "gold_answer": 0.51282,
+    "pre_verification_answer": 1651632.7,
+    "final_answer": 51.28205128205128,
+    "injected": [
+      {
+        "target_id": "fig_490452e8",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.28,
+        "corrupted_value": 1651632.7,
+        "affected_claim_ids": [
+          "clm_62a12927"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_62a12927",
+        "mechanism": "recompute",
+        "message": "Claimed 1651632.7 but (amortization_expense / abs(net_deferred_loss)) * 100 evaluates to 51.28205128205128 under the extracted figures.",
+        "proposed_value": 51.28205128205128
+      },
+      {
+        "claim_id": "clm_62a12927",
+        "mechanism": "provenance",
+        "message": "Figure 'amortization expense subject to net deferred loss' cites a span that does not appear verbatim in the document: '$ 34 million is subject to amortization'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_62a12927",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 1,651,632.70'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CE/2016/page_19.pdf-4",
+    "question": "what was the percentage change in the the research and development costs from 2014 to 2015",
+    "gold_answer": 59.5,
+    "pre_verification_answer": 38.97,
+    "final_answer": 38.372093023255815,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_9517092d",
+        "mechanism": "recompute",
+        "message": "Claimed 38.97 but (abs(fig_b12b0ef7 - fig_1fffcd55) / abs(fig_1fffcd55)) * 100 evaluates to 38.372093023255815 under the extracted figures.",
+        "proposed_value": 38.372093023255815
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "JKHY/2019/page_18.pdf-1",
+    "question": "what was the percentage growth of the 5 year- cumulative total return for the 2018 peer group from 2016 to 2017",
+    "gold_answer": -125.06,
+    "pre_verification_answer": 26.1,
+    "final_answer": -150982.74,
+    "injected": [
+      {
+        "target_id": "fig_a2e361b2",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 151.16,
+        "corrupted_value": 151160.0,
+        "affected_claim_ids": [
+          "clm_85e4f28d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_85e4f28d",
+        "mechanism": "recompute",
+        "message": "Claimed 26.1 but (fig_6c95cae9 - fig_a2e361b2) evaluates to -150982.74 under the extracted figures.",
+        "proposed_value": -150982.74
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SNA/2007/page_69.pdf-2",
+    "question": "what is the percentage change in the balance of the minority interests in consolidated subsidiaries from 2006 to 2007?",
+    "gold_answer": 0.02976,
+    "pre_verification_answer": 2.97,
+    "final_answer": 2.97,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_da0e1255",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'balance minority interests consolidated subsidiaries = 17300000.0 USD (2007-12-29)' for variable 'fig_d95a7ee9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_da0e1255",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'balance minority interests consolidated subsidiaries = 17300000.0 USD (2007-12-29)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_da0e1255",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'balance minority interests consolidated subsidiaries = 16800000.0 USD (2006-12-30)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "L/2009/page_84.pdf-2",
+    "question": "what is the return on investment for s&p500 from 2007 to 2008?",
+    "gold_answer": -0.37001,
+    "pre_verification_answer": -0.6,
+    "final_answer": -0.6,
+    "injected": [
+      {
+        "target_id": "fig_475af3fb",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 128.16,
+        "corrupted_value": -128.16,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_485921d2",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 's&p 500 index value = 128.16 (2007)' for variable 'fig_475af3fb'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_485921d2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 's&p 500 index value = 128.16 (2007)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_485921d2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 's&p 500 index value = 80.74 (2008)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FBHS/2017/page_22.pdf-2",
+    "question": "what was the amount of sales in that went to international markets in millions",
+    "gold_answer": 792.495,
+    "pre_verification_answer": 35.2,
+    "final_answer": 352220000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_7e356aa5",
+        "mechanism": "recompute",
+        "message": "Claimed 35.2 but (fig_f60d1c67 / fig_c61270aa) * 100 evaluates to 352220000.0 under the extracted figures.",
+        "proposed_value": 352220000.0
+      },
+      {
+        "claim_id": "clm_7e356aa5",
+        "mechanism": "provenance",
+        "message": "Figure 'net sales' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_7e356aa5",
+        "mechanism": "provenance",
+        "message": "Figure 'percentage of net sales to international markets' appears to be off by a factor of 100 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-1",
+    "question": "what is the total interest expense incurred by the senior unsecured notes that was redeemed in august 2005?",
+    "gold_answer": 7.2,
+    "pre_verification_answer": 295780000.0,
+    "final_answer": 257200000.00000003,
+    "injected": [
+      {
+        "target_id": "clm_4d56e9d3",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 257200000.0,
+        "corrupted_value": 295780000.0,
+        "affected_claim_ids": [
+          "clm_4d56e9d3"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_4d56e9d3",
+        "mechanism": "recompute",
+        "message": "Claimed 295780000.0 but (fig_868f7e94 - fig_d191171a) evaluates to 257200000.00000003 under the extracted figures.",
+        "proposed_value": 257200000.00000003
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2015/page_114.pdf-1",
+    "question": "as of december 312013 what was the percent of labor-related deemed claim as part of the total reorganization items net",
+    "gold_answer": 0.65273,
+    "pre_verification_answer": 65.3,
+    "final_answer": 65.3,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_bbf6c5f7",
+        "mechanism": "provenance",
+        "message": "Figure 'total reorganization items net' cites a span that does not appear verbatim in the document: '| total reorganization items net | $ 2655'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2014/page_149.pdf-1",
+    "question": "was the change in asset impairment charges between 2014 and 2013 in us$ m?",
+    "gold_answer": -4.7,
+    "pre_verification_answer": -345900000.0,
+    "final_answer": 0.0,
+    "injected": [
+      {
+        "target_id": "fig_1e050155",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 8554500000.0,
+        "corrupted_value": 8900000000.0,
+        "affected_claim_ids": [
+          "clm_a260bdf5"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_a260bdf5",
+        "mechanism": "recompute",
+        "message": "Claimed -345900000.0 but (fig_068ce50b - fig_1e050155) evaluates to 0.0 under the extracted figures.",
+        "proposed_value": 0.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-4",
+    "question": "what percent of total contractual obligations in 2011 are made up of long-term debt obligations?",
+    "gold_answer": 0.9721,
+    "pre_verification_answer": 97.2,
+    "final_answer": 97.2,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c0ad1b74",
+        "mechanism": "provenance",
+        "message": "Figure 'long-term debt obligations' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c0ad1b74",
+        "mechanism": "provenance",
+        "message": "Figure 'total contractual obligations' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-2",
+    "question": "what is the growth rate in operating expenses in 2013?",
+    "gold_answer": -0.02121,
+    "pre_verification_answer": -1.6,
+    "final_answer": -1.6,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a0b99837",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'total operating expenses FY2013' for variable 'fig_7a50e299'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a0b99837",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'total operating expenses FY2013'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a0b99837",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'total operating expenses FY2012'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RL/2008/page_23.pdf-2",
+    "question": "what percentage of factory retail stores as of march 29 , 2008 where located in japan?",
+    "gold_answer": 0.02532,
+    "pre_verification_answer": 2.5,
+    "final_answer": 2531645.5696202535,
+    "injected": [
+      {
+        "target_id": "fig_b7fc5878",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 158.0,
+        "corrupted_value": 0.000158,
+        "affected_claim_ids": [
+          "clm_b6218aa6"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b6218aa6",
+        "mechanism": "recompute",
+        "message": "Claimed 2.5 but (fig_a3f61119 / fig_b7fc5878) * 100 evaluates to 2531645.5696202535 under the extracted figures.",
+        "proposed_value": 2531645.5696202535
+      },
+      {
+        "claim_id": "clm_b6218aa6",
+        "mechanism": "provenance",
+        "message": "Figure 'factory retail stores in japan' cites a span that does not appear verbatim in the document: '| location | ralph lauren |\\n|---|---|\\n| japan | 4|'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b6218aa6",
+        "mechanism": "provenance",
+        "message": "Figure 'total factory retail stores worldwide' cites a span that does not appear verbatim in the document: '| total | 158|'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2010/page_72.pdf-4",
+    "question": "what was the percentage decline in recorded international slot and route authorities to $ 708 million from $ 736 million as of december 31 , 2010 and 2009 , respectively .",
+    "gold_answer": -0.03804,
+    "pre_verification_answer": 3.9,
+    "final_answer": 3.804347826086957,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_291b6857",
+        "mechanism": "recompute",
+        "message": "Claimed 3.9 but (abs(fig_f786b0a8 - fig_90523a49) / abs(fig_f786b0a8)) * 100 evaluates to 3.804347826086957 under the extracted figures.",
+        "proposed_value": 3.804347826086957
+      },
+      {
+        "claim_id": "clm_291b6857",
+        "mechanism": "provenance",
+        "message": "Figure 'international slot and route authorities (December 31, 2010)' has value 708.0 which does not appear in its cited span '$ 708 million'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_291b6857",
+        "mechanism": "provenance",
+        "message": "Figure 'international slot and route authorities (December 31, 2009)' has value 736.0 which does not appear in its cited span '$ 736 million'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ZBH/2008/page_57.pdf-3",
+    "question": "what percent of total contractual obligations is due 2012 or after?",
+    "gold_answer": 0.76002,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "fig_90001501",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 531799999.99999994,
+        "corrupted_value": -531799999.99999994,
+        "affected_claim_ids": [
+          "clm_39f58296"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_39f58296",
+        "mechanism": "provenance",
+        "message": "Figure 'total contractual obligations' cites a span that does not appear verbatim in the document: 'total contractual obligations | $ 531.8'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_39f58296",
+        "mechanism": "provenance",
+        "message": "Figure 'total contractual obligations' cites a span that does not appear verbatim in the document: 'total contractual obligations | $ 531.8'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISCA/2011/page_49.pdf-2",
+    "question": "what was the percentage cumulative total shareholder return on discb from september 18 , 2008 to december 31 , 2011?",
+    "gold_answer": 1.1756,
+    "pre_verification_answer": -6.210000000000001,
+    "final_answer": 99.54035668321383,
+    "injected": [
+      {
+        "target_id": "clm_abd0fe36",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -5.4,
+        "corrupted_value": -6.210000000000001,
+        "affected_claim_ids": [
+          "clm_abd0fe36"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_abd0fe36",
+        "mechanism": "recompute",
+        "message": "Claimed -6.210000000000001 but (fig_06f1ea97 - 100) / fig_06f1ea97 * 100 evaluates to 99.54035668321383 under the extracted figures.",
+        "proposed_value": 99.54035668321383
+      },
+      {
+        "claim_id": "clm_abd0fe36",
+        "mechanism": "provenance",
+        "message": "Figure 'cumulative total shareholder return on discb' cites a span that does not appear verbatim in the document: '| discb | $ 78.53 | $ 162.82 | $ 225.95 | $ 217.56'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2001/page_85.pdf-4",
+    "question": "what percentage of scheduled maturities of total debt at december 31 , 2001 are due in 2005?",
+    "gold_answer": 0.08172,
+    "pre_verification_answer": 8.17,
+    "final_answer": 8.17,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e88570c8",
+        "mechanism": "provenance",
+        "message": "Figure 'total debt scheduled maturities' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MSI/2014/page_76.pdf-2",
+    "question": "what is the percent change in number of shares purchased by employees between 2013 and 2014?",
+    "gold_answer": -0.06667,
+    "pre_verification_answer": -6.7,
+    "final_answer": -6.7,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e9104613",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'number of shares purchased by employees in 2013' for variable 'fig_b34e2ac9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e9104613",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'number of shares purchased by employees in 2013'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e9104613",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'number of shares purchased by employees in 2014'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLK/2017/page_121.pdf-2",
+    "question": "what percent does the unamortized discount and debt issuance costs reduce the carrying amount by?",
+    "gold_answer": 0.00536,
+    "pre_verification_answer": 5.3849222177901875e-05,
+    "final_answer": 5.3849222177901875e-05,
+    "injected": [
+      {
+        "target_id": "clm_ab0ef068",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 0.54,
+        "corrupted_value": 5.3849222177901875e-05,
+        "affected_claim_ids": [
+          "clm_ab0ef068"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ab0ef068",
+        "mechanism": "provenance",
+        "message": "Figure 'unamortized discount and debt issuance costs' has value 27.0 which does not appear in its cited span 'total long-term borrowings | $ 5041 | $ -27 ( 27 ) | $ 5014 | $ 5225'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "UPS/2016/page_114.pdf-1",
+    "question": "what was the change in millions of vehicles from 2015 to 2016?",
+    "gold_answer": -6.0,
+    "pre_verification_answer": -6.0,
+    "final_answer": -6.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_472d2017",
+        "mechanism": "provenance",
+        "message": "Figure 'vehicles in 2016' cites a span that does not appear verbatim in the document: '| vehicles | $ 68'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_472d2017",
+        "mechanism": "provenance",
+        "message": "Figure 'vehicles in 2015' cites a span that does not appear verbatim in the document: '| vehicles | $ 74'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2003/page_27.pdf-1",
+    "question": "what portion of the boston property will be offered for sub-lease?",
+    "gold_answer": 0.33333,
+    "pre_verification_answer": 3983985.71,
+    "final_answer": 3983985.71,
+    "injected": [
+      {
+        "target_id": "fig_b0942c41",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 10000.0,
+        "corrupted_value": 3983985.71,
+        "affected_claim_ids": [
+          "clm_2266f7f0"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2266f7f0",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'portion offered for sub-lease' for variable 'fig_59d87949'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2266f7f0",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'portion offered for sub-lease'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2266f7f0",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 3,983,985.71'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CE/2013/page_16.pdf-2",
+    "question": "what is the growth rate in dividends received in 2012 compare to 2011?",
+    "gold_answer": 0.0641,
+    "pre_verification_answer": 6.4,
+    "final_answer": 6.41025641025641,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ae9865a3",
+        "mechanism": "recompute",
+        "message": "Claimed 6.4 but (abs(fig_e3014eda - fig_e4f82348) / abs(fig_e4f82348)) * 100 evaluates to 6.41025641025641 under the extracted figures.",
+        "proposed_value": 6.41025641025641
+      },
+      {
+        "claim_id": "clm_ae9865a3",
+        "mechanism": "provenance",
+        "message": "Figure 'dividends received in 2012' has value 83.0 which does not appear in its cited span 'in 2013 , 2012 and 2011 , we received cash dividends of $ 92 million , $ 83 mill'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ae9865a3",
+        "mechanism": "provenance",
+        "message": "Figure 'dividends received in 2011' has value 78.0 which does not appear in its cited span 'in 2013 , 2012 and 2011 , we received cash dividends of $ 92 million , $ 83 mill'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-3",
+    "question": "by how much did the low of mktx stock increase from 2011 to march 2012?",
+    "gold_answer": 0.19088,
+    "pre_verification_answer": 9.48,
+    "final_answer": -19.77997074,
+    "injected": [
+      {
+        "target_id": "fig_5f676332",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 29.26,
+        "corrupted_value": 2.926e-05,
+        "affected_claim_ids": [
+          "clm_0658105a"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_0658105a",
+        "mechanism": "recompute",
+        "message": "Claimed 9.48 but (fig_5f676332 - fig_3e66ace3) evaluates to -19.77997074 under the extracted figures.",
+        "proposed_value": -19.77997074
+      },
+      {
+        "claim_id": "clm_0658105a",
+        "mechanism": "provenance",
+        "message": "Figure 'low price' has value 2.926e-05 which does not appear in its cited span 'january 1 2012 to march 31 2012 | $ 37.79 | $ 29.26'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_174.pdf-4",
+    "question": "what was the two-year total for specific reserves in the alll , in millions?",
+    "gold_answer": 1167.0,
+    "pre_verification_answer": 1167.0,
+    "final_answer": 1167.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_24ec1572",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'specific reserves in alll for tdr portfolio at dec 31 2012' for variable 'fig_4695f1e0'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_24ec1572",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'specific reserves in alll for tdr portfolio at dec 31 2012'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_24ec1572",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'specific reserves in alll for tdr portfolio at dec 31 2011'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PPG/2008/page_52.pdf-2",
+    "question": "as of december 31 , 2008 , what percentage of unrecognized tax benefits would not impact the effective if recognized?",
+    "gold_answer": 0.10101,
+    "pre_verification_answer": 10.1,
+    "final_answer": 189.8989898989899,
+    "injected": [
+      {
+        "target_id": "fig_4e88a064",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 99.0,
+        "corrupted_value": -99.0,
+        "affected_claim_ids": [
+          "clm_b9e67b15"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_b9e67b15",
+        "mechanism": "recompute",
+        "message": "Claimed 10.1 but (total_unrecognized_tax_benefits - unrecognized_tax_benefits_impacting_effective_rate) / total_unrecognized_tax_benefits * 100 evaluates to 189.8989898989899 under the extracted figures.",
+        "proposed_value": 189.8989898989899
+      },
+      {
+        "claim_id": "clm_b9e67b15",
+        "mechanism": "provenance",
+        "message": "Figure 'total unrecognized tax benefits' has value -99.0 which does not appear in its cited span 'the amount of unrecognized tax benefits was $ 99 million and $ 110 million as of'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_b9e67b15",
+        "mechanism": "provenance",
+        "message": "Figure 'unrecognized tax benefits impacting effective rate' has value 89.0 which does not appear in its cited span 'if recognized , $ 89 million and $ 88 million would impact the effective rate as'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ADBE/1999/page_64.pdf-2",
+    "question": "what portion of the 1999 accrual balance related to restructurings is comprised of canceled contracts?",
+    "gold_answer": 0.5,
+    "pre_verification_answer": 40.0,
+    "final_answer": 100.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_17a71fec",
+        "mechanism": "recompute",
+        "message": "Claimed 40.0 but (fig_2ff0569f / fig_2ff0569f) * 100 evaluates to 100.0 under the extracted figures.",
+        "proposed_value": 100.0
+      },
+      {
+        "claim_id": "clm_17a71fec",
+        "mechanism": "provenance",
+        "message": "Figure 'portion related to canceled contracts' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-3",
+    "question": "what percent increase in long-term debt did the floating rate notes maturing in 2010?",
+    "gold_answer": 1.07555,
+    "pre_verification_answer": -3.366,
+    "final_answer": -3.366,
+    "injected": [
+      {
+        "target_id": "clm_2d4246b2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -3.96,
+        "corrupted_value": -3.366,
+        "affected_claim_ids": [
+          "clm_2d4246b2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2d4246b2",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '240.9' for variable 'fig_fd4c5051'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2d4246b2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '240.9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2d4246b2",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '250.0'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "RSG/2012/page_93.pdf-2",
+    "question": "what was the percentage change in the additions charged to expense from 2011 to 2012 as part of the allowance for doubtful accounts",
+    "gold_answer": 0.41429,
+    "pre_verification_answer": 41.4,
+    "final_answer": 41.4,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-3",
+    "question": "what was the difference in percentage change in priceline group and the s&p 500 index for the five year period ended 2016?",
+    "gold_answer": 1.1527,
+    "pre_verification_answer": -3.7,
+    "final_answer": 96.90999999999998,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "recompute",
+        "message": "Claimed -3.7 but (round((fig_17733612 / fig_4f3e44ad - 1) * 100, 2)) - (round((fig_c8bb90ab / fig_22fa8540 - 1) * 100, 2)) evaluates to 96.90999999999998 under the extracted figures.",
+        "proposed_value": 96.90999999999998
+      },
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "provenance",
+        "message": "Figure 'priceline group index value' has value 313450000.0 which does not appear in its cited span 'priceline group inc . | nasdaqcomposite index | s&p 500index'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "provenance",
+        "message": "Figure 'priceline group index value (2011)' has value 100000000.0 which does not appear in its cited span 'priceline group inc . | nasdaqcomposite index | s&p 500index'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "provenance",
+        "message": "Figure 's&p 500 index value' has value 216540000.0 which does not appear in its cited span 'priceline group inc . | nasdaqcomposite index | s&p 500index'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c78fcee3",
+        "mechanism": "provenance",
+        "message": "Figure 's&p 500 index value (2011)' has value 100000000.0 which does not appear in its cited span 'priceline group inc . | nasdaqcomposite index | s&p 500index'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2012/page_68.pdf-5",
+    "question": "commercial mortgage loans held for sale designated at fair value at december 31 , 2012 were what percent of total loans held for sale?,",
+    "gold_answer": 0.20904,
+    "pre_verification_answer": 20.9,
+    "final_answer": 20.9,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e9c0507e",
+        "mechanism": "provenance",
+        "message": "Figure 'commercial mortgage loans held for sale designated at fair value' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e9c0507e",
+        "mechanism": "provenance",
+        "message": "Figure 'total loans held for sale' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-2",
+    "question": "what percent of total contractual obligations in 2010 are made up of long-term debt obligations?",
+    "gold_answer": 0.56374,
+    "pre_verification_answer": 56.38,
+    "final_answer": 56.38,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_eb4cf8a5",
+        "mechanism": "provenance",
+        "message": "Figure 'total contractual obligations' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CB/2008/page_229.pdf-3",
+    "question": "what is the net income-to-capital ratio for bermuda subsidiaries in 2008?",
+    "gold_answer": 0.0977,
+    "pre_verification_answer": 4796398.48,
+    "final_answer": 0.0977003285244965,
+    "injected": [
+      {
+        "target_id": "fig_4f982c81",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.098,
+        "corrupted_value": 4796398.48,
+        "affected_claim_ids": [
+          "clm_caf72717"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_caf72717",
+        "mechanism": "recompute",
+        "message": "Claimed 4796398.48 but (fig_91b631b3 / fig_26026b27) evaluates to 0.0977003285244965 under the extracted figures.",
+        "proposed_value": 0.0977003285244965
+      },
+      {
+        "claim_id": "clm_caf72717",
+        "mechanism": "provenance",
+        "message": "Figure 'statutory net income' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_caf72717",
+        "mechanism": "provenance",
+        "message": "Figure 'statutory capital and surplus' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_caf72717",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 4,796,398.48'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2006/page_67.pdf-1",
+    "question": "current assets were what percent of net assets acquired for the can and alcan transactions?",
+    "gold_answer": 259.7,
+    "pre_verification_answer": 0.5,
+    "final_answer": 0.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'None' for variable 'current_assets_can'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'None'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'None'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'None'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_fcf950a9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'None'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_63.pdf-3",
+    "question": "what was the change in millions of total shareholders' equity from 2012 to 2013?",
+    "gold_answer": 2751.0,
+    "pre_verification_answer": -784.3,
+    "final_answer": 2751000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e48cf83e",
+        "mechanism": "recompute",
+        "message": "Claimed -784.3 but (fig_c64dc249 - fig_f90a5f96) evaluates to 2751000000.0 under the extracted figures.",
+        "proposed_value": 2751000000.0
+      },
+      {
+        "claim_id": "clm_e48cf83e",
+        "mechanism": "provenance",
+        "message": "Figure \"total shareholders' equity\" cites a span that does not appear verbatim in the document: '$ in millions | as of december 2013 | as of december 2012\\n|---|---|\\n|total share'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e48cf83e",
+        "mechanism": "provenance",
+        "message": "Figure \"total shareholders' equity\" cites a span that does not appear verbatim in the document: '$ in millions | as of december 2013 | as of december 2012\\n|---|---|\\n|total share'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-3",
+    "question": "what was the percentage of the consumer banking gain as part of the 2007 pretax total gain",
+    "gold_answer": 0.16523,
+    "pre_verification_answer": 1.7,
+    "final_answer": -605.2083333333333,
+    "injected": [
+      {
+        "target_id": "fig_c23fbbb3",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 581000000.0,
+        "corrupted_value": -581000000.0,
+        "affected_claim_ids": [
+          "clm_ce36c359"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_ce36c359",
+        "mechanism": "recompute",
+        "message": "Claimed 1.7 but (fig_c23fbbb3 / fig_685d01d9) * 100 evaluates to -605.2083333333333 under the extracted figures.",
+        "proposed_value": -605.2083333333333
+      },
+      {
+        "claim_id": "clm_ce36c359",
+        "mechanism": "provenance",
+        "message": "Figure 'consumer banking pretax gain' cites a span that does not appear verbatim in the document: '| total | $ 581 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ce36c359",
+        "mechanism": "provenance",
+        "message": "Figure 'consumer banking pretax gain (specific)' cites a span that does not appear verbatim in the document: '| consumer banking | 96 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HIG/2004/page_140.pdf-2",
+    "question": "what is the total effect of reclassifying certain separate accounts to general account on the net income and other comprehensive income?",
+    "gold_answer": 324.0,
+    "pre_verification_answer": 324.0,
+    "final_answer": 324.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a3a2fd62",
+        "mechanism": "provenance",
+        "message": "Figure 'other comprehensive income' cites a span that does not appear verbatim in the document: 'reclassifying certain separate accounts to general account | ... | 294'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "FIS/2016/page_9.pdf-1",
+    "question": "what is the growth rate for the gfs segment in 2016?",
+    "gold_answer": 0.80085,
+    "pre_verification_answer": 92.0,
+    "final_answer": 92.0,
+    "injected": [
+      {
+        "target_id": "clm_75626d1d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 80.0,
+        "corrupted_value": 92.0,
+        "affected_claim_ids": [
+          "clm_75626d1d"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_75626d1d",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'gfs revenue 2016' for variable 'fig_944b5c51'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_75626d1d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'gfs revenue 2016'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_75626d1d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'gfs revenue 2015'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-1",
+    "question": "what was the tax rate applied to the company recorded sales of the mastercard shares in 2007 , the company recorded a $ 367 million after-tax gain ( $ 581 million pretax )",
+    "gold_answer": 0.36833,
+    "pre_verification_answer": 0.37,
+    "final_answer": 0.3683304647160069,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_da009f59",
+        "mechanism": "recompute",
+        "message": "Claimed 0.37 but (pretax_gain - after_tax_gain) / pretax_gain evaluates to 0.3683304647160069 under the extracted figures.",
+        "proposed_value": 0.3683304647160069
+      },
+      {
+        "claim_id": "clm_da009f59",
+        "mechanism": "provenance",
+        "message": "Figure 'pretax gain' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_da009f59",
+        "mechanism": "provenance",
+        "message": "Figure 'after-tax gain' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-1",
+    "question": "what is the average size ( in square feet ) of switching centers in 2017?",
+    "gold_answer": 21311.47541,
+    "pre_verification_answer": 21311.48,
+    "final_answer": 1.0,
+    "injected": [
+      {
+        "target_id": "fig_c9ebc0d9",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 61.0,
+        "corrupted_value": 1300000.0,
+        "affected_claim_ids": [
+          "clm_bec76dda"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_bec76dda",
+        "mechanism": "recompute",
+        "message": "Claimed 21311.48 but (total_size_of_switching_centers / number_of_switching_centers) evaluates to 1.0 under the extracted figures.",
+        "proposed_value": 1.0
+      },
+      {
+        "claim_id": "clm_bec76dda",
+        "mechanism": "provenance",
+        "message": "Figure 'number_of_switching_centers' cites a span that does not appear verbatim in the document: '| switching centers | 61 | 1300000'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_bec76dda",
+        "mechanism": "provenance",
+        "message": "Figure 'total_size_of_switching_centers' cites a span that does not appear verbatim in the document: '| switching centers | 61 | 1300000'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GPN/2010/page_89.pdf-1",
+    "question": "in 2009 what was the percentage change in the non-vested at may 31 2009",
+    "gold_answer": 0.47104,
+    "pre_verification_answer": 47.1,
+    "final_answer": 0.47104247104247104,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_82058e7c",
+        "mechanism": "recompute",
+        "message": "Claimed 47.1 but (fig_8be4717d - fig_4b792f4b) / abs(fig_4b792f4b) evaluates to 0.47104247104247104 under the extracted figures.",
+        "proposed_value": 0.47104247104247104
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "BLL/2010/page_37.pdf-4",
+    "question": "without the charge for the a/r securitization , what would cash flows provided by operating activities for all operations in 2010 have been ( in millions ) ?",
+    "gold_answer": 765.2,
+    "pre_verification_answer": -250.0,
+    "final_answer": -250.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_aac79e75",
+        "mechanism": "provenance",
+        "message": "Figure 'cash flows provided by operating activities in 2010' cites a span that does not appear verbatim in the document: '$ in millions ) | 2010 | 2009 | 2008\\\\ncash flows provided by ( used in ) operati'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_aac79e75",
+        "mechanism": "provenance",
+        "message": "Figure 'cash flows provided by operating activities excluding securitization impact' has value 765.2 which does not appear in its cited span 'excluding the $ 250 million impact of additional accounts receivable from the ch'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "HOLX/2007/page_126.pdf-1",
+    "question": "what is the total value of intangible asset taken into account when setting up the estimated purchase price?",
+    "gold_answer": 79900.0,
+    "pre_verification_answer": -2180.0,
+    "final_answer": 82700.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_3d81df07",
+        "mechanism": "recompute",
+        "message": "Claimed -2180.0 but (fig_ffb41b01 + abs(fig_6eda2d65)) evaluates to 82700.0 under the extracted figures.",
+        "proposed_value": 82700.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_149.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements from 2012 to 2013?",
+    "gold_answer": -0.20473,
+    "pre_verification_answer": 3666970.5,
+    "final_answer": 3666970.5,
+    "injected": [
+      {
+        "target_id": "fig_3d482f27",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -15.8,
+        "corrupted_value": 3666970.5,
+        "affected_claim_ids": [
+          "clm_70f3fcd9"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_70f3fcd9",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net_derivative_liabilities_2013' for variable 'fig_e9a84c0f'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_70f3fcd9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net_derivative_liabilities_2013'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_70f3fcd9",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net_derivative_liabilities_2012'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_70f3fcd9",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 3,666,970.50'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-3",
+    "question": "what was total change in unrecognized tax benefits in millions from january 1 2011 to december 31 2011?",
+    "gold_answer": 40264.0,
+    "pre_verification_answer": -470.0,
+    "final_answer": -46961.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_6ad4de1b",
+        "mechanism": "recompute",
+        "message": "Claimed -470.0 but (fig_6b9bcb3e - fig_f2591ce8 + fig_5c44fc64) evaluates to -46961.0 under the extracted figures.",
+        "proposed_value": -46961.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CDNS/2015/page_30.pdf-1",
+    "question": "what is the rate of return in nasdaq of an investment from 2010 to 2011?",
+    "gold_answer": 0.1761,
+    "pre_verification_answer": -1.7,
+    "final_answer": 1009266.9193946093,
+    "injected": [
+      {
+        "target_id": "fig_4c24f4ae",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 118.7,
+        "corrupted_value": 118700000.0,
+        "affected_claim_ids": [
+          "clm_efd6d871"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_efd6d871",
+        "mechanism": "recompute",
+        "message": "Claimed -1.7 but (fig_4c24f4ae - fig_350fafdb) / abs(fig_350fafdb) evaluates to 1009266.9193946093 under the extracted figures.",
+        "proposed_value": 1009266.9193946093
+      },
+      {
+        "claim_id": "clm_efd6d871",
+        "mechanism": "provenance",
+        "message": "Figure 'nasdaq composite value on january 1, 2011' has value 117.61 which does not appear in its cited span '| 1/2/2010 | 1/1/2011 |'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_efd6d871",
+        "mechanism": "provenance",
+        "message": "Figure 'nasdaq composite value on december 31, 2011' cites a span that does not appear verbatim in the document: '| | 1/1/2011 | 12/31/2011 |'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-1",
+    "question": "what percentage of approximate number of active full-time equivalent employees consist of u.s airways employees?",
+    "gold_answer": 0.2895,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_6cbe4736",
+        "mechanism": "provenance",
+        "message": "Figure 'us airways active full-time equivalent employees' cites a span that does not appear verbatim in the document: '| total | 61600 | 32800 | 18900 | 113300'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_6cbe4736",
+        "mechanism": "provenance",
+        "message": "Figure 'total active full-time equivalent employees' cites a span that does not appear verbatim in the document: '| total | 61600 | 32800 | 18900 | 113300'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-4",
+    "question": "what was the percentage improvement in the unbilled receivables on construction contracts from 2007 to 2008",
+    "gold_answer": -0.3142,
+    "pre_verification_answer": 45.8,
+    "final_answer": 45.8,
+    "injected": [
+      {
+        "target_id": "fig_a1df0087",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 22700000000000.0,
+        "corrupted_value": -22700000000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_da2d424f",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '33100000000000.0' for variable 'fig_c5e42797'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_da2d424f",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '33100000000000.0'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_da2d424f",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '22700000000000.0'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "INTC/2015/page_41.pdf-3",
+    "question": "what is the percent of the square foot in millions of owned facilities in the other countries to the of the total owned facilities",
+    "gold_answer": 0.35908,
+    "pre_verification_answer": 3.6,
+    "final_answer": 0.35908141962421714,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_720568db",
+        "mechanism": "recompute",
+        "message": "Claimed 3.6 but (fig_42580c0c / fig_9d4f2ee1) evaluates to 0.35908141962421714 under the extracted figures.",
+        "proposed_value": 0.35908141962421714
+      },
+      {
+        "claim_id": "clm_720568db",
+        "mechanism": "provenance",
+        "message": "Figure 'owned facilities square feet in millions (other countries)' cites a span that does not appear verbatim in the document: '| owned facilities1 | 30.7 | 17.2 | 47.9'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_720568db",
+        "mechanism": "provenance",
+        "message": "Figure 'owned facilities square feet in millions (total)' cites a span that does not appear verbatim in the document: '| owned facilities1 | 30.7 | 17.2 | 47.9'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2013/page_85.pdf-3",
+    "question": "what percentage of total average securities and certain overnight cash deposits that are included in gce during 2012 were non-u.s . dollar-denominated?",
+    "gold_answer": 0.27301,
+    "pre_verification_answer": 26.8,
+    "final_answer": 26.90413469247509,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2fb32962",
+        "mechanism": "recompute",
+        "message": "Claimed 26.8 but (fig_ada77315 / fig_d59be03e) * 100 evaluates to 26.90413469247509 under the extracted figures.",
+        "proposed_value": 26.90413469247509
+      },
+      {
+        "claim_id": "clm_2fb32962",
+        "mechanism": "provenance",
+        "message": "Figure 'non-u.s . dollar-denominated securities for 2012' has value 4698000000.0 which does not appear in its cited span '$ 174.62 billion'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "C/2018/page_175.pdf-1",
+    "question": "what was the percent change of the principal transactions revenue associated with interest rate risks from 2016 to 2017",
+    "gold_answer": 0.25349,
+    "pre_verification_answer": 25.3,
+    "final_answer": 25.3,
+    "injected": [
+      {
+        "target_id": "fig_148874c9",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 5301000000.0,
+        "corrupted_value": 4229000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_431b801d",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'principal transactions revenue associated with interest rate risks = 4229000000.0 USD (FY2016)' for variable 'fig_4e9e33a5'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_431b801d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'principal transactions revenue associated with interest rate risks = 4229000000.0 USD (FY2016)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_431b801d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'principal transactions revenue associated with interest rate risks = 5301000000.0 USD (FY2017)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GS/2012/page_189.pdf-4",
+    "question": "what was the percentage change in risk-weighted assets at gs bank usa between 2011 and 2012?",
+    "gold_answer": -0.02796,
+    "pre_verification_answer": 2.8,
+    "final_answer": 2.796390838828618,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_fb7728d0",
+        "mechanism": "recompute",
+        "message": "Claimed 2.8 but (abs(fig_99ac03a2 - fig_2fc76e3c) / max(abs(fig_99ac03a2), abs(fig_2fc76e3c))) * 100 evaluates to 2.796390838828618 under the extracted figures.",
+        "proposed_value": 2.796390838828618
+      },
+      {
+        "claim_id": "clm_fb7728d0",
+        "mechanism": "provenance",
+        "message": "Figure 'risk-weighted assets' has value 109669000000.0 which does not appear in its cited span '$ in millions | as of december 2012'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_fb7728d0",
+        "mechanism": "provenance",
+        "message": "Figure 'risk-weighted assets' cites a span that does not appear verbatim in the document: '$ in millions | as of december 2011'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "CMCSA/2015/page_112.pdf-1",
+    "question": "what was the change in unrecognized tax benefits from the end of 2013 to the end of 2014?",
+    "gold_answer": -530.0,
+    "pre_verification_answer": -530.0,
+    "final_answer": -530.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_18497496",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'unrecognized tax benefits balance end of 2014' for variable 'fig_1b6ddc9f'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_18497496",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'unrecognized tax benefits balance end of 2014'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_18497496",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'unrecognized tax benefits balance end of 2013'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "GIS/2019/page_68.pdf-2",
+    "question": "what was the percent of the change in the net sales from 2017 to 2018",
+    "gold_answer": 0.01696,
+    "pre_verification_answer": 1.5,
+    "final_answer": 1.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_990f145f",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'net sales FY2018' for variable 'fig_1c017326'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_990f145f",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net sales FY2018'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_990f145f",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'net sales FY2017'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-4",
+    "question": "in 2014 what was the ratio of the estimated future benefit payments due in 2015 compared to the amount after 2020",
+    "gold_answer": 0.15413,
+    "pre_verification_answer": 850477.97,
+    "final_answer": 0.154132539091586,
+    "injected": [
+      {
+        "target_id": "fig_8aa1fcef",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.154,
+        "corrupted_value": 850477.97,
+        "affected_claim_ids": [
+          "clm_2f0175b2"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_2f0175b2",
+        "mechanism": "recompute",
+        "message": "Claimed 850477.97 but (fig_4f7d6017 / fig_b6c7ae8c) evaluates to 0.154132539091586 under the extracted figures.",
+        "proposed_value": 0.154132539091586
+      },
+      {
+        "claim_id": "clm_2f0175b2",
+        "mechanism": "provenance",
+        "message": "Figure 'estimated future benefit payments due in 2015' cites a span that does not appear verbatim in the document: '| qualified defined benefit pension plans | $ 2070'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2f0175b2",
+        "mechanism": "provenance",
+        "message": "Figure \"estimated future benefit payments after 2020 (column '2020 - 2024')\" cites a span that does not appear verbatim in the document: '| qualified defined benefit pension plans | $ 2070 | ... | $ 13430'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2f0175b2",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 850,477.97'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "D/2002/page_87.pdf-1",
+    "question": "estimated payments under natural gas pipeline and storage capacity commitments for the next three years total how much , in millions?",
+    "gold_answer": 70.0,
+    "pre_verification_answer": 34000000.0,
+    "final_answer": 34000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IP/2006/page_30.pdf-2",
+    "question": "brazilian paper sales represented what percentage of printing papers in 2005?",
+    "gold_answer": 0.06485,
+    "pre_verification_answer": 6.9,
+    "final_answer": 6917.712691771269,
+    "injected": [
+      {
+        "target_id": "fig_8a2484e9",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 496000000.0,
+        "corrupted_value": 496000000000.0,
+        "affected_claim_ids": [
+          "clm_e1ff3ebd"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_e1ff3ebd",
+        "mechanism": "recompute",
+        "message": "Claimed 6.9 but (fig_8a2484e9 / fig_a7f1d821) * 100 evaluates to 6917.712691771269 under the extracted figures.",
+        "proposed_value": 6917.712691771269
+      },
+      {
+        "claim_id": "clm_e1ff3ebd",
+        "mechanism": "provenance",
+        "message": "Figure 'printing papers sales' cites a span that does not appear verbatim in the document: '| sales | $ 6930 | $ 7170 | $ 7135'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "MMM/2013/page_75.pdf-1",
+    "question": "what was the ratio of the company contribution in 2011 to the amount in 2013 to the us pension contributions",
+    "gold_answer": 1.08613,
+    "pre_verification_answer": 85.4,
+    "final_answer": 86.16666666666667,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_0a62d5dd",
+        "mechanism": "recompute",
+        "message": "Claimed 85.4 but (fig_8ad027db / fig_0fcb699b) evaluates to 86.16666666666667 under the extracted figures.",
+        "proposed_value": 86.16666666666667
+      },
+      {
+        "claim_id": "clm_0a62d5dd",
+        "mechanism": "provenance",
+        "message": "Figure 'us pension contributions' cites a span that does not appear verbatim in the document: 'during 2013 , the company contributed $ 6 million to its postretirement plans'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-3",
+    "question": "what is the percent of americans labor-related deemed claim as a part of the total claims and other bankruptcy settlement obligations as of december2013",
+    "gold_answer": 0.15653,
+    "pre_verification_answer": 15.65,
+    "final_answer": -15.652654867256638,
+    "injected": [
+      {
+        "target_id": "fig_5801f329",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 849000000.0,
+        "corrupted_value": -849000000.0,
+        "affected_claim_ids": [
+          "clm_d5203cac"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_d5203cac",
+        "mechanism": "recompute",
+        "message": "Claimed 15.65 but (fig_5801f329 / fig_4a7e3c34) * 100 evaluates to -15.652654867256638 under the extracted figures.",
+        "proposed_value": -15.652654867256638
+      },
+      {
+        "claim_id": "clm_d5203cac",
+        "mechanism": "provenance",
+        "message": "Figure 'labor-related deemed claim' has value -849000000.0 which does not appear in its cited span 'labor-related deemed claim | 849'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_d5203cac",
+        "mechanism": "provenance",
+        "message": "Figure 'total claims and other bankruptcy settlement obligations' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-4",
+    "question": "what is the growth rate in the price of shares purchased by employees from 2006 to 2007?",
+    "gold_answer": 0.35829,
+    "pre_verification_answer": -26.5,
+    "final_answer": -26.5,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_c89986e0",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'weighted average price per share purchased in 2006 = 33.93 USD (FY2007)' for variable 'fig_4a7a6f53'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c89986e0",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'weighted average price per share purchased in 2006 = 33.93 USD (FY2007)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_c89986e0",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'weighted average price per share purchased in 2007 = 24.98 USD (FY2006)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "SLB/2012/page_56.pdf-2",
+    "question": "the stock repurchase program reduced shares outstanding by how many million shares in the period?",
+    "gold_answer": 64.0,
+    "pre_verification_answer": -83300000.0,
+    "final_answer": 78000000.0,
+    "injected": [
+      {
+        "target_id": "clm_bd844291",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -98000000.0,
+        "corrupted_value": -83300000.0,
+        "affected_claim_ids": [
+          "clm_bd844291"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_bd844291",
+        "mechanism": "recompute",
+        "message": "Claimed -83300000.0 but -(fig_6022415a + fig_0aa14e8b + fig_972836aa) evaluates to 78000000.0 under the extracted figures.",
+        "proposed_value": 78000000.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-3",
+    "question": "what was the percentage change in diluted earnings per common share from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.04171,
+    "pre_verification_answer": 14.5,
+    "final_answer": 14.577259475218659,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d90c590d",
+        "mechanism": "recompute",
+        "message": "Claimed 14.5 but (fig_68a2c079 - fig_9c23e964) / abs(fig_9c23e964) * 100 evaluates to 14.577259475218659 under the extracted figures.",
+        "proposed_value": 14.577259475218659
+      },
+      {
+        "claim_id": "clm_d90c590d",
+        "mechanism": "provenance",
+        "message": "Figure 'diluted earnings per common share from continuing operations' cites a span that does not appear verbatim in the document: 'diluted earnings per common share from continuing operations | 11.79'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_d90c590d",
+        "mechanism": "provenance",
+        "message": "Figure 'diluted earnings per common share from continuing operations' cites a span that does not appear verbatim in the document: 'diluted earnings per common share from continuing operations | 10.29'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2002/page_128.pdf-4",
+    "question": "what was the average rental expense in millions for 2000 through 2002?",
+    "gold_answer": 55.33333,
+    "pre_verification_answer": 53.3,
+    "final_answer": 47666666.666666664,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_ac3564e1",
+        "mechanism": "recompute",
+        "message": "Claimed 53.3 but (sum([fig_1e8b77db, fig_768ceeff]) + fig_48d8fe99) / 3 evaluates to 47666666.666666664 under the extracted figures.",
+        "proposed_value": 47666666.666666664
+      },
+      {
+        "claim_id": "clm_ac3564e1",
+        "mechanism": "provenance",
+        "message": "Figure 'rental expense' has value 54000000.0 which does not appear in its cited span '$ 32 million'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ac3564e1",
+        "mechanism": "provenance",
+        "message": "Figure 'rental expense' has value 54000000.0 which does not appear in its cited span '$ 58 million'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_ac3564e1",
+        "mechanism": "provenance",
+        "message": "Figure 'rental expense' has value 58000000.0 which does not appear in its cited span '$ 32 million'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "VRTX/2006/page_111.pdf-2",
+    "question": "what percent of the gross total property and equipment values in 2006 are related to computers?",
+    "gold_answer": 0.32068,
+    "pre_verification_answer": 9.24,
+    "final_answer": 9.24,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_d1688918",
+        "mechanism": "provenance",
+        "message": "Figure 'gross computers value' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_d1688918",
+        "mechanism": "provenance",
+        "message": "Figure 'gross total property and equipment value' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-3",
+    "question": "what are the average net unrealized investment gains for the period?",
+    "gold_answer": 67.0,
+    "pre_verification_answer": 67000000.0,
+    "final_answer": 67000000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_8285c6a3",
+        "mechanism": "provenance",
+        "message": "Figure 'net unrealized investment gains' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_8285c6a3",
+        "mechanism": "provenance",
+        "message": "Figure 'net unrealized investment gains' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_8285c6a3",
+        "mechanism": "provenance",
+        "message": "Figure 'net unrealized investment gains' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETFC/2011/page_144.pdf-1",
+    "question": "as of december 312011 what was the ratio of the loans with a maturity in 2037 to the loans with a maturity in 2033",
+    "gold_answer": 1.69231,
+    "pre_verification_answer": 1.69,
+    "final_answer": 1.6923076923076923,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_a0c2b192",
+        "mechanism": "recompute",
+        "message": "Claimed 1.69 but (fig_6dfa82d1 / fig_831e44c6) evaluates to 1.6923076923076923 under the extracted figures.",
+        "proposed_value": 1.6923076923076923
+      },
+      {
+        "claim_id": "clm_a0c2b192",
+        "mechanism": "provenance",
+        "message": "Figure 'loans with maturity in 2037' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_a0c2b192",
+        "mechanism": "provenance",
+        "message": "Figure 'loans with maturity in 2033' appears to be off by a factor of 1000 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AES/2001/page_33.pdf-3",
+    "question": "what was the 2001 first quarter average of high and low stock prices?",
+    "gold_answer": 50.725,
+    "pre_verification_answer": 3478123.64,
+    "final_answer": 50.724999999999994,
+    "injected": [
+      {
+        "target_id": "fig_0df59614",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 50.725,
+        "corrupted_value": 3478123.64,
+        "affected_claim_ids": [
+          "clm_a43ffa90"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_a43ffa90",
+        "mechanism": "recompute",
+        "message": "Claimed 3478123.64 but (fig_70ed48d8 + fig_194135a8) / 2 evaluates to 50.724999999999994 under the extracted figures.",
+        "proposed_value": 50.724999999999994
+      },
+      {
+        "claim_id": "clm_a43ffa90",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 3,478,123.64'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-3",
+    "question": "what was the average basic net income available for common shareholders from 2006 to 2008 in millions",
+    "gold_answer": 209703.0,
+    "pre_verification_answer": 309714.3,
+    "final_answer": 139801000.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_2ae8acaf",
+        "mechanism": "recompute",
+        "message": "Claimed 309714.3 but (sum([fig_bf2db734, fig_b8a4108a, fig_bab935cb]) / 3) evaluates to 139801000.0 under the extracted figures.",
+        "proposed_value": 139801000.0
+      },
+      {
+        "claim_id": "clm_2ae8acaf",
+        "mechanism": "provenance",
+        "message": "Figure 'basic net income available for common shareholders' cites a span that does not appear verbatim in the document: '| basic net income available for common shareholders | $ 56616 | $ 217692 | $ 14'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2ae8acaf",
+        "mechanism": "provenance",
+        "message": "Figure 'basic net income available for common shareholders' cites a span that does not appear verbatim in the document: '| basic net income available for common shareholders | $ 56616 | $ 217692 | $ 14'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_2ae8acaf",
+        "mechanism": "provenance",
+        "message": "Figure 'basic net income available for common shareholders' cites a span that does not appear verbatim in the document: '| basic net income available for common shareholders | $ 56616 | $ 217692 | $ 14'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DVN/2014/page_87.pdf-2",
+    "question": "what was the weighted value of the devon 2019s commercial paper borrowings as of december 31 , 2014 in millions",
+    "gold_answer": 410.08,
+    "pre_verification_answer": 932.0,
+    "final_answer": 932.0,
+    "injected": [
+      {
+        "target_id": "fig_cbf02a26",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 932000000.0,
+        "corrupted_value": 932.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_bfaea207",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'commercial paper borrowings' for variable 'fig_cbf02a26'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_bfaea207",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'commercial paper borrowings'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-1",
+    "question": "what was the percentage change in the weighted average fair value for the espp shares purchased from 2007 to 2005",
+    "gold_answer": 0.76505,
+    "pre_verification_answer": 80.0,
+    "final_answer": 80.0,
+    "injected": [
+      {
+        "target_id": "fig_b4b66ed9",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 9.09,
+        "corrupted_value": -9.09,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_92d6c626",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id 'weighted average fair value for espp shares purchased = 9.09 None (2007)' for variable 'fig_b4b66ed9'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_92d6c626",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'weighted average fair value for espp shares purchased = 9.09 None (2007)'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_92d6c626",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure 'weighted average fair value for espp shares purchased = 5.15 None (2005)'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "VNO/2014/page_57.pdf-2",
+    "question": "what was the five year change in the s&p 500 index?",
+    "gold_answer": 105.0,
+    "pre_verification_answer": 105.0,
+    "final_answer": 105.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_e2c39edf",
+        "mechanism": "provenance",
+        "message": "Figure 's&p 500 index value in 2014' cites a span that does not appear verbatim in the document: '| s&p 500 index | ... | 205'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_e2c39edf",
+        "mechanism": "provenance",
+        "message": "Figure 's&p 500 index value in 2009' cites a span that does not appear verbatim in the document: '| s&p 500 index | 100'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AMT/2008/page_94.pdf-1",
+    "question": "as of december 31 , 2008 , what was the percent of the maturities in 2012 of the aggregate carrying value of long-term debt , including capital leases",
+    "gold_answer": 0.45298,
+    "pre_verification_answer": 85.0,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "clm_44fdb963",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 100.0,
+        "corrupted_value": 85.0,
+        "affected_claim_ids": [
+          "clm_44fdb963"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_44fdb963",
+        "mechanism": "recompute",
+        "message": "Claimed 85.0 but (fig_d12d0d61 / fig_d12d0d61) * 100 evaluates to 100.0 under the extracted figures.",
+        "proposed_value": 100.0
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "PNC/2015/page_93.pdf-1",
+    "question": "for interest only products , what percent of the total was due in 2020 and thereafter?",
+    "gold_answer": 0.40879,
+    "pre_verification_answer": 40.87,
+    "final_answer": 40.87,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_3c965e2d",
+        "mechanism": "provenance",
+        "message": "Figure 'interest only product total' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "IPG/2017/page_92.pdf-4",
+    "question": "what portion of the total contingent acquisition payments is related to deferred acquisition payments?",
+    "gold_answer": 0.45082,
+    "pre_verification_answer": 45.15,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "fig_a06aed84",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 0.000121,
+        "corrupted_value": 0.000268,
+        "affected_claim_ids": [
+          "clm_10c7a478"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_10c7a478",
+        "mechanism": "recompute",
+        "message": "Claimed 45.15 but (fig_a06aed84 / fig_3567e56e) * 100 evaluates to 100.0 under the extracted figures.",
+        "proposed_value": 100.0
+      },
+      {
+        "claim_id": "clm_10c7a478",
+        "mechanism": "provenance",
+        "message": "Figure 'deferred acquisition payments' has value 0.000268 which does not appear in its cited span '$ 268.4'",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_10c7a478",
+        "mechanism": "provenance",
+        "message": "Figure 'total contingent acquisition payments' has value 0.000268 which does not appear in its cited span '$ 268.4'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "ETFC/2012/page_43.pdf-2",
+    "question": "what was the percentage change in otti between 2011 and 2012?",
+    "gold_answer": 1.15217,
+    "pre_verification_answer": -2.0,
+    "final_answer": -2.0,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_12536d9d",
+        "mechanism": "recompute",
+        "message": "Expression references unknown figure id '-1.98e-05' for variable 'fig_7b6e18e5'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_12536d9d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '-1.98e-05'.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_12536d9d",
+        "mechanism": "provenance",
+        "message": "Claim depends on missing figure '-9.199999999999998e-06'.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-2",
+    "question": "what is the ratio of the aag series a preferred stock to single-dip equity obligations",
+    "gold_answer": 2.67175,
+    "pre_verification_answer": 2.67,
+    "final_answer": 2.67,
+    "injected": [],
+    "flags": [
+      {
+        "claim_id": "clm_4f58d240",
+        "mechanism": "provenance",
+        "message": "Figure 'aag series a preferred stock' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      },
+      {
+        "claim_id": "clm_4f58d240",
+        "mechanism": "provenance",
+        "message": "Figure 'single-dip equity obligations' appears to be off by a factor of 1e+06 relative to its source span.",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  },
+  {
+    "question_id": "DISH/2011/page_122.pdf-1",
+    "question": "what is the working capital of blockbuster at the point of acquisition?",
+    "gold_answer": 67178.0,
+    "pre_verification_answer": 8405465.17,
+    "final_answer": 86080000.0,
+    "injected": [
+      {
+        "target_id": "fig_76b8023e",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -86080000.0,
+        "corrupted_value": 8405465.17,
+        "affected_claim_ids": [
+          "clm_3c564604"
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "claim_id": "clm_3c564604",
+        "mechanism": "recompute",
+        "message": "Claimed 8405465.17 but -(-86080000) evaluates to 86080000.0 under the extracted figures.",
+        "proposed_value": 86080000.0
+      },
+      {
+        "claim_id": "clm_3c564604",
+        "mechanism": "provenance",
+        "message": "Figure 'adjusted operating figure' cites a span that does not appear verbatim in the document: 'Adjusted operating figure 8,405,465.17'",
+        "proposed_value": null
+      }
+    ],
+    "coverage": 1.0
+  }
+]

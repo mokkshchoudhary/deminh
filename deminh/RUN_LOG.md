@@ -341,3 +341,104 @@ deminh's measured superiority is specifically at detecting *injected* errors.
 Report the pooled McNemar as a statement about the injected corpus, not as a
 general claim about catching wrong answers.
 
+
+---
+
+## run_003a / run_003b — executed 2026-08-14 23:43 to 2026-08-15 04:20
+
+Launched early on request rather than waiting for the 00:00 trigger. Config
+exactly as registered in the preceding entry. Both chunks completed, exit 0,
+**zero connection/HTTP errors** — the preflight model-visibility gate did its
+job and the run_002 empty-model-store failure did not recur.
+
+- run_003a: offset 550, limit 175 → 154 min. 175 loaded, 21 skipped
+  (parse-failure rate **12.0%**), 157 records/arm.
+- run_003b: offset 725, limit 175 → 132 min. 175 loaded, 22 skipped
+  (parse-failure rate **12.6%**), 156 records/arm.
+- Parse-failure rate is stable across all four runs: 10.0%, 11.7%, 12.0%, 12.6%.
+
+| Run | Arm | precision | recall | FPR | accB | accA | delta | repaired | harmed |
+|---|---|---|---|---|---|---|---|---|---|
+| 003a | self_check | 0.4255 | 0.9091 | 0.8901 | 0.2987 | 0.3117 | +0.0130 | 8 | 6 |
+| 003a | deminh | 0.4444 | 0.9846 | 0.8696 | 0.2987 | 0.3117 | +0.0130 | 12 | 10 |
+| 003b | self_check | 0.3986 | 0.9500 | 0.8958 | 0.3072 | 0.3072 | +0.0000 | 8 | 8 |
+| 003b | deminh | 0.4286 | 1.0000 | 0.8333 | 0.3072 | 0.3464 | +0.0392 | 16 | 10 |
+
+McNemar per chunk: 003a b=16 c=10 n_disc=26 p=0.327; 003b b=16 c=7 n_disc=23
+p=0.095. Neither chunk is individually conclusive, as expected at n≈156.
+
+### Pooled across all four runs (n=802, FinQA test.json records 0–899)
+
+| Arm | precision | recall | FPR | accB | accA | delta | repaired | harmed | repair_rate | harm_rate |
+|---|---|---|---|---|---|---|---|---|---|---|
+| no_verifier | 0.0 | 0.0 | 0.0 | 0.3104 | 0.3104 | 0.0 | - | - | - | - |
+| self_check | 0.4161 | 0.9502 | 0.8898 | 0.3104 | 0.3333 | +0.0229 | 43 | 25 | 0.0793 | 0.1025 |
+| deminh | 0.4429 | 0.9938 | 0.8299 | 0.3104 | 0.3448 | +0.0344 | 80 | 53 | 0.1476 | 0.2172 |
+
+**Pooled McNemar: b=80, c=38, n_discordant=118, chi2=14.2458, p=0.00016.**
+Up from n_discordant=69, p=0.00175 at n=489. This is the headline number.
+
+harm_rate has now settled rather than continuing to climb: deminh 0.2407 →
+0.2062 → 0.2172 pooled across runs; self_check 0.0556 → 0.0825 → 0.1025. The
+open question in the run_002 entry ("worth another batch before quoting a
+single number") is answered for deminh — **~0.21** is stable across 802 items.
+
+Correctness-based re-scoring (`scripts/rescore.py`, all records, final_answer),
+pooled n=802, 16 excluded for no gold:
+
+| Arm | precision | recall | F1 | FPR |
+|---|---|---|---|---|
+| self_check | 0.6847 | 0.9408 | 0.7926 | 0.8664 |
+| deminh | 0.6676 | 0.9126 | 0.7711 | 0.8635 |
+
+Confirms the run_002 observation at four times the sample: **under
+answer-correctness ground truth self_check is marginally ahead of deminh on both
+precision and recall**, the reverse of the injection-based ordering. deminh's
+advantage is specifically at detecting *injected* errors.
+
+### Defect found while checking these results — injection is not arm-invariant
+
+**This affects run_001 and run_002 as well, and contradicts I1.**
+
+`InjectionHarness` holds one RNG (`self.rng`) and `Experiment.run` calls
+`corrupt_with` once per arm per record, in a fixed arm order. The RNG state
+therefore advances between arms, so each arm receives a *different draw* for the
+same record and category. Measured across the record dumps:
+
+| Run | corrupted records | records whose injected VALUE differs across arms | category differs | applicability differs |
+|---|---|---|---|---|
+| run_001 | 72 | 60 (83%) | 0 | 0 |
+| run_002 | 123 | 104 (85%) | 0 | 0 |
+| run_003a | 66 | 51 (77%) | 0 | 1 |
+| run_003b | 60 | 51 (85%) | 0 | 1 |
+
+Example (run_001, `AES/2010/page_227.pdf-4`, scale_error): no_verifier got
+690000.0, self_check 690.0, deminh 690000000000.0. A x1e9 scale error is far
+easier to catch than a x1e-3 one, so the arms are not facing equally difficult
+instances.
+
+What is *not* broken, and why the existing results are still usable:
+
+- The injected **category** is identical across arms in all 802 records, so
+  `detection_by_category` is sound.
+- **Whether** a record was corrupted is identical in 800 of 802 records; the two
+  exceptions are `wrong_extraction` non-applications (run_003a
+  `AES/2002/page_128.pdf-4`, run_003b `DVN/2015/page_79.pdf-2`). This is why
+  `n_corrupted` reads 66/66/65 and 59/60/60 rather than being equal.
+- The draws are independent and the arm order is fixed, so this injects
+  **noise into the paired comparison, not bias toward an arm**. It inflates the
+  variance of McNemar rather than shifting b vs c systematically.
+
+Honest statement of the consequence: the paired design is weaker than I1
+intends — arms see the same error *type* on the same record but not the same
+error *instance*. The pooled p=0.00016 is very unlikely to be an artefact of
+this, given the direction is consistent across all four independent slices
+(b>c in every one), but the limitation must be stated rather than discovered by
+a marker.
+
+**Not fixed, and deliberately not fixed unilaterally** — this is an I1/I7-class
+change. The fix is to reseed the harness RNG per (record, category) before each
+arm's `corrupt_with`, making the injected instance identical across arms. That
+invalidates all four runs and costs a full ~12h re-run of 802 records. The
+alternative is to report the limitation as above. Supervisor decision.
+

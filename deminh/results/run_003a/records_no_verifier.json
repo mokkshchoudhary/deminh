@@ -1,0 +1,2280 @@
+[
+  {
+    "question_id": "MRO/2006/page_93.pdf-1",
+    "question": "by what percentage did total amount of the liability for asset retirement obligations increase from 2003 to 2005?",
+    "gold_answer": 0.62329,
+    "pre_verification_answer": 71.645,
+    "final_answer": 71.645,
+    "injected": [
+      {
+        "target_id": "clm_adbcab4e",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 62.3,
+        "corrupted_value": 71.645,
+        "affected_claim_ids": [
+          "clm_adbcab4e"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UNP/2010/page_21.pdf-2",
+    "question": "for the quarter ended december 312010 what was percent of the total number of shares attested to upc by employees to pay stock option exercise prices",
+    "gold_answer": 0.18383,
+    "pre_verification_answer": 5.4,
+    "final_answer": 5.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MRK/2013/page_125.pdf-3",
+    "question": "what was the ratio of interest and penalties associated with uncertain tax positions in 2013 to 2012",
+    "gold_answer": 3.625,
+    "pre_verification_answer": 3.6,
+    "final_answer": 3.6,
+    "injected": [
+      {
+        "target_id": "fig_3470ac17",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 319.0,
+        "corrupted_value": 88.0,
+        "affected_claim_ids": [
+          "clm_e8e970fe"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ABMD/2005/page_29.pdf-1",
+    "question": "assuming the same rate of growth as in 2005 , what would the projected risk free interest rate be in 2006?",
+    "gold_answer": 0.0585,
+    "pre_verification_answer": 9.0,
+    "final_answer": 9.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-2",
+    "question": "in 2003 what was the ratio of the structured commercial loan vehicles to credit-linked note vehicles",
+    "gold_answer": 0.29944,
+    "pre_verification_answer": 0.3,
+    "final_answer": 0.3,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-2",
+    "question": "for the period of october 1 2011 to december 31 2011 , what was the difference between high and low share price?",
+    "gold_answer": 6.59,
+    "pre_verification_answer": 6.59,
+    "final_answer": 6.59,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-1",
+    "question": "what is the growth rate in operating expenses in 2014?",
+    "gold_answer": -0.01326,
+    "pre_verification_answer": -3.8,
+    "final_answer": -3.8,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-3",
+    "question": "what is the approximate size of each data center leased in square feet",
+    "gold_answer": 83333.33333,
+    "pre_verification_answer": 500000.0,
+    "final_answer": 500000.0,
+    "injected": [
+      {
+        "target_id": "fig_409a458f",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 500000.0,
+        "corrupted_value": 500000000.0,
+        "affected_claim_ids": [
+          "clm_d8ce0afa"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MO/2014/page_39.pdf-2",
+    "question": "what are the npm adjustment items as a percentage of the operating companies income increase?",
+    "gold_answer": 0.80583,
+    "pre_verification_answer": 80.6,
+    "final_answer": 80.6,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-2",
+    "question": "what was the percent of the growth in measurement of the the priceline group inc . from 2014 to 2015",
+    "gold_answer": 0.11813,
+    "pre_verification_answer": 11.8,
+    "final_answer": 11.8,
+    "injected": [
+      {
+        "target_id": "fig_df27eaf5",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 243.79,
+        "corrupted_value": -243.79,
+        "affected_claim_ids": [
+          "clm_6423c103"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GRMN/2006/page_68.pdf-1",
+    "question": "what is the decrease observed in the operating leases with payments due to 3-5 years and payments due to more than 5 years?",
+    "gold_answer": 9437.0,
+    "pre_verification_answer": -9437.0,
+    "final_answer": -9437.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-4",
+    "question": "what is the 3 year average net state effective tax rate?",
+    "gold_answer": 2.93333,
+    "pre_verification_answer": 14.45,
+    "final_answer": 14.45,
+    "injected": [
+      {
+        "target_id": "clm_94f6f692",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 17.0,
+        "corrupted_value": 14.45,
+        "affected_claim_ids": [
+          "clm_94f6f692"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DISH/2010/page_117.pdf-1",
+    "question": "what percentage of total minimum lease payments are due after 2015?",
+    "gold_answer": 0.50195,
+    "pre_verification_answer": 50.2,
+    "final_answer": 50.2,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BKR/2017/page_56.pdf-1",
+    "question": "what is the cash from operating activities in 2017 as a percentage of cash and equivalents in 2017?",
+    "gold_answer": 1.55986,
+    "pre_verification_answer": -11.4,
+    "final_answer": -11.4,
+    "injected": [
+      {
+        "target_id": "fig_244a06e3",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": -799000000.0,
+        "corrupted_value": 7000000000.0,
+        "affected_claim_ids": [
+          "clm_34045880"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MSI/2012/page_87.pdf-2",
+    "question": "what is the percent change of weighted-average estimated fair value of employee stock options between 2011 and 2012?",
+    "gold_answer": -0.27547,
+    "pre_verification_answer": -27.5,
+    "final_answer": -27.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-3",
+    "question": "what was the percentage change in net sales for the discontinued operations between 2008 and 2009?",
+    "gold_answer": -0.13666,
+    "pre_verification_answer": -14.6,
+    "final_answer": -14.6,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AES/2010/page_227.pdf-2",
+    "question": "what percentage of recourse debt as of december 31 , 2010 matures in 2015?",
+    "gold_answer": 0.10841,
+    "pre_verification_answer": 1.0,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ADBE/2008/page_74.pdf-3",
+    "question": "is the weighted average useful life ( years ) for trademarks greater than customer contracts and relationships?",
+    "gold_answer": null,
+    "pre_verification_answer": 2696585.18,
+    "final_answer": 2696585.18,
+    "injected": [
+      {
+        "target_id": "fig_fff363f2",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.0,
+        "corrupted_value": 2696585.18,
+        "affected_claim_ids": [
+          "clm_eae7f209"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CME/2010/page_123.pdf-3",
+    "question": "what was the percent of the total number of securities to be issued upon exercise of outstanding options that was securities to be issued upon exercise of outstanding options",
+    "gold_answer": 0.99509,
+    "pre_verification_answer": 0.98,
+    "final_answer": 0.98,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UA/2011/page_69.pdf-2",
+    "question": "as of december 312012 what was the percent of the scheduled maturities of long term debt as part of the long term debt",
+    "gold_answer": 0.09715,
+    "pre_verification_answer": 8.9,
+    "final_answer": 8.9,
+    "injected": [
+      {
+        "target_id": "fig_dd1db571",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 6882000.0,
+        "corrupted_value": 6882000000000.0,
+        "affected_claim_ids": [
+          "clm_38cbef88"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "NWS/2019/page_116.pdf-2",
+    "question": "what was the difference in millions of deferral of revenue and recognition of deferred revenue for the fiscal year ended june 30 , 2019?",
+    "gold_answer": -76.0,
+    "pre_verification_answer": 6092.0,
+    "final_answer": 6092.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2005/page_102.pdf-1",
+    "question": "what was the average write-off of construction-in-progress impairment charges from 2003 to 2005 in millions",
+    "gold_answer": 5.36667,
+    "pre_verification_answer": 600000000000.0,
+    "final_answer": 600000000000.0,
+    "injected": [
+      {
+        "target_id": "fig_aeb85c34",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 9200000000000.0,
+        "corrupted_value": -9200000000000.0,
+        "affected_claim_ids": [
+          "clm_ac79e856"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ABMD/2008/page_86.pdf-2",
+    "question": "what is the maximum percentage of the june 2008 , contingent consideration for impella that must be satisfied in cash ? t",
+    "gold_answer": 0.32143,
+    "pre_verification_answer": 94000000.0,
+    "final_answer": 94000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JPM/2003/page_106.pdf-3",
+    "question": "what was the average value of structured commercial loan vehicles issued by vies in 2002 and 2003 , in billions?",
+    "gold_answer": 6.25,
+    "pre_verification_answer": 5.3125,
+    "final_answer": 5.3125,
+    "injected": [
+      {
+        "target_id": "clm_e1c67031",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 6.25,
+        "corrupted_value": 5.3125,
+        "affected_claim_ids": [
+          "clm_e1c67031"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-2",
+    "question": "what was the percentage change in net earnings from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.01667,
+    "pre_verification_answer": 1.67,
+    "final_answer": 1.67,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "RSG/2015/page_98.pdf-2",
+    "question": "in december 2015 what was the ratio of the restricted cash and marketable securities to the allowance for doubtful accounts",
+    "gold_answer": 2.14775,
+    "pre_verification_answer": 2.147,
+    "final_answer": 2.147,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "INTC/2013/page_31.pdf-4",
+    "question": "what was the percent of the increase in the dow jones u.s . technology index from 2011 to 2012",
+    "gold_answer": 0.00573,
+    "pre_verification_answer": 9.4,
+    "final_answer": 9.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2015/page_171.pdf-2",
+    "question": "what was the percentage change in securities purchased under agreements to resell between 2014 and 2015?",
+    "gold_answer": -0.05497,
+    "pre_verification_answer": 1438540.36,
+    "final_answer": 1438540.36,
+    "injected": [
+      {
+        "target_id": "fig_b6f2f276",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -5.1,
+        "corrupted_value": 1438540.36,
+        "affected_claim_ids": [
+          "clm_eea1286a"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2008/page_65.pdf-3",
+    "question": "what was the percentage change in total managed consumer loans from 2006 to 2007?",
+    "gold_answer": 0.15421,
+    "pre_verification_answer": 13.8,
+    "final_answer": 13.8,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-3",
+    "question": "what is the total cash outflow for the share purchased during november 2018?",
+    "gold_answer": 53382250.0,
+    "pre_verification_answer": 53489720.0,
+    "final_answer": 53489720.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GIS/2017/page_31.pdf-2",
+    "question": "what portion of total long-term obligations are due in 2018?",
+    "gold_answer": 0.23155,
+    "pre_verification_answer": 0.65,
+    "final_answer": 0.65,
+    "injected": [
+      {
+        "target_id": "fig_2ddc6606",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 3112.0,
+        "corrupted_value": -3112.0,
+        "affected_claim_ids": [
+          "clm_aea4a032"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AON/2007/page_188.pdf-3",
+    "question": "what is the net change amount of unrecognized tax benefits during 2007 , ( in millions ) ?",
+    "gold_answer": 17.0,
+    "pre_verification_answer": 1.0,
+    "final_answer": 1.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-4",
+    "question": "what was the change in millions in off-balance-sheet exposures between 2016 and 2017?",
+    "gold_answer": 16609.0,
+    "pre_verification_answer": -19077.35,
+    "final_answer": -19077.35,
+    "injected": [
+      {
+        "target_id": "clm_2f5244e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -16589.0,
+        "corrupted_value": -19077.35,
+        "affected_claim_ids": [
+          "clm_2f5244e2"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "IPG/2008/page_72.pdf-3",
+    "question": "what is the percentage increase from beginning to end of 2008 in unrecognized tax benefits?",
+    "gold_answer": 10.38576,
+    "pre_verification_answer": 10.4,
+    "final_answer": 10.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PNC/2008/page_122.pdf-2",
+    "question": "for 2008 across the three categories , what were the average mount of liabilities in millions?",
+    "gold_answer": 797.66667,
+    "pre_verification_answer": 38.4,
+    "final_answer": 38.4,
+    "injected": [
+      {
+        "target_id": "fig_7f566cdb",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 1824000000.0,
+        "corrupted_value": 319000000.0,
+        "affected_claim_ids": [
+          "clm_dfd41327"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PNC/2012/page_100.pdf-3",
+    "question": "how many total private investor repurchase claims were there in 2011 and 2012 combined , in millions?",
+    "gold_answer": 184.0,
+    "pre_verification_answer": 184.0,
+    "final_answer": 184.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-4",
+    "question": "what is the ratio of the flight attendants to pilots",
+    "gold_answer": 1.5679,
+    "pre_verification_answer": 0.78,
+    "final_answer": 0.78,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-2",
+    "question": "what was the percentage change in dividends declared per common share between 2016 and 2017?",
+    "gold_answer": 0.11538,
+    "pre_verification_answer": 6705346.98,
+    "final_answer": 6705346.98,
+    "injected": [
+      {
+        "target_id": "fig_8a540c66",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 11.5,
+        "corrupted_value": 6705346.98,
+        "affected_claim_ids": [
+          "clm_da3fc697"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "RSG/2010/page_57.pdf-2",
+    "question": "what was the ratio of the remaining discount of the notes due in 2017 to 2016",
+    "gold_answer": 1.33488,
+    "pre_verification_answer": 3.93,
+    "final_answer": 3.93,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "HIG/2011/page_53.pdf-2",
+    "question": "in 2011 what was the summary of environmental reserves as of december 31 , 2011",
+    "gold_answer": 0.18081,
+    "pre_verification_answer": 320.0,
+    "final_answer": 320.0,
+    "injected": [
+      {
+        "target_id": "fig_3de54826",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 320.0,
+        "corrupted_value": 0.32,
+        "affected_claim_ids": [
+          "clm_63ae704c"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ABMD/2012/page_79.pdf-1",
+    "question": "what was total rent expense for fiscal years 2010 to 2012 , in millions?",
+    "gold_answer": 6.5,
+    "pre_verification_answer": 97.5,
+    "final_answer": 97.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-1",
+    "question": "what was the average of company 401 ( k ) match total for the three years ended 2014 , in millions?",
+    "gold_answer": 382.66667,
+    "pre_verification_answer": 382.67,
+    "final_answer": 382.67,
+    "injected": [
+      {
+        "target_id": "fig_90a24c42",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 383.0,
+        "corrupted_value": -383.0,
+        "affected_claim_ids": [
+          "clm_0a99db04"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ETR/2013/page_21.pdf-1",
+    "question": "what is the growth rate in net revenue for entergy wholesale commodities in 2012?",
+    "gold_answer": -0.0934,
+    "pre_verification_answer": -900.0,
+    "final_answer": -900.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-3",
+    "question": "what is the roi of an investment in s&p500 from 2008 to 2009?",
+    "gold_answer": 0.2646,
+    "pre_verification_answer": 0.2852,
+    "final_answer": 0.2852,
+    "injected": [
+      {
+        "target_id": "clm_ccc37983",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 0.248,
+        "corrupted_value": 0.2852,
+        "affected_claim_ids": [
+          "clm_ccc37983"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GRMN/2008/page_85.pdf-2",
+    "question": "what is the difference between the growth of the balance throughout the fiscal year , during 2007 and 2008?",
+    "gold_answer": 0.10222,
+    "pre_verification_answer": 87800000.0,
+    "final_answer": 87800000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "FIS/2012/page_48.pdf-2",
+    "question": "what is the percentage change in the impact of euro from 2011 to 2012?",
+    "gold_answer": 0.02652,
+    "pre_verification_answer": 2.69,
+    "final_answer": 2.69,
+    "injected": [
+      {
+        "target_id": "fig_f578e558",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 26400000.0,
+        "corrupted_value": 27100000.0,
+        "affected_claim_ids": [
+          "clm_e1d2908c"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DG/2005/page_44.pdf-3",
+    "question": "what is the cost difference over lifo in the last two years?",
+    "gold_answer": 12.1,
+    "pre_verification_answer": 500000000.0,
+    "final_answer": 500000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-1",
+    "question": "what was total liability reflected as other long-term liabilities in the accompanying consolidated balance sheets for december 31 , 2012 and 2011 in millions?",
+    "gold_answer": 121321.0,
+    "pre_verification_answer": -27399.0,
+    "final_answer": -27399.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ILMN/2003/page_58.pdf-2",
+    "question": "at december 292000 what was the ratio of the nasdaq composite index to the nasdaq pharmaceutical index",
+    "gold_answer": 0.68498,
+    "pre_verification_answer": 0.68,
+    "final_answer": 0.68,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SNA/2018/page_31.pdf-2",
+    "question": "what is the total value of shares purchased during october 2018?",
+    "gold_answer": 13435200.0,
+    "pre_verification_answer": 4396523.94,
+    "final_answer": 4396523.94,
+    "injected": [
+      {
+        "target_id": "fig_eb515709",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 90000.0,
+        "corrupted_value": 4396523.94,
+        "affected_claim_ids": [
+          "clm_5c8593dc"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAPL/2005/page_43.pdf-2",
+    "question": "inventory was what percent of total working capital in 2005?",
+    "gold_answer": 0.02421,
+    "pre_verification_answer": 2.4,
+    "final_answer": 2.4,
+    "injected": [
+      {
+        "target_id": "fig_500a025f",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 6816000000.0,
+        "corrupted_value": 6816000000000000.0,
+        "affected_claim_ids": [
+          "clm_e52b80ca"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "RSG/2016/page_139.pdf-2",
+    "question": "as of december 31 , 2016 what was the percent of the outstanding authorized purchase capacity of the the october 2015 plan",
+    "gold_answer": 0.50189,
+    "pre_verification_answer": 50.19,
+    "final_answer": 50.19,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UAA/2016/page_42.pdf-4",
+    "question": "what was the percentage change in working capital from 2015 to 2016?",
+    "gold_answer": 0.25431,
+    "pre_verification_answer": 56.8,
+    "final_answer": 56.8,
+    "injected": [
+      {
+        "target_id": "fig_031a1d97",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 1019953.0,
+        "corrupted_value": -1019953.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MS/2013/page_132.pdf-2",
+    "question": "how much of the december 31 , 2013 201cevent- driven 201d loans and commitments will mature in 2014 , in billions?",
+    "gold_answer": 3.135,
+    "pre_verification_answer": -5.37625e+17,
+    "final_answer": -5.37625e+17,
+    "injected": [
+      {
+        "target_id": "clm_76c2f54d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -6.325e+17,
+        "corrupted_value": -5.37625e+17,
+        "affected_claim_ids": [
+          "clm_76c2f54d"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MRO/2004/page_125.pdf-1",
+    "question": "what was the average ending balance in the discounted ending cash flow balance?",
+    "gold_answer": 5970.33333,
+    "pre_verification_answer": 5706.0,
+    "final_answer": 5706.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DRE/2002/page_15.pdf-4",
+    "question": "what was the percentage change in the earnings from service operations increased from 2000 to 2001",
+    "gold_answer": 0.07012,
+    "pre_verification_answer": 6.98,
+    "final_answer": 6.98,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JPM/2014/page_70.pdf-1",
+    "question": "what percentage of total net revenue was due to net interest income in 2013?",
+    "gold_answer": 0.44841,
+    "pre_verification_answer": 4.5,
+    "final_answer": 4.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SNA/2007/page_49.pdf-3",
+    "question": "what is the average repurchase price per share paid during 2006?",
+    "gold_answer": -0.38213,
+    "pre_verification_answer": 57.1,
+    "final_answer": 57.1,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SNA/2007/page_29.pdf-2",
+    "question": "what is the roi in snap-on if the investment was made at the end of 2005 and sold at the end of 2007?",
+    "gold_answer": 0.34755,
+    "pre_verification_answer": 3454143.56,
+    "final_answer": 3454143.56,
+    "injected": [
+      {
+        "target_id": "fig_130fba69",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.08,
+        "corrupted_value": 3454143.56,
+        "affected_claim_ids": [
+          "clm_ce934c5f"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "APD/2018/page_30.pdf-2",
+    "question": "what is the increase observed in the payment of dividends during 2017 and 2018?",
+    "gold_answer": 0.14555,
+    "pre_verification_answer": 5400.0,
+    "final_answer": 5400.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ETR/2011/page_301.pdf-2",
+    "question": "by how much did the receivables from the money pool differ from 2009 to 2010?",
+    "gold_answer": 12872.0,
+    "pre_verification_answer": 12872000.0,
+    "final_answer": 12872000.0,
+    "injected": [
+      {
+        "target_id": "fig_34fbf9b9",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 63003000.0,
+        "corrupted_value": 63003000000000.0,
+        "affected_claim_ids": [
+          "clm_3fefa486"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLL/2011/page_32.pdf-2",
+    "question": "what were average net sales in millions for the three years ending in 2011?",
+    "gold_answer": 7657.1,
+    "pre_verification_answer": 7657.1,
+    "final_answer": 7657.1,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JPM/2010/page_120.pdf-2",
+    "question": "what was the percentage change in loans retained from 2009 to 2010?",
+    "gold_answer": 0.11212,
+    "pre_verification_answer": 11.2,
+    "final_answer": 11.2,
+    "injected": [
+      {
+        "target_id": "fig_bef8cf40",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 200077.0,
+        "corrupted_value": -200077.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UPS/2012/page_32.pdf-1",
+    "question": "what was the percentage total cumulative return on investment for united parcel service inc . for the five years ended 12/31/2012?",
+    "gold_answer": 0.2146,
+    "pre_verification_answer": 2146.0,
+    "final_answer": 2146.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2017/page_179.pdf-1",
+    "question": "what was the percentage change in dividends declared per common share between 2015 and 2016?",
+    "gold_answer": 0.01961,
+    "pre_verification_answer": 16.66,
+    "final_answer": 16.66,
+    "injected": [
+      {
+        "target_id": "clm_1fb43f24",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 19.6,
+        "corrupted_value": 16.66,
+        "affected_claim_ids": [
+          "clm_1fb43f24"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLL/2010/page_35.pdf-1",
+    "question": "productivity in the plastics business measured by million $ sales per employee was what in 2009?",
+    "gold_answer": 0.635,
+    "pre_verification_answer": 635000.0,
+    "final_answer": 635000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JPM/2012/page_140.pdf-2",
+    "question": "what was the percentage change in loans retained from 2011 to 2012?",
+    "gold_answer": 0.09996,
+    "pre_verification_answer": 9.7,
+    "final_answer": 9.7,
+    "injected": [
+      {
+        "target_id": "fig_2738eb2e",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 306222.0,
+        "corrupted_value": 278395.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MRO/2013/page_39.pdf-1",
+    "question": "in 2013 , was the percentage of our u.s . crude oil and condensate production that was sweet higher than 2012 ?",
+    "gold_answer": null,
+    "pre_verification_answer": 13.0,
+    "final_answer": 13.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SLG/2001/page_48.pdf-1",
+    "question": "was the fair value of the interest rate collar greater than the fair value of the interest rate swap?",
+    "gold_answer": null,
+    "pre_verification_answer": -4987.0,
+    "final_answer": -4987.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MSI/2007/page_70.pdf-3",
+    "question": "what was the growth of consolidated net sales , in percentage , from 2005 to 2007",
+    "gold_answer": 1.30121,
+    "pre_verification_answer": 7.18,
+    "final_answer": 7.18,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PPG/2018/page_85.pdf-1",
+    "question": "are the 2018 environmental reserves greater than asbestos-related claim reserves?",
+    "gold_answer": 471.0,
+    "pre_verification_answer": 5850211.21,
+    "final_answer": 5850211.21,
+    "injected": [
+      {
+        "target_id": "fig_89480327",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 1.0,
+        "corrupted_value": 5850211.21,
+        "affected_claim_ids": [
+          "clm_f56a0a83"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PPG/2012/page_29.pdf-1",
+    "question": "what are cumulative three year dividends in millions?",
+    "gold_answer": 1073.0,
+    "pre_verification_answer": 3.6,
+    "final_answer": 3.6,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-3",
+    "question": "what was the percentage change in collateral posted between 2011 and 2012?",
+    "gold_answer": -0.16226,
+    "pre_verification_answer": -16.2,
+    "final_answer": -16.2,
+    "injected": [
+      {
+        "target_id": "fig_4d5a59f8",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 29002.0,
+        "corrupted_value": 29002000.0,
+        "affected_claim_ids": [
+          "clm_df8ad040"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-1",
+    "question": "what was the fluctuation between the effective tax expense rate and the statutory u.s . federal tax rate in 2016?",
+    "gold_answer": 0.021,
+    "pre_verification_answer": -210.0,
+    "final_answer": -210.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CME/2017/page_89.pdf-2",
+    "question": "what was the decrease of the effective tax expense rate between 2015 and 2016?",
+    "gold_answer": 0.034,
+    "pre_verification_answer": 93.7,
+    "final_answer": 93.7,
+    "injected": [
+      {
+        "target_id": "fig_c11039a0",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 32.9,
+        "corrupted_value": -32.9,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-4",
+    "question": "what is the percentual increase observed in the net derivative gains during 2006 and 2007?",
+    "gold_answer": 0.6,
+    "pre_verification_answer": 60.0,
+    "final_answer": 60.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ETR/2015/page_17.pdf-1",
+    "question": "based on the analysis of the change in net revenue from 2014 to 2015 what was the percent of the change",
+    "gold_answer": 0.01639,
+    "pre_verification_answer": 1.36,
+    "final_answer": 1.36,
+    "injected": [
+      {
+        "target_id": "clm_e27cd1e2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 1.6,
+        "corrupted_value": 1.36,
+        "affected_claim_ids": [
+          "clm_e27cd1e2"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2012/page_142.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements between 2011 and 2012?",
+    "gold_answer": -0.20479,
+    "pre_verification_answer": -20.46,
+    "final_answer": -20.46,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "LMT/2012/page_73.pdf-1",
+    "question": "what was the ratio of the shares in 2012 to 2011 that were excluded in the calculation of the diluted earnings due to the anti-dilute nature",
+    "gold_answer": 0.91156,
+    "pre_verification_answer": 0.59,
+    "final_answer": 0.59,
+    "injected": [
+      {
+        "target_id": "fig_93bb1946",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 8.0,
+        "corrupted_value": 13.4,
+        "affected_claim_ids": [
+          "clm_1a3a293c"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MS/2013/page_139.pdf-2",
+    "question": "what is the total exposure to government related derivatives , in millions?",
+    "gold_answer": 2413.0,
+    "pre_verification_answer": 17614000000.0,
+    "final_answer": 17614000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ILMN/2008/page_86.pdf-1",
+    "question": "what was the percent of the change in the company 2019s uncertain tax positions from 2007 to 2008",
+    "gold_answer": 0.11237,
+    "pre_verification_answer": 211.2369011976048,
+    "final_answer": 211.2369011976048,
+    "injected": [
+      {
+        "target_id": "clm_42f04431",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 11.2,
+        "corrupted_value": 211.2369011976048,
+        "affected_claim_ids": [
+          "clm_42f04431"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2017/page_86.pdf-3",
+    "question": "what was the change in millions in total supplementary leverage exposure between 2016 and 2017?",
+    "gold_answer": 70843.0,
+    "pre_verification_answer": 70843.0,
+    "final_answer": 70843.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "EL/2008/page_59.pdf-2",
+    "question": "considering the 2008 net deferred loss , what is the percentage of amortization expenses?",
+    "gold_answer": 0.51282,
+    "pre_verification_answer": 1388149.94,
+    "final_answer": 1388149.94,
+    "injected": [
+      {
+        "target_id": "fig_f1deaac6",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 51.28,
+        "corrupted_value": 1388149.94,
+        "affected_claim_ids": [
+          "clm_62a12927"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CE/2016/page_19.pdf-4",
+    "question": "what was the percentage change in the the research and development costs from 2014 to 2015",
+    "gold_answer": 59.5,
+    "pre_verification_answer": 38.97,
+    "final_answer": 38.97,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "JKHY/2019/page_18.pdf-1",
+    "question": "what was the percentage growth of the 5 year- cumulative total return for the 2018 peer group from 2016 to 2017",
+    "gold_answer": -125.06,
+    "pre_verification_answer": 26.1,
+    "final_answer": 26.1,
+    "injected": [
+      {
+        "target_id": "fig_a2e361b2",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 151.16,
+        "corrupted_value": 151160.0,
+        "affected_claim_ids": [
+          "clm_85e4f28d"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SNA/2007/page_69.pdf-2",
+    "question": "what is the percentage change in the balance of the minority interests in consolidated subsidiaries from 2006 to 2007?",
+    "gold_answer": 0.02976,
+    "pre_verification_answer": 2.97,
+    "final_answer": 2.97,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "L/2009/page_84.pdf-2",
+    "question": "what is the return on investment for s&p500 from 2007 to 2008?",
+    "gold_answer": -0.37001,
+    "pre_verification_answer": -0.6,
+    "final_answer": -0.6,
+    "injected": [
+      {
+        "target_id": "fig_475af3fb",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 128.16,
+        "corrupted_value": -128.16,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "FBHS/2017/page_22.pdf-2",
+    "question": "what was the amount of sales in that went to international markets in millions",
+    "gold_answer": 792.495,
+    "pre_verification_answer": 35.2,
+    "final_answer": 35.2,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-1",
+    "question": "what is the total interest expense incurred by the senior unsecured notes that was redeemed in august 2005?",
+    "gold_answer": 7.2,
+    "pre_verification_answer": 218620000.0,
+    "final_answer": 218620000.0,
+    "injected": [
+      {
+        "target_id": "clm_4d56e9d3",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 257200000.0,
+        "corrupted_value": 218620000.0,
+        "affected_claim_ids": [
+          "clm_4d56e9d3"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2015/page_114.pdf-1",
+    "question": "as of december 312013 what was the percent of labor-related deemed claim as part of the total reorganization items net",
+    "gold_answer": 0.65273,
+    "pre_verification_answer": 65.3,
+    "final_answer": 65.3,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2014/page_149.pdf-1",
+    "question": "was the change in asset impairment charges between 2014 and 2013 in us$ m?",
+    "gold_answer": -4.7,
+    "pre_verification_answer": -345900000.0,
+    "final_answer": -345900000.0,
+    "injected": [
+      {
+        "target_id": "fig_1e050155",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 8554500000.0,
+        "corrupted_value": 8900000000.0,
+        "affected_claim_ids": [
+          "clm_a260bdf5"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-4",
+    "question": "what percent of total contractual obligations in 2011 are made up of long-term debt obligations?",
+    "gold_answer": 0.9721,
+    "pre_verification_answer": 97.2,
+    "final_answer": 97.2,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2014/page_40.pdf-2",
+    "question": "what is the growth rate in operating expenses in 2013?",
+    "gold_answer": -0.02121,
+    "pre_verification_answer": -1.6,
+    "final_answer": -1.6,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "RL/2008/page_23.pdf-2",
+    "question": "what percentage of factory retail stores as of march 29 , 2008 where located in japan?",
+    "gold_answer": 0.02532,
+    "pre_verification_answer": 2.5,
+    "final_answer": 2.5,
+    "injected": [
+      {
+        "target_id": "fig_b7fc5878",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 158.0,
+        "corrupted_value": 0.158,
+        "affected_claim_ids": [
+          "clm_b6218aa6"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2010/page_72.pdf-4",
+    "question": "what was the percentage decline in recorded international slot and route authorities to $ 708 million from $ 736 million as of december 31 , 2010 and 2009 , respectively .",
+    "gold_answer": -0.03804,
+    "pre_verification_answer": 3.9,
+    "final_answer": 3.9,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ZBH/2008/page_57.pdf-3",
+    "question": "what percent of total contractual obligations is due 2012 or after?",
+    "gold_answer": 0.76002,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [
+      {
+        "target_id": "fig_90001501",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 531799999.99999994,
+        "corrupted_value": -531799999.99999994,
+        "affected_claim_ids": [
+          "clm_39f58296"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DISCA/2011/page_49.pdf-2",
+    "question": "what was the percentage cumulative total shareholder return on discb from september 18 , 2008 to december 31 , 2011?",
+    "gold_answer": 1.1756,
+    "pre_verification_answer": -4.59,
+    "final_answer": -4.59,
+    "injected": [
+      {
+        "target_id": "clm_abd0fe36",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -5.4,
+        "corrupted_value": -4.59,
+        "affected_claim_ids": [
+          "clm_abd0fe36"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AES/2001/page_85.pdf-4",
+    "question": "what percentage of scheduled maturities of total debt at december 31 , 2001 are due in 2005?",
+    "gold_answer": 0.08172,
+    "pre_verification_answer": 8.17,
+    "final_answer": 8.17,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MSI/2014/page_76.pdf-2",
+    "question": "what is the percent change in number of shares purchased by employees between 2013 and 2014?",
+    "gold_answer": -0.06667,
+    "pre_verification_answer": -6.7,
+    "final_answer": -6.7,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLK/2017/page_121.pdf-2",
+    "question": "what percent does the unamortized discount and debt issuance costs reduce the carrying amount by?",
+    "gold_answer": 0.00536,
+    "pre_verification_answer": 5.3849222177901875e-05,
+    "final_answer": 5.3849222177901875e-05,
+    "injected": [
+      {
+        "target_id": "clm_ab0ef068",
+        "target_kind": "claim",
+        "category": "wrong_operation",
+        "original_value": 0.54,
+        "corrupted_value": 5.3849222177901875e-05,
+        "affected_claim_ids": [
+          "clm_ab0ef068"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "UPS/2016/page_114.pdf-1",
+    "question": "what was the change in millions of vehicles from 2015 to 2016?",
+    "gold_answer": -6.0,
+    "pre_verification_answer": -6.0,
+    "final_answer": -6.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2003/page_27.pdf-1",
+    "question": "what portion of the boston property will be offered for sub-lease?",
+    "gold_answer": 0.33333,
+    "pre_verification_answer": 2975161.62,
+    "final_answer": 2975161.62,
+    "injected": [
+      {
+        "target_id": "fig_bce6f306",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 10000.0,
+        "corrupted_value": 2975161.62,
+        "affected_claim_ids": [
+          "clm_2266f7f0"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CE/2013/page_16.pdf-2",
+    "question": "what is the growth rate in dividends received in 2012 compare to 2011?",
+    "gold_answer": 0.0641,
+    "pre_verification_answer": 6.4,
+    "final_answer": 6.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MKTX/2012/page_42.pdf-3",
+    "question": "by how much did the low of mktx stock increase from 2011 to march 2012?",
+    "gold_answer": 0.19088,
+    "pre_verification_answer": 9.48,
+    "final_answer": 9.48,
+    "injected": [
+      {
+        "target_id": "fig_3e66ace3",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 19.78,
+        "corrupted_value": 1.978e-05,
+        "affected_claim_ids": [
+          "clm_0658105a"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PNC/2012/page_174.pdf-4",
+    "question": "what was the two-year total for specific reserves in the alll , in millions?",
+    "gold_answer": 1167.0,
+    "pre_verification_answer": 1167.0,
+    "final_answer": 1167.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PPG/2008/page_52.pdf-2",
+    "question": "as of december 31 , 2008 , what percentage of unrecognized tax benefits would not impact the effective if recognized?",
+    "gold_answer": 0.10101,
+    "pre_verification_answer": 10.1,
+    "final_answer": 10.1,
+    "injected": [
+      {
+        "target_id": "fig_32c597b0",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 89.0,
+        "corrupted_value": -89.0,
+        "affected_claim_ids": [
+          "clm_b9e67b15"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ADBE/1999/page_64.pdf-2",
+    "question": "what portion of the 1999 accrual balance related to restructurings is comprised of canceled contracts?",
+    "gold_answer": 0.5,
+    "pre_verification_answer": 40.0,
+    "final_answer": 40.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "IPG/2006/page_77.pdf-3",
+    "question": "what percent increase in long-term debt did the floating rate notes maturing in 2010?",
+    "gold_answer": 1.07555,
+    "pre_verification_answer": -3.366,
+    "final_answer": -3.366,
+    "injected": [
+      {
+        "target_id": "clm_2d4246b2",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -3.96,
+        "corrupted_value": -3.366,
+        "affected_claim_ids": [
+          "clm_2d4246b2"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "RSG/2012/page_93.pdf-2",
+    "question": "what was the percentage change in the additions charged to expense from 2011 to 2012 as part of the allowance for doubtful accounts",
+    "gold_answer": 0.41429,
+    "pre_verification_answer": 41.4,
+    "final_answer": 41.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BKNG/2016/page_33.pdf-3",
+    "question": "what was the difference in percentage change in priceline group and the s&p 500 index for the five year period ended 2016?",
+    "gold_answer": 1.1527,
+    "pre_verification_answer": -3.7,
+    "final_answer": -3.7,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PNC/2012/page_68.pdf-5",
+    "question": "commercial mortgage loans held for sale designated at fair value at december 31 , 2012 were what percent of total loans held for sale?,",
+    "gold_answer": 0.20904,
+    "pre_verification_answer": 20.9,
+    "final_answer": 20.9,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2009/page_63.pdf-2",
+    "question": "what percent of total contractual obligations in 2010 are made up of long-term debt obligations?",
+    "gold_answer": 0.56374,
+    "pre_verification_answer": 56.38,
+    "final_answer": 56.38,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CB/2008/page_229.pdf-3",
+    "question": "what is the net income-to-capital ratio for bermuda subsidiaries in 2008?",
+    "gold_answer": 0.0977,
+    "pre_verification_answer": 4289674.32,
+    "final_answer": 4289674.32,
+    "injected": [
+      {
+        "target_id": "fig_e122a64e",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.098,
+        "corrupted_value": 4289674.32,
+        "affected_claim_ids": [
+          "clm_caf72717"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLL/2006/page_67.pdf-1",
+    "question": "current assets were what percent of net assets acquired for the can and alcan transactions?",
+    "gold_answer": 259.7,
+    "pre_verification_answer": 0.5,
+    "final_answer": 0.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2013/page_63.pdf-3",
+    "question": "what was the change in millions of total shareholders' equity from 2012 to 2013?",
+    "gold_answer": 2751.0,
+    "pre_verification_answer": -784.3,
+    "final_answer": -784.3,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-3",
+    "question": "what was the percentage of the consumer banking gain as part of the 2007 pretax total gain",
+    "gold_answer": 0.16523,
+    "pre_verification_answer": 1.7,
+    "final_answer": 1.7,
+    "injected": [
+      {
+        "target_id": "fig_685d01d9",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 96000000.0,
+        "corrupted_value": -96000000.0,
+        "affected_claim_ids": [
+          "clm_ce36c359"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "HIG/2004/page_140.pdf-2",
+    "question": "what is the total effect of reclassifying certain separate accounts to general account on the net income and other comprehensive income?",
+    "gold_answer": 324.0,
+    "pre_verification_answer": 324.0,
+    "final_answer": 324.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "FIS/2016/page_9.pdf-1",
+    "question": "what is the growth rate for the gfs segment in 2016?",
+    "gold_answer": 0.80085,
+    "pre_verification_answer": 92.0,
+    "final_answer": 92.0,
+    "injected": [
+      {
+        "target_id": "clm_75626d1d",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 80.0,
+        "corrupted_value": 92.0,
+        "affected_claim_ids": [
+          "clm_75626d1d"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2008/page_22.pdf-1",
+    "question": "what was the tax rate applied to the company recorded sales of the mastercard shares in 2007 , the company recorded a $ 367 million after-tax gain ( $ 581 million pretax )",
+    "gold_answer": 0.36833,
+    "pre_verification_answer": 0.37,
+    "final_answer": 0.37,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "TMUS/2017/page_29.pdf-1",
+    "question": "what is the average size ( in square feet ) of switching centers in 2017?",
+    "gold_answer": 21311.47541,
+    "pre_verification_answer": 21311.48,
+    "final_answer": 21311.48,
+    "injected": [
+      {
+        "target_id": "fig_c9ebc0d9",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 61.0,
+        "corrupted_value": 1300000.0,
+        "affected_claim_ids": [
+          "clm_bec76dda"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GPN/2010/page_89.pdf-1",
+    "question": "in 2009 what was the percentage change in the non-vested at may 31 2009",
+    "gold_answer": 0.47104,
+    "pre_verification_answer": 47.1,
+    "final_answer": 47.1,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "BLL/2010/page_37.pdf-4",
+    "question": "without the charge for the a/r securitization , what would cash flows provided by operating activities for all operations in 2010 have been ( in millions ) ?",
+    "gold_answer": 765.2,
+    "pre_verification_answer": -250.0,
+    "final_answer": -250.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "HOLX/2007/page_126.pdf-1",
+    "question": "what is the total value of intangible asset taken into account when setting up the estimated purchase price?",
+    "gold_answer": 79900.0,
+    "pre_verification_answer": -2180.0,
+    "final_answer": -2180.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2013/page_149.pdf-1",
+    "question": "what was the percentage change in net derivative liabilities under bilateral agreements from 2012 to 2013?",
+    "gold_answer": -0.20473,
+    "pre_verification_answer": 6607408.96,
+    "final_answer": 6607408.96,
+    "injected": [
+      {
+        "target_id": "fig_0313f4ea",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -15.8,
+        "corrupted_value": 6607408.96,
+        "affected_claim_ids": [
+          "clm_70f3fcd9"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AWK/2012/page_117.pdf-3",
+    "question": "what was total change in unrecognized tax benefits in millions from january 1 2011 to december 31 2011?",
+    "gold_answer": 40264.0,
+    "pre_verification_answer": -470.0,
+    "final_answer": -470.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CDNS/2015/page_30.pdf-1",
+    "question": "what is the rate of return in nasdaq of an investment from 2010 to 2011?",
+    "gold_answer": 0.1761,
+    "pre_verification_answer": -1.7,
+    "final_answer": -1.7,
+    "injected": [
+      {
+        "target_id": "fig_4c24f4ae",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 118.7,
+        "corrupted_value": 118700.0,
+        "affected_claim_ids": [
+          "clm_efd6d871"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2014/page_15.pdf-1",
+    "question": "what percentage of approximate number of active full-time equivalent employees consist of u.s airways employees?",
+    "gold_answer": 0.2895,
+    "pre_verification_answer": 100.0,
+    "final_answer": 100.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-4",
+    "question": "what was the percentage improvement in the unbilled receivables on construction contracts from 2007 to 2008",
+    "gold_answer": -0.3142,
+    "pre_verification_answer": 45.8,
+    "final_answer": 45.8,
+    "injected": [
+      {
+        "target_id": "fig_a1df0087",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 22700000000000.0,
+        "corrupted_value": -22700000000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "INTC/2015/page_41.pdf-3",
+    "question": "what is the percent of the square foot in millions of owned facilities in the other countries to the of the total owned facilities",
+    "gold_answer": 0.35908,
+    "pre_verification_answer": 3.6,
+    "final_answer": 3.6,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2013/page_85.pdf-3",
+    "question": "what percentage of total average securities and certain overnight cash deposits that are included in gce during 2012 were non-u.s . dollar-denominated?",
+    "gold_answer": 0.27301,
+    "pre_verification_answer": 26.8,
+    "final_answer": 26.8,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "C/2018/page_175.pdf-1",
+    "question": "what was the percent change of the principal transactions revenue associated with interest rate risks from 2016 to 2017",
+    "gold_answer": 0.25349,
+    "pre_verification_answer": 25.3,
+    "final_answer": 25.3,
+    "injected": [
+      {
+        "target_id": "fig_4e9e33a5",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 4229000000.0,
+        "corrupted_value": 5301000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GS/2012/page_189.pdf-4",
+    "question": "what was the percentage change in risk-weighted assets at gs bank usa between 2011 and 2012?",
+    "gold_answer": -0.02796,
+    "pre_verification_answer": 2.8,
+    "final_answer": 2.8,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "CMCSA/2015/page_112.pdf-1",
+    "question": "what was the change in unrecognized tax benefits from the end of 2013 to the end of 2014?",
+    "gold_answer": -530.0,
+    "pre_verification_answer": -530.0,
+    "final_answer": -530.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "GIS/2019/page_68.pdf-2",
+    "question": "what was the percent of the change in the net sales from 2017 to 2018",
+    "gold_answer": 0.01696,
+    "pre_verification_answer": 1.5,
+    "final_answer": 1.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "LMT/2014/page_91.pdf-4",
+    "question": "in 2014 what was the ratio of the estimated future benefit payments due in 2015 compared to the amount after 2020",
+    "gold_answer": 0.15413,
+    "pre_verification_answer": 9139727.71,
+    "final_answer": 9139727.71,
+    "injected": [
+      {
+        "target_id": "fig_135dbb33",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 0.154,
+        "corrupted_value": 9139727.71,
+        "affected_claim_ids": [
+          "clm_2f0175b2"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "D/2002/page_87.pdf-1",
+    "question": "estimated payments under natural gas pipeline and storage capacity commitments for the next three years total how much , in millions?",
+    "gold_answer": 70.0,
+    "pre_verification_answer": 34000000.0,
+    "final_answer": 34000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "IP/2006/page_30.pdf-2",
+    "question": "brazilian paper sales represented what percentage of printing papers in 2005?",
+    "gold_answer": 0.06485,
+    "pre_verification_answer": 6.9,
+    "final_answer": 6.9,
+    "injected": [
+      {
+        "target_id": "fig_8a2484e9",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 496000000.0,
+        "corrupted_value": 496000.0,
+        "affected_claim_ids": [
+          "clm_e1ff3ebd"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "MMM/2013/page_75.pdf-1",
+    "question": "what was the ratio of the company contribution in 2011 to the amount in 2013 to the us pension contributions",
+    "gold_answer": 1.08613,
+    "pre_verification_answer": 85.4,
+    "final_answer": 85.4,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-3",
+    "question": "what is the percent of americans labor-related deemed claim as a part of the total claims and other bankruptcy settlement obligations as of december2013",
+    "gold_answer": 0.15653,
+    "pre_verification_answer": 15.65,
+    "final_answer": 15.65,
+    "injected": [
+      {
+        "target_id": "fig_4a7e3c34",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 5424000000.0,
+        "corrupted_value": -5424000000.0,
+        "affected_claim_ids": [
+          "clm_d5203cac"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-4",
+    "question": "what is the growth rate in the price of shares purchased by employees from 2006 to 2007?",
+    "gold_answer": 0.35829,
+    "pre_verification_answer": -26.5,
+    "final_answer": -26.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "SLB/2012/page_56.pdf-2",
+    "question": "the stock repurchase program reduced shares outstanding by how many million shares in the period?",
+    "gold_answer": 64.0,
+    "pre_verification_answer": -112700000.0,
+    "final_answer": -112700000.0,
+    "injected": [
+      {
+        "target_id": "clm_bd844291",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": -98000000.0,
+        "corrupted_value": -112700000.0,
+        "affected_claim_ids": [
+          "clm_bd844291"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "LMT/2015/page_89.pdf-3",
+    "question": "what was the percentage change in diluted earnings per common share from continuing operations from 2014 to 2015?",
+    "gold_answer": 0.04171,
+    "pre_verification_answer": 14.5,
+    "final_answer": 14.5,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AES/2002/page_128.pdf-4",
+    "question": "what was the average rental expense in millions for 2000 through 2002?",
+    "gold_answer": 55.33333,
+    "pre_verification_answer": 53.3,
+    "final_answer": 53.3,
+    "injected": [
+      {
+        "target_id": "fig_1e8b77db",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 54000000.0,
+        "corrupted_value": 58000000.0,
+        "affected_claim_ids": [
+          "clm_ac3564e1"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "VRTX/2006/page_111.pdf-2",
+    "question": "what percent of the gross total property and equipment values in 2006 are related to computers?",
+    "gold_answer": 0.32068,
+    "pre_verification_answer": 9.24,
+    "final_answer": 9.24,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AON/2007/page_171.pdf-3",
+    "question": "what are the average net unrealized investment gains for the period?",
+    "gold_answer": 67.0,
+    "pre_verification_answer": 67000000.0,
+    "final_answer": 67000000.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ETFC/2011/page_144.pdf-1",
+    "question": "as of december 312011 what was the ratio of the loans with a maturity in 2037 to the loans with a maturity in 2033",
+    "gold_answer": 1.69231,
+    "pre_verification_answer": 1.69,
+    "final_answer": 1.69,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AES/2001/page_33.pdf-3",
+    "question": "what was the 2001 first quarter average of high and low stock prices?",
+    "gold_answer": 50.725,
+    "pre_verification_answer": 4856209.31,
+    "final_answer": 4856209.31,
+    "injected": [
+      {
+        "target_id": "fig_846b9017",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": 50.725,
+        "corrupted_value": 4856209.31,
+        "affected_claim_ids": [
+          "clm_a43ffa90"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DRE/2008/page_46.pdf-3",
+    "question": "what was the average basic net income available for common shareholders from 2006 to 2008 in millions",
+    "gold_answer": 209703.0,
+    "pre_verification_answer": 309714.3,
+    "final_answer": 309714.3,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DVN/2014/page_87.pdf-2",
+    "question": "what was the weighted value of the devon 2019s commercial paper borrowings as of december 31 , 2014 in millions",
+    "gold_answer": 410.08,
+    "pre_verification_answer": 932.0,
+    "final_answer": 932.0,
+    "injected": [
+      {
+        "target_id": "fig_cbf02a26",
+        "target_kind": "figure",
+        "category": "scale_error",
+        "original_value": 932000000.0,
+        "corrupted_value": 932000000000.0,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2007/page_127.pdf-1",
+    "question": "what was the percentage change in the weighted average fair value for the espp shares purchased from 2007 to 2005",
+    "gold_answer": 0.76505,
+    "pre_verification_answer": 80.0,
+    "final_answer": 80.0,
+    "injected": [
+      {
+        "target_id": "fig_14eb6394",
+        "target_kind": "figure",
+        "category": "sign_error",
+        "original_value": 5.15,
+        "corrupted_value": -5.15,
+        "affected_claim_ids": []
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "VNO/2014/page_57.pdf-2",
+    "question": "what was the five year change in the s&p 500 index?",
+    "gold_answer": 105.0,
+    "pre_verification_answer": 105.0,
+    "final_answer": 105.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AMT/2008/page_94.pdf-1",
+    "question": "as of december 31 , 2008 , what was the percent of the maturities in 2012 of the aggregate carrying value of long-term debt , including capital leases",
+    "gold_answer": 0.45298,
+    "pre_verification_answer": 85.0,
+    "final_answer": 85.0,
+    "injected": [
+      {
+        "target_id": "clm_44fdb963",
+        "target_kind": "claim",
+        "category": "arithmetic_slip",
+        "original_value": 100.0,
+        "corrupted_value": 85.0,
+        "affected_claim_ids": [
+          "clm_44fdb963"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "PNC/2015/page_93.pdf-1",
+    "question": "for interest only products , what percent of the total was due in 2020 and thereafter?",
+    "gold_answer": 0.40879,
+    "pre_verification_answer": 40.87,
+    "final_answer": 40.87,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "IPG/2017/page_92.pdf-4",
+    "question": "what portion of the total contingent acquisition payments is related to deferred acquisition payments?",
+    "gold_answer": 0.45082,
+    "pre_verification_answer": 45.15,
+    "final_answer": 45.15,
+    "injected": [
+      {
+        "target_id": "fig_3567e56e",
+        "target_kind": "figure",
+        "category": "wrong_extraction",
+        "original_value": 0.000268,
+        "corrupted_value": 0.000121,
+        "affected_claim_ids": [
+          "clm_10c7a478"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "ETFC/2012/page_43.pdf-2",
+    "question": "what was the percentage change in otti between 2011 and 2012?",
+    "gold_answer": 1.15217,
+    "pre_verification_answer": -2.0,
+    "final_answer": -2.0,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "AAL/2013/page_172.pdf-2",
+    "question": "what is the ratio of the aag series a preferred stock to single-dip equity obligations",
+    "gold_answer": 2.67175,
+    "pre_verification_answer": 2.67,
+    "final_answer": 2.67,
+    "injected": [],
+    "flags": [],
+    "coverage": null
+  },
+  {
+    "question_id": "DISH/2011/page_122.pdf-1",
+    "question": "what is the working capital of blockbuster at the point of acquisition?",
+    "gold_answer": 67178.0,
+    "pre_verification_answer": 687807.94,
+    "final_answer": 687807.94,
+    "injected": [
+      {
+        "target_id": "fig_5ae82178",
+        "target_kind": "figure",
+        "category": "invented_figure",
+        "original_value": -86080000.0,
+        "corrupted_value": 687807.94,
+        "affected_claim_ids": [
+          "clm_3c564604"
+        ]
+      }
+    ],
+    "flags": [],
+    "coverage": null
+  }
+]

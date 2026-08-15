@@ -1,0 +1,26 @@
+﻿[2026-08-14 21:41:00] ---- preflight-only check (no model calls, no results written) ----
+[2026-08-14 21:41:02] Ollama not reachable at http://127.0.0.1:11434.
+[2026-08-14 21:41:02] Starting 'C:\Users\moksh\AppData\Local\Programs\Ollama\ollama.exe serve' with OLLAMA_MODELS=G:\LLMs (log: G:\deminh\deminh\results\run_003_ollama_serve.log)
+[2026-08-14 21:41:06] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest
+[2026-08-14 21:41:06] preflight result: [2026-08-14 21:41:02] Ollama not reachable at http://127.0.0.1:11434. [2026-08-14 21:41:02] Starting 'C:\Users\moksh\AppData\Local\Programs\Ollama\ollama.exe serve' with OLLAMA_MODELS=G:\LLMs (log: G:\deminh\deminh\results\run_003_ollama_serve.log) [2026-08-14 21:41:06] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest True
+[2026-08-14 21:41:32] ---- preflight-only check (no model calls, no results written) ----
+[2026-08-14 21:41:32] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest
+[2026-08-14 21:41:32] preflight result: True
+[2026-08-14 21:41:41] ---- preflight-only check (no model calls, no results written) ----
+[2026-08-14 21:41:43] Ollama not reachable at http://127.0.0.1:19999.
+[2026-08-14 21:41:43] AutoStartOllama is disabled -- aborting.
+[2026-08-14 21:41:43] preflight result: False
+[2026-08-14 21:42:03] ---- preflight-only check (no model calls, no results written) ----
+[2026-08-14 21:42:03] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest
+[2026-08-14 21:42:03] preflight result: True
+[2026-08-14 23:43:11] ================ run_003 overnight batch starting ================
+[2026-08-14 23:43:11] python=C:\Users\moksh\AppData\Local\Programs\Python\Python313\python.exe
+[2026-08-14 23:43:11] model=qwen3.5:4b  data=G:\deminh\FinQA\dataset\test.json
+[2026-08-14 23:43:11] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest
+[2026-08-14 23:43:11] START run_003a  offset=550 limit=175  -> G:\deminh\deminh\results\run_003a
+[2026-08-15 02:07:47] DONE  run_003a  exit=0  144.6min  summary.json written.
+[2026-08-15 02:07:47] Server up. Models visible: qwen3.5:4b, qwen3:4b, qwen3:8b, qwen3.5:latest, qwen3.5:9b, qwen3.6:35b, qwen3.6:27b, qwen:latest
+[2026-08-15 02:07:47] START run_003b  offset=725 limit=175  -> G:\deminh\deminh\results\run_003b
+[2026-08-15 04:19:59] DONE  run_003b  exit=0  132.2min  summary.json written.
+[2026-08-15 04:19:59] run_003a=ok  run_003b=ok
+[2026-08-15 04:19:59] ================ run_003 overnight batch finished ================
